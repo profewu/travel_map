@@ -13,6 +13,9 @@ export interface DayViewModel {
   lodgingTargetZh: string;
   lodgingCandidates: LodgingCandidate[];
   actionLabelsZh: string[];
+  totalKm: number;
+  totalMinutes: number;
+  hasFatigueRisk: boolean;
 }
 
 const ACTION_LABELS_ZH = [
@@ -60,6 +63,18 @@ export function buildDayViewModel(
         )
       : [];
 
+  let totalKm = 0;
+  let totalMinutes = 0;
+  day.routeSegmentIds.forEach((id) => {
+    const seg = routeSegments ? routeSegments[id] : null;
+    if (seg) {
+      totalKm += (seg as any).fallbackKm || 0;
+      totalMinutes += (seg as any).fallbackMinutes || 0;
+    }
+  });
+
+  const hasFatigueRisk = totalKm > 150 || totalMinutes > 180;
+
   return {
     date: day.date,
     labelZh: day.labelZh,
@@ -73,5 +88,8 @@ export function buildDayViewModel(
     lodgingTargetZh: day.lodgingTargetZh,
     lodgingCandidates: dayLodgings,
     actionLabelsZh: [...ACTION_LABELS_ZH],
+    totalKm,
+    totalMinutes,
+    hasFatigueRisk,
   };
 }
