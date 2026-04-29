@@ -1,0 +1,75 @@
+<h2>互動地圖第一畫面設計</h2>
+<p class="subtitle">不是最終 UI，只用來確認資訊密度與操作方式。第一畫面會直接是可用地圖，不做 landing page。</p>
+
+<div class="mockup">
+  <div class="mockup-header">Hokkaido West Drive Planner - 6/25 to 7/3</div>
+  <div class="mockup-body">
+    <div style="display:grid;grid-template-columns:220px 1fr 300px;gap:12px;min-height:520px;">
+      <div style="border-right:1px solid #d9e2ec;padding-right:12px;">
+        <div class="label">Days</div>
+        <div style="display:grid;gap:8px;margin-top:10px;">
+          <button class="mock-button" style="width:100%;text-align:left;">6/25 New Chitose -> Sapporo</button>
+          <button class="mock-button" style="width:100%;text-align:left;background:#eef7f5;color:#123;">6/27 Otaru / Yoichi</button>
+          <button class="mock-button" style="width:100%;text-align:left;">6/28 Shakotan -> Niseko</button>
+          <button class="mock-button" style="width:100%;text-align:left;">6/29 Niseko -> Lake Toya</button>
+          <button class="mock-button" style="width:100%;text-align:left;">6/30 Toya -> Noboribetsu</button>
+          <button class="mock-button" style="width:100%;text-align:left;">7/1 Noboribetsu -> Shikotsu</button>
+          <button class="mock-button" style="width:100%;text-align:left;">7/2 Chitose buffer</button>
+        </div>
+      </div>
+
+      <div style="position:relative;background:#e8f2f1;border:1px solid #c8d8d7;border-radius:8px;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,#d9ecea,#f6fbfb);"></div>
+        <div style="position:absolute;left:12%;top:42%;width:70%;height:4px;background:#256f74;transform:rotate(-10deg);border-radius:8px;"></div>
+        <div style="position:absolute;left:18%;top:38%;background:#123;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">Sapporo</div>
+        <div style="position:absolute;left:30%;top:31%;background:#0f766e;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">Otaru</div>
+        <div style="position:absolute;left:48%;top:26%;background:#0f766e;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">Yoichi</div>
+        <div style="position:absolute;left:58%;top:40%;background:#8a4b12;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">Niseko</div>
+        <div style="position:absolute;left:42%;top:53%;background:#2563eb;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">Drive 70m</div>
+        <div style="position:absolute;right:16px;bottom:16px;background:white;border:1px solid #d9e2ec;border-radius:8px;padding:10px;font-size:12px;">
+          Weather: 20C / rain 35% / wind 14 km/h
+        </div>
+      </div>
+
+      <div style="border-left:1px solid #d9e2ec;padding-left:12px;">
+        <div class="label">Selected Day</div>
+        <h3 style="margin-top:10px;">6/27 Otaru / Yoichi</h3>
+        <p>Estimated driving: 1h 30m plus stops</p>
+        <p>Route focus: canal walk, glass shops, seafood, Nikka Whisky Yoichi</p>
+        <div style="display:grid;gap:8px;margin:12px 0;">
+          <button class="mock-button">Open Google Maps</button>
+          <button class="mock-button">Check JMA Warnings</button>
+          <button class="mock-button">Check Road Traffic</button>
+          <button class="mock-button">Search Hotels 3-star+</button>
+        </div>
+        <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:10px;font-size:13px;">
+          Lodging target: Otaru 3-4 star city hotel, parking preferred, JPY 25k-45k/night.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="layout-ok" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Looks right</h3>
+      <p>Use this map-first layout and continue the design.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="more-map" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>More map, less sidebar</h3>
+      <p>Make the map larger and compress the day/details panels.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="more-itinerary" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>More itinerary detail</h3>
+      <p>Show hotel and timeline details more prominently.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+<h2>互動地圖第一畫面設計</h2>
+<p class="subtitle">不是最終 UI，只用來確認資訊密度與操作方式。正式版本會以繁體中文為主，地名保留常用中文與必要英文輔助。</p>
+
+<div class="mockup">
+  <div class="mockup-header">北海道西半部自駕地圖 - 6/25 至 7/3</div>
+  <div class="mockup-body">
+    <div style="display:grid;grid-template-columns:220px 1fr 300px;gap:12px;min-height:520px;">
+      <div style="border-right:1px solid #d9e2ec;padding-right:12px;">
+        <div class="label">每日行程</div>
+        <div style="display:grid;gap:8px;margin-top:10px;">
+          <button class="mock-button" style="width:100%;text-align:left;">6/25 新千歲 -> 札幌</button>
+          <button class="mock-button" style="width:100%;text-align:left;background:#eef7f5;color:#123;">6/27 小樽 / 余市</button>
+          <button class="mock-button" style="width:100%;text-align:left;">6/28 積丹 -> 二世谷</button>
+          <button class="mock-button" style="width:100%;text-align:left;">6/29 二世谷 -> 洞爺湖</button>
+          <button class="mock-button" style="width:100%;text-align:left;">6/30 洞爺 -> 登別</button>
+          <button class="mock-button" style="width:100%;text-align:left;">7/1 登別 -> 支笏湖</button>
+          <button class="mock-button" style="width:100%;text-align:left;">7/2 千歲緩衝日</button>
+        </div>
+      </div>
+
+      <div style="position:relative;background:#e8f2f1;border:1px solid #c8d8d7;border-radius:8px;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,#d9ecea,#f6fbfb);"></div>
+        <div style="position:absolute;left:12%;top:42%;width:70%;height:4px;background:#256f74;transform:rotate(-10deg);border-radius:8px;"></div>
+        <div style="position:absolute;left:18%;top:38%;background:#123;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">札幌</div>
+        <div style="position:absolute;left:30%;top:31%;background:#0f766e;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">小樽</div>
+        <div style="position:absolute;left:48%;top:26%;background:#0f766e;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">余市</div>
+        <div style="position:absolute;left:58%;top:40%;background:#8a4b12;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">二世谷</div>
+        <div style="position:absolute;left:42%;top:53%;background:#2563eb;color:white;padding:6px 8px;border-radius:999px;font-size:12px;">車程約 70 分</div>
+        <div style="position:absolute;right:16px;bottom:16px;background:white;border:1px solid #d9e2ec;border-radius:8px;padding:10px;font-size:12px;">
+          天氣：20C / 降雨 35% / 風速 14 km/h
+        </div>
+      </div>
+
+      <div style="border-left:1px solid #d9e2ec;padding-left:12px;">
+        <div class="label">選取日期</div>
+        <h3 style="margin-top:10px;">6/27 小樽 / 余市</h3>
+        <p>預估行車：1 小時 30 分，另加停留時間</p>
+        <p>行程重點：運河散步、玻璃工藝、海鮮、余市威士忌蒸餾所</p>
+        <div style="display:grid;gap:8px;margin:12px 0;">
+          <button class="mock-button">開啟 Google Maps</button>
+          <button class="mock-button">檢查 JMA 天氣警示</button>
+          <button class="mock-button">檢查即時道路路況</button>
+          <button class="mock-button">搜尋 3 星以上住宿</button>
+        </div>
+        <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:10px;font-size:13px;">
+          住宿目標：小樽 3-4 星城市飯店，優先有停車，每晚每房 JPY 25,000-45,000。
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="zh-layout-ok" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>中文版本可以</h3>
+      <p>正式 app 採用這個地圖優先、繁體中文介面的方向。</p>
+    </div>
+  </div>
+  <div class="option" data-choice="zh-more-local-names" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>補更多原文地名</h3>
+      <p>中文地名旁加日文或英文，方便現場導航與搜尋。</p>
+    </div>
+  </div>
+</div>

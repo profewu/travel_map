@@ -1,0 +1,295 @@
+:root {
+  color: #18212f;
+  background: #f6f8f7;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+a {
+  color: #0f5f66;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.topbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  border-bottom: 1px solid #d9e2e0;
+  background: #ffffff;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  margin-bottom: 4px;
+  color: #667085;
+  font-size: 13px;
+}
+
+.trip-summary {
+  max-width: 560px;
+  margin-bottom: 0;
+  color: #41515f;
+  line-height: 1.55;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: 260px minmax(420px, 1fr) minmax(320px, 380px);
+  min-height: calc(100vh - 77px);
+}
+
+.day-list,
+.detail-panel {
+  height: calc(100vh - 77px);
+  overflow: auto;
+  padding: 16px;
+  background: #ffffff;
+}
+
+.day-list {
+  border-right: 1px solid #d9e2e0;
+}
+
+.day-list h2,
+.detail-panel h2 {
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.day-buttons {
+  display: grid;
+  gap: 8px;
+}
+
+.day-button {
+  width: 100%;
+  min-height: 72px;
+  text-align: left;
+  border: 1px solid #d4ddd9;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  color: inherit;
+}
+
+.day-button span {
+  display: block;
+  color: #667085;
+  font-size: 13px;
+}
+
+.day-button strong {
+  display: block;
+  margin-top: 4px;
+  line-height: 1.35;
+}
+
+.day-button.active {
+  border-color: #0f766e;
+  background: #e9f6f3;
+}
+
+.day-button:focus-visible,
+.action-grid a:focus-visible,
+.hotel-card a:focus-visible,
+.retry-weather:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.map-panel {
+  min-height: 520px;
+  background: #dfe9e7;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+}
+
+.trip-marker {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 999px;
+  background: #0f766e;
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgb(15 23 42 / 24%);
+}
+
+.trip-marker span {
+  line-height: 1;
+}
+
+.marker-airport {
+  background: #1d4ed8;
+}
+
+.marker-onsen {
+  background: #b45309;
+}
+
+.marker-lake,
+.marker-coast {
+  background: #0369a1;
+}
+
+.marker-mountain {
+  background: #4d7c0f;
+}
+
+.marker-distillery,
+.marker-food {
+  background: #7c3aed;
+}
+
+.detail-panel {
+  border-left: 1px solid #d9e2e0;
+  line-height: 1.55;
+}
+
+.detail-panel dl {
+  display: grid;
+  grid-template-columns: 82px 1fr;
+  gap: 8px 12px;
+}
+
+.detail-panel dt {
+  color: #667085;
+}
+
+.detail-panel dd {
+  margin: 0;
+}
+
+.weather-box,
+.hotel-card {
+  border: 1px solid #d9e2e0;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 14px 0;
+  background: #f9fbfb;
+}
+
+.weather-box p,
+.hotel-card p {
+  margin-bottom: 8px;
+}
+
+.weather-box.warning {
+  border-color: #f4c27a;
+  background: #fff8eb;
+}
+
+.action-grid {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0;
+}
+
+.action-grid a,
+.hotel-card a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  border: 1px solid #0f766e;
+  border-radius: 8px;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #0f5f66;
+  background: #ffffff;
+}
+
+.retry-weather {
+  min-height: 36px;
+  border: 1px solid #b45309;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #92400e;
+  cursor: pointer;
+}
+
+.empty-note {
+  color: #667085;
+}
+
+@media (max-width: 980px) {
+  .topbar {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .day-list,
+  .detail-panel {
+    height: auto;
+    max-height: none;
+    border: 0;
+  }
+
+  .day-buttons {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .map {
+    height: 58vh;
+  }
+}
+
+@media (max-width: 560px) {
+  .topbar,
+  .day-list,
+  .detail-panel {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .detail-panel dl {
+    grid-template-columns: 1fr;
+  }
+}

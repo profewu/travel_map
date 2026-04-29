@@ -1,0 +1,7 @@
+node_modules
+dist
+test-results
+logs
+.vscode
+.DS_Store
+*.log
