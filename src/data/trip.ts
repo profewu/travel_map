@@ -18,6 +18,8 @@ export interface Place {
   descriptionZh: string;
   suggestedDurationZh?: string;
   parkingNoteZh?: string;
+  mapcode?: string;
+  phone?: string;
 }
 
 export interface RouteSegment {
@@ -65,6 +67,8 @@ export interface LodgingCandidate {
   parkingZh: string;
   fitZh: string;
   searchUrl: string;
+  mapcode?: string;
+  phone?: string;
 }
 
 export const places: Record<string, Place> = {
@@ -76,6 +80,8 @@ export const places: Record<string, Place> = {
     lng: 141.6923,
     category: 'airport',
     descriptionZh: '北海道主要空港，適合自駕取車與回程還車。',
+    mapcode: '113 742 186*01',
+    phone: '0123-23-0111',
   },
   sapporo: {
     id: 'sapporo',
@@ -85,6 +91,8 @@ export const places: Record<string, Place> = {
     lng: 141.3545,
     category: 'city',
     descriptionZh: '北海道最大城市，餐飲與購物資源完整。',
+    mapcode: '9 523 036*60',
+    phone: '011-213-5088',
   },
   'mt-moiwa': {
     id: 'mt-moiwa',
@@ -94,6 +102,8 @@ export const places: Record<string, Place> = {
     lng: 141.3221,
     category: 'mountain',
     descriptionZh: '可俯瞰札幌夜景與城市地形。',
+    mapcode: '493 503 663*33',
+    phone: '011-561-8177',
   },
   otaru: {
     id: 'otaru',
@@ -103,6 +113,8 @@ export const places: Record<string, Place> = {
     lng: 140.9947,
     category: 'city',
     descriptionZh: '港町散策與運河夜景，適合慢節奏停留。',
+    mapcode: '493 690 414*33',
+    phone: '0134-33-1661',
   },
   yoichi: {
     id: 'yoichi',
@@ -112,6 +124,8 @@ export const places: Record<string, Place> = {
     lng: 140.7872,
     category: 'distillery',
     descriptionZh: '以威士忌蒸餾所與果園著名。',
+    mapcode: '164 635 756*48',
+    phone: '0135-23-3131',
   },
   shakotan: {
     id: 'shakotan',
@@ -121,6 +135,8 @@ export const places: Record<string, Place> = {
     lng: 140.5724,
     category: 'coast',
     descriptionZh: '積丹藍海岸線，適合停靠觀景。',
+    mapcode: '932 747 437*71',
+    phone: '0135-44-3715',
   },
   niseko: {
     id: 'niseko',
@@ -130,6 +146,8 @@ export const places: Record<string, Place> = {
     lng: 140.6874,
     category: 'mountain',
     descriptionZh: '山景與溫泉度假區，夏季也適合慢旅。',
+    mapcode: '398 202 494*00',
+    phone: '0136-22-0109',
   },
   'lake-toya': {
     id: 'lake-toya',
@@ -139,6 +157,8 @@ export const places: Record<string, Place> = {
     lng: 140.8267,
     category: 'lake',
     descriptionZh: '火山地形環湖景觀，沿線停留點多。',
+    mapcode: '321 518 537*00',
+    phone: '0142-75-2446',
   },
   'showa-shinzan-usuzan': {
     id: 'showa-shinzan-usuzan',
@@ -148,6 +168,8 @@ export const places: Record<string, Place> = {
     lng: 140.8648,
     category: 'mountain',
     descriptionZh: '洞爺湖周邊代表性火山景點。',
+    mapcode: '321 433 323*36',
+    phone: '0142-75-2401',
   },
   noboribetsu: {
     id: 'noboribetsu',
@@ -157,6 +179,8 @@ export const places: Record<string, Place> = {
     lng: 141.1791,
     category: 'onsen',
     descriptionZh: '北海道代表溫泉區，適合安排一晚休息。',
+    mapcode: '603 287 235*11',
+    phone: '0143-84-3311',
   },
   jigokudani: {
     id: 'jigokudani',
@@ -166,6 +190,8 @@ export const places: Record<string, Place> = {
     lng: 141.1441,
     category: 'onsen',
     descriptionZh: '火山地熱景觀，步道短且易走。',
+    mapcode: '603 287 235*11', // 同登別
+    phone: '0143-84-3311',
   },
   'lake-shikotsu': {
     id: 'lake-shikotsu',
@@ -175,6 +201,8 @@ export const places: Record<string, Place> = {
     lng: 141.4033,
     category: 'lake',
     descriptionZh: '透明度高的火口湖，回程前緩衝點。',
+    mapcode: '867 063 323*85',
+    phone: '0123-25-2404',
   },
   chitose: {
     id: 'chitose',
@@ -184,6 +212,8 @@ export const places: Record<string, Place> = {
     lng: 141.6523,
     category: 'city',
     descriptionZh: '機場周邊城市，利於最後一晚機場緩衝。',
+    mapcode: '113 859 830*25',
+    phone: '0123-24-3131',
   },
 };
 
