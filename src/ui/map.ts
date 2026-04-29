@@ -25,7 +25,7 @@ export function createTripMap(
 ): MapController {
   const map = L.map(container, { zoomControl: true }).setView([42.8, 141.1], 8);
 
-  L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+  L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
     attribution:
       '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noreferrer">地理院タイル</a>',
     maxZoom: 18,
