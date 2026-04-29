@@ -479,6 +479,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '附合作停車場',
     fitZh: '首晚市區補給方便',
     searchUrl: 'https://www.google.com/travel/hotels/Sapporo',
+    mapcode: '9 523 036*60',
+    phone: '011-213-5088',
   },
   {
     id: 'sapporo-sta-1',
@@ -490,6 +492,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '可步行至車站商圈',
     fitZh: '交通與用餐密度高',
     searchUrl: 'https://www.booking.com/city/jp/sapporo.zh-tw.html',
+    mapcode: '9 523 036*60',
+    phone: '011-213-5088',
   },
   {
     id: 'otaru-canal-1',
@@ -501,6 +505,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '部分提供付費停車',
     fitZh: '夜間散步方便',
     searchUrl: 'https://www.agoda.com/zh-tw/city/otaru-jp.html',
+    mapcode: '493 690 414*33',
+    phone: '0134-33-1661',
   },
   {
     id: 'niseko-resort-1',
@@ -512,6 +518,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '多數含停車',
     fitZh: '山景與放鬆行程',
     searchUrl: 'https://www.google.com/travel/hotels/Niseko',
+    mapcode: '398 202 494*00',
+    phone: '0136-22-0109',
   },
   {
     id: 'toya-onsen-1',
@@ -523,6 +531,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '通常有免費停車',
     fitZh: '湖景休息夜',
     searchUrl: 'https://www.jalan.net/onsen/OSN_50002/',
+    mapcode: '321 518 537*00',
+    phone: '0142-75-2446',
   },
   {
     id: 'noboribetsu-onsen-1',
@@ -534,6 +544,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '溫泉街周邊停車可行',
     fitZh: '泡湯與休息重點日',
     searchUrl: 'https://www.google.com/travel/hotels/Noboribetsu',
+    mapcode: '603 287 235*11',
+    phone: '0143-84-3311',
   },
   {
     id: 'shikotsu-lakeside-1',
@@ -545,6 +557,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '湖區旅宿多附停車',
     fitZh: '回程前放鬆緩衝',
     searchUrl: 'https://www.booking.com/landmark/jp/lake-shikotsu.zh-tw.html',
+    mapcode: '867 063 323*85',
+    phone: '0123-25-2404',
   },
   {
     id: 'chitose-airport-1',
@@ -556,6 +570,8 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '機場接駁或停車服務',
     fitZh: '返程日風險控制',
     searchUrl: 'https://www.google.com/travel/hotels/Chitose',
+    mapcode: '113 859 830*25',
+    phone: '0123-24-3131',
   },
   {
     id: 'chitose-airport-2',
@@ -567,5 +583,7 @@ export const lodgingCandidates: LodgingCandidate[] = [
     parkingZh: '車站周邊多停車位',
     fitZh: '晚到早飛都方便',
     searchUrl: 'https://www.agoda.com/zh-tw/city/chitose-jp.html',
+    mapcode: '113 859 830*25',
+    phone: '0123-24-3131',
   },
 ];
