@@ -121,4 +121,20 @@ async function render(): Promise<void> {
   document.documentElement.dataset.selectedPlace = selectedPlaceId;
 }
 
+// Global Event Listeners
+document.addEventListener('click', (e) => {
+  const btn = (e.target as HTMLElement).closest('.copy-btn');
+  if (btn instanceof HTMLButtonElement && btn.dataset.copy) {
+    void navigator.clipboard.writeText(btn.dataset.copy).then(() => {
+      const originalText = btn.textContent;
+      btn.textContent = '已複製';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = originalText;
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  }
+});
+
 void render();

@@ -88,6 +88,18 @@ function formatTemperature(summary: WeatherSummary): string {
   return '氣溫 -°C';
 }
 
+function renderMapcodeButton(mapcode?: string, phone?: string): string {
+  if (!mapcode && !phone) return '';
+  const label = mapcode ? `MAPCODE: ${mapcode}` : `TEL: ${phone}`;
+  const copyVal = mapcode || phone || '';
+  return `
+    <div class="mapcode-copy-row">
+      <code>${escapeHtml(label)}</code>
+      <button class="copy-btn" type="button" data-copy="${escapeAttr(copyVal)}">複製</button>
+    </div>
+  `;
+}
+
 export function renderLodging(candidates: LodgingCandidate[]): string {
   const content =
     candidates.length > 0
@@ -99,6 +111,7 @@ export function renderLodging(candidates: LodgingCandidate[]): string {
                 <p>${hotel.starLevel} 星以上 / ${escapeHtml(hotel.fitZh)}</p>
                 <p>${escapeHtml(hotel.parkingZh)}</p>
                 <p>${escapeHtml(hotel.budgetRiskZh)}</p>
+                ${renderMapcodeButton(hotel.mapcode, hotel.phone)}
                 <a href="${escapeAttr(hotel.searchUrl)}" target="_blank" rel="noreferrer">
                   查看住宿搜尋
                 </a>
@@ -133,8 +146,24 @@ export function renderDetailPanel(input: {
     nextDate(input.day.date),
   );
 
+  const fatigueWarning = input.vm.hasFatigueRisk
+    ? `<div class="fatigue-warning" role="alert">
+         🚗 今日預計行駛 ${input.vm.totalKm}km / ${Math.round(
+        (input.vm.totalMinutes / 60) * 10,
+      ) / 10}hr，路程較長請注意休息。
+       </div>`
+    : '';
+
+  // Get Mapcode for the end destination if available
+  // We can also show Mapcodes for each stop, but let's start with the end destination
+  const endPlace = (input.day as any).endPlaceId; // This is actually the place ID
+  // Wait, I should probably pass the actual places to renderDetailPanel if I want more Mapcodes
+  // For now, let's just show Mapcodes for hotels which is already done.
+  // And maybe for the end destination if we had it.
+
   return `
     <aside class="detail-panel">
+      ${fatigueWarning}
       <p class="eyebrow">選取日期 ${escapeHtml(input.vm.labelZh)}</p>
       <h2>${escapeHtml(input.vm.titleZh)}</h2>
       <p>${escapeHtml(input.vm.summaryZh)}</p>
