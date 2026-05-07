@@ -4,7 +4,14 @@ import type { Place, RouteSegment, TripDay } from '../data/trip';
 import { fetchRouteGeometry } from '../services/routes';
 
 export interface MapController {
-  renderDay(day: TripDay): Promise<void>;
+  renderDay(day: TripDay): Promise<RouteRenderSummary>;
+}
+
+export interface RouteRenderSummary {
+  status: 'live' | 'fallback' | 'empty';
+  durationMinutes: number;
+  distanceKm: number;
+  noteZh: string;
 }
 
 const escapeHtml = (value: string): string =>
@@ -17,6 +24,13 @@ const escapeHtml = (value: string): string =>
 
 const toLatLngTuple = (place: Place): [number, number] => [place.lat, place.lng];
 
+const emptyRouteSummary: RouteRenderSummary = {
+  status: 'empty',
+  durationMinutes: 0,
+  distanceKm: 0,
+  noteZh: '今日沒有行車路線',
+};
+
 export function createTripMap(
   container: HTMLElement,
   places: Record<string, Place>,
@@ -24,10 +38,15 @@ export function createTripMap(
   onPlaceSelected: (place: Place) => void,
 ): MapController {
   const map = L.map(container, { zoomControl: true }).setView([42.8, 141.1], 8);
+  const routeLineColor = {
+    live: 'var(--route-line-live)',
+    fallback: 'var(--route-line-fallback)',
+  };
 
   L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+    className: 'gsi-pale-tile',
     attribution:
-      '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noreferrer">地理院タイル</a>',
+      '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noreferrer">?啁??Ｕ?扎</a>',
     maxZoom: 18,
   }).addTo(map);
 
@@ -35,10 +54,11 @@ export function createTripMap(
   const routeLayer = L.layerGroup().addTo(map);
   let renderSequence = 0;
 
-  async function renderDay(day: TripDay): Promise<void> {
+  async function renderDay(day: TripDay): Promise<RouteRenderSummary> {
     const sequence = ++renderSequence;
     markerLayer.clearLayers();
     routeLayer.clearLayers();
+    let routeSummary = emptyRouteSummary;
 
     const placeIds = [day.startPlaceId, ...day.stopIds, day.endPlaceId];
     const dayPlaces = placeIds
@@ -65,6 +85,7 @@ export function createTripMap(
             place.descriptionZh,
           )}`,
         );
+      marker.getElement()?.setAttribute('data-place-id', place.id);
 
       marker.on('click', () => onPlaceSelected(place));
     }
@@ -73,18 +94,27 @@ export function createTripMap(
       const route = await fetchRouteGeometry({ segments, places });
 
       if (sequence !== renderSequence) {
-        return;
+        return emptyRouteSummary;
       }
+
+      routeSummary = {
+        status: route.status,
+        durationMinutes: route.durationMinutes,
+        distanceKm: route.distanceKm,
+        noteZh: route.noteZh,
+      };
 
       if (route.points.length > 0) {
         L.polyline(route.points, {
-          className: 'route-line',
-          color: route.status === 'live' ? '#0f766e' : '#b45309',
-          weight: 5,
+          className:
+            route.status === 'live' ? 'route-line route-line-live' : 'route-line route-line-fallback',
+          color: route.status === 'live' ? routeLineColor.live : routeLineColor.fallback,
+          weight: 6,
           opacity: 0.9,
+          dashArray: route.status === 'fallback' ? '9 10' : undefined,
         })
           .bindPopup(
-            `${route.durationMinutes} 分 / ${route.distanceKm} km<br>${escapeHtml(
+            `${route.durationMinutes} ??/ ${route.distanceKm} km<br>${escapeHtml(
               route.noteZh,
             )}`,
           )
@@ -98,6 +128,7 @@ export function createTripMap(
     }
 
     map.invalidateSize();
+    return routeSummary;
   }
 
   return { renderDay };

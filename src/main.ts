@@ -2,7 +2,11 @@ import './styles.css';
 import { lodgingCandidates, places, routeSegments, tripDays } from './data/trip';
 import { fetchWeatherSummary } from './services/weather';
 import { createTripMap } from './ui/map';
-import { renderDayButtons, renderDetailPanel } from './ui/panels';
+import {
+  renderDayButtons,
+  renderDetailPanel,
+  renderMapOverlay,
+} from './ui/panels';
 import { buildDayViewModel, getInitialDayId, selectDay } from './ui/state';
 
 function requireElement<T extends HTMLElement>(selector: string): T {
@@ -19,18 +23,30 @@ let selectedDate = getInitialDayId(tripDays);
 let selectedPlaceId = tripDays[0]?.startPlaceId ?? '';
 
 app.innerHTML = `
-  <main class="app-shell">
-    <header class="topbar">
-      <div>
-        <p class="eyebrow">2026/6/25 - 2026/7/3</p>
-        <h1>北海道西半部自駕地圖</h1>
+  <main class="app-shell dashboard-shell">
+    <header class="topbar dashboard-topbar">
+      <div class="brand-block">
+        <span class="brand-mark" aria-hidden="true">北</span>
+        <div>
+          <p class="eyebrow">2026/6/25 - 2026/7/3</p>
+          <h1>北海道 TRIP MAP</h1>
+        </div>
       </div>
-      <p class="trip-summary">新千歲、惠庭、支笏湖、登別、白老、室蘭、洞爺湖、小樽、札幌，最後由薄野搭機場巴士返程。</p>
+      <nav class="mode-tabs" aria-label="顯示模式">
+        <span class="mode-tab active">總覽</span>
+        <span class="mode-tab">路線</span>
+        <span class="mode-tab">檢查</span>
+      </nav>
+      <div class="status-pills" aria-label="目前狀態">
+        <span class="pill">GSI pale map</span>
+        <span class="pill muted">Google Maps 外部導航</span>
+      </div>
     </header>
-    <div class="workspace">
+    <div class="workspace dashboard-layout">
       <div id="days"></div>
-      <section class="map-panel" aria-label="互動地圖">
+      <section class="map-panel map-stage" aria-label="旅行地圖">
         <div id="map" class="map"></div>
+        <div id="map-overlay" class="map-overlay-root"></div>
       </section>
       <div id="details"></div>
     </div>
@@ -39,6 +55,7 @@ app.innerHTML = `
 
 const daysRoot = requireElement<HTMLDivElement>('#days');
 const mapRoot = requireElement<HTMLDivElement>('#map');
+const mapOverlayRoot = requireElement<HTMLDivElement>('#map-overlay');
 const detailsRoot = requireElement<HTMLDivElement>('#details');
 
 const map = createTripMap(mapRoot, places, routeSegments, (place) => {
@@ -99,11 +116,15 @@ async function render(): Promise<void> {
 
   daysRoot.innerHTML = renderDayButtons(tripDays, day.date);
   detailsRoot.innerHTML = renderDetailPanel({ vm, day, weather });
-  await map.renderDay(day);
+  mapOverlayRoot.innerHTML = '';
+
+  const routeSummary = await map.renderDay(day);
 
   if (sequence !== renderSequence) {
     return;
   }
+
+  mapOverlayRoot.innerHTML = renderMapOverlay({ vm, day, routeSummary });
 
   daysRoot.querySelectorAll<HTMLButtonElement>('.day-button').forEach((button) => {
     button.addEventListener('click', () => {
@@ -121,7 +142,6 @@ async function render(): Promise<void> {
   document.documentElement.dataset.selectedPlace = selectedPlaceId;
 }
 
-// Global Event Listeners
 document.addEventListener('click', (e) => {
   const btn = (e.target as HTMLElement).closest('.copy-btn');
   if (btn instanceof HTMLButtonElement && btn.dataset.copy) {
