@@ -18,18 +18,21 @@ describe('ui state', () => {
     expect(selectDay('2026-08-01', tripDays).date).toBe('2026-06-25');
   });
 
-  it('buildDayViewModel for 2026-06-30 returns expected Traditional Chinese fields', () => {
-    const day = selectDay('2026-06-30', tripDays);
+  it('buildDayViewModel for 2026-06-26 returns expected CSV-derived fields', () => {
+    const day = selectDay('2026-06-26', tripDays);
     if (!('lodgingAreaId' in day)) {
       throw new Error('expected overnight day');
     }
     const viewModel = buildDayViewModel(day, places, lodgingCandidates, routeSegments);
 
     expect(viewModel.titleZh).toBe(day.titleZh);
-    expect(viewModel.startNameZh).toBe('\u6d1e\u723a\u6e56');
-    expect(viewModel.endNameZh).toBe('\u767b\u5225');
+    expect(viewModel.startNameZh).toBe('北海道惠庭萬楓酒店');
+    expect(viewModel.endNameZh).toBe('Park Hotel Miyabitei 雅亭酒店');
     expect(viewModel.stopNamesZh).toEqual([
-      places['showa-shinzan-usuzan'].nameZh,
+      places['forest-adventure-eniwa'].nameZh,
+      places['kamameshi-ichie'].nameZh,
+      places['lake-shikotsu'].nameZh,
+      places['tarumae-garo'].nameZh,
     ]);
     expect(viewModel.lodgingCandidates.length).toBeGreaterThan(0);
     expect(
@@ -45,8 +48,8 @@ describe('ui state', () => {
     ]);
   });
 
-  it('buildDayViewModel preserves curated titleZh for non A-to-B day', () => {
-    const day = selectDay('2026-06-26', tripDays);
+  it('buildDayViewModel preserves curated titleZh for same-city Sapporo day', () => {
+    const day = selectDay('2026-07-01', tripDays);
     const viewModel = buildDayViewModel(day, places, lodgingCandidates);
 
     expect(viewModel.titleZh).toBe(day.titleZh);
@@ -65,7 +68,7 @@ describe('ui state', () => {
   });
 
   it('buildDayViewModel keeps unknown stop ids in stopNamesZh as fallback', () => {
-    const baseDay = selectDay('2026-06-30', tripDays);
+    const baseDay = selectDay('2026-06-27', tripDays);
     const day = {
       ...baseDay,
       stopIds: [...baseDay.stopIds, 'missing-stop-id'],
@@ -75,8 +78,8 @@ describe('ui state', () => {
     expect(viewModel.stopNamesZh.at(-1)).toBe('missing-stop-id');
   });
 
-  it('buildDayViewModel preserves route waypoint order for a same-city overnight day', () => {
-    const day = selectDay('2026-06-27', tripDays);
+  it('buildDayViewModel preserves route waypoint order for the Sapporo transit day', () => {
+    const day = selectDay('2026-07-02', tripDays);
     const viewModel = buildDayViewModel(
       day,
       places,
@@ -84,6 +87,10 @@ describe('ui state', () => {
       routeSegments,
     );
 
-    expect(viewModel.routeNamesZh).toEqual(['札幌', '小樽', '余市', '小樽']);
+    expect(viewModel.routeNamesZh).toEqual([
+      '札幌',
+      'COCONO SUSUKINO',
+      '薄野機場巴士搭乘處',
+    ]);
   });
 });

@@ -25,7 +25,7 @@ app.innerHTML = `
         <p class="eyebrow">2026/6/25 - 2026/7/3</p>
         <h1>北海道西半部自駕地圖</h1>
       </div>
-      <p class="trip-summary">新千歲來回，札幌、小樽、積丹、二世古、洞爺、登別、支笏湖慢速自駕。</p>
+      <p class="trip-summary">新千歲、惠庭、支笏湖、登別、白老、室蘭、洞爺湖、小樽、札幌，最後由薄野搭機場巴士返程。</p>
     </header>
     <div class="workspace">
       <div id="days"></div>

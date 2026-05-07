@@ -19,7 +19,97 @@ describe('trip data', () => {
       '2026-07-03',
     ]);
     expect(tripDays[0].startPlaceId).toBe('new-chitose-airport');
+    expect(tripDays[0].endPlaceId).toBe('eniwa-fairfield');
     expect(tripDays.at(-1)?.endPlaceId).toBe('new-chitose-airport');
+  });
+
+  it('integrates the important CSV places into curated map data', () => {
+    expect(Object.keys(places)).toEqual(
+      expect.arrayContaining([
+        'eniwa-fairfield',
+        'hanaroad-eniwa',
+        'ecorin-village',
+        'eniwa-honoka',
+        'forest-adventure-eniwa',
+        'kamameshi-ichie',
+        'lake-shikotsu',
+        'tarumae-garo',
+        'park-hotel-miyabitei',
+        'jigokudani',
+        'oyunuma',
+        'nachu-no-mori',
+        'cape-chikyu',
+        'lake-toya',
+        'rinyu-market',
+        'mt-moiwa',
+        'cocono-susukino',
+        'ario-sapporo',
+        'sapporo-underground',
+        'pokemon-center-sapporo',
+        'susukino-airport-bus-stop',
+      ]),
+    );
+
+    const searchable = [
+      ...Object.values(places).map(
+        (place) => `${place.nameZh} ${place.nameLocal ?? ''} ${place.descriptionZh}`,
+      ),
+      ...tripDays.map((day) => `${day.titleZh} ${day.summaryZh} ${day.driveNoteZh}`),
+    ].join(' ');
+
+    for (const text of [
+      '惠庭',
+      '支笏湖',
+      '樽前GARO',
+      '登別地獄谷',
+      '大湯沼',
+      'ナチュの森',
+      '地球岬',
+      '鱗友朝市',
+      '薄野機場巴士',
+    ]) {
+      expect(searchable).toContain(text);
+    }
+  });
+
+  it('uses the conservative reordered day structure from the CSV', () => {
+    expect(
+      tripDays.map((day) => ({
+        date: day.date,
+        start: day.startPlaceId,
+        end: day.endPlaceId,
+      })),
+    ).toEqual([
+      {
+        date: '2026-06-25',
+        start: 'new-chitose-airport',
+        end: 'eniwa-fairfield',
+      },
+      {
+        date: '2026-06-26',
+        start: 'eniwa-fairfield',
+        end: 'park-hotel-miyabitei',
+      },
+      {
+        date: '2026-06-27',
+        start: 'park-hotel-miyabitei',
+        end: 'lake-toya',
+      },
+      { date: '2026-06-28', start: 'lake-toya', end: 'otaru' },
+      { date: '2026-06-29', start: 'otaru', end: 'sapporo' },
+      { date: '2026-06-30', start: 'sapporo', end: 'sapporo' },
+      { date: '2026-07-01', start: 'sapporo', end: 'sapporo' },
+      {
+        date: '2026-07-02',
+        start: 'sapporo',
+        end: 'susukino-airport-bus-stop',
+      },
+      {
+        date: '2026-07-03',
+        start: 'susukino-airport-bus-stop',
+        end: 'new-chitose-airport',
+      },
+    ]);
   });
 
   it('keeps the slow western route out of Hakodate, Furano, and Biei', () => {

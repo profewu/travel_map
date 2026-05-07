@@ -27,19 +27,21 @@ test('map-first travel UI renders and responds to day and marker selection', asy
     page.getByRole('button', { name: '6/28' }),
   ).toBeVisible();
 
-  await page.getByRole('button', { name: '6/30' }).click();
+  await page.getByRole('button', { name: '6/26' }).click();
   await expect(
-    page.getByRole('heading', { name: '洞爺湖、昭和新山有珠山，至登別' }),
+    page.getByRole('heading', { name: '惠庭親子活動、支笏湖，進登別' }),
   ).toBeVisible();
-  await expect(page.getByText('登別溫泉旅館', { exact: true })).toBeVisible();
+  await expect(
+    page.getByText('登別溫泉旅館或雅亭酒店', { exact: true }),
+  ).toBeVisible();
 
   const trafficLink = page.getByRole('link', { name: '檢查即時道路路況' });
   await expect(trafficLink).toHaveAttribute('href', /^https:\/\//);
 
-  const marker = page.locator('.trip-marker').first();
+  const marker = page.locator('.trip-marker[title="支笏湖"]');
   await marker.click();
   await expect(page.locator('.leaflet-popup-content')).toContainText(
-    /札幌|新千歲|小樽|洞爺|登別/,
+    /支笏湖|惠庭|新千歲|小樽|洞爺|登別/,
   );
 });
 
@@ -51,11 +53,11 @@ test('weather failure state keeps the map usable', async ({ page }) => {
   await expect(page.getByRole('button', { name: '重新整理天氣' })).toBeVisible();
 });
 
-test('Google Maps directions preserve 6/27 Otaru and Yoichi order', async ({
+test('Google Maps directions preserve 6/26 Eniwa to Noboribetsu order', async ({
   page,
 }) => {
   await page.goto('/?weatherNow=2026-04-29');
-  await page.locator('.day-button[data-date="2026-06-27"]').click();
+  await page.locator('.day-button[data-date="2026-06-26"]').click();
 
   const href = await page
     .getByRole('link', { name: '開啟 Google Maps' })
@@ -65,9 +67,13 @@ test('Google Maps directions preserve 6/27 Otaru and Yoichi order', async ({
   }
 
   const url = new URL(href);
-  expect(url.searchParams.get('origin')).toBe('札幌');
-  expect(url.searchParams.get('destination')).toBe('小樽');
-  expect(url.searchParams.get('waypoints')).toBe('小樽|余市');
+  expect(url.searchParams.get('origin')).toBe('北海道惠庭萬楓酒店');
+  expect(url.searchParams.get('destination')).toBe(
+    'Park Hotel Miyabitei 雅亭酒店',
+  );
+  expect(url.searchParams.get('waypoints')).toBe(
+    'Forest Adventure Eniwa|釜飯 ICHIE|支笏湖|樽前GARO',
+  );
 });
 
 test('invalid weatherNow query falls back without crashing', async ({ page }) => {

@@ -166,9 +166,26 @@ h1 {
   background: #b45309;
 }
 
+.marker-food {
+  background: #be123c;
+}
+
+.marker-hotel {
+  background: #7c3aed;
+}
+
 .marker-lake,
 .marker-coast {
   background: #0369a1;
+}
+
+.marker-park {
+  background: #15803d;
+}
+
+.marker-shopping,
+.marker-transport {
+  background: #475569;
 }
 
 .marker-mountain {
