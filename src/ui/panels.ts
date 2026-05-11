@@ -6,7 +6,8 @@ import {
   roadTrafficUrl,
 } from '../services/links';
 import type { WeatherSummary } from '../services/weather';
-import type { RouteRenderSummary } from './map';
+import type { ItineraryTableRow } from './itineraryTable';
+import type { OverviewRenderSummary, RouteRenderSummary } from './map';
 import type { DayViewModel } from './state';
 
 const escapeHtml = (value: string): string =>
@@ -126,6 +127,151 @@ function renderMapcodeButton(mapcode?: string, phone?: string): string {
   `;
 }
 
+const renderBadge = (className: string, label: string): string =>
+  `<span class="table-badge ${className}">${escapeHtml(label)}</span>`;
+
+function renderInlineList(items: string[], emptyLabel: string): string {
+  if (items.length === 0) {
+    return `<span class="muted">${escapeHtml(emptyLabel)}</span>`;
+  }
+
+  return items.map((item) => `<span class="table-chip">${escapeHtml(item)}</span>`).join('');
+}
+
+function renderTableRoute(row: ItineraryTableRow): string {
+  return `
+    <div class="table-route">
+      <p><span>起點</span><strong>${escapeHtml(row.route.startNameZh)}</strong></p>
+      <p><span>停靠</span><strong>${renderInlineList(row.route.stopNamesZh, '直達')}</strong></p>
+      <p><span>終點</span><strong>${escapeHtml(row.route.endNameZh)}</strong></p>
+    </div>
+  `;
+}
+
+function renderTableLodging(row: ItineraryTableRow): string {
+  const candidates = renderInlineList(row.lodging.candidateNamesZh, '無候選');
+  const aiSuggested = row.lodging.aiSuggestedNameZh
+    ? `<p>${renderBadge('badge-ai-lodging', 'AI 住宿')} ${escapeHtml(
+        row.lodging.aiSuggestedNameZh,
+      )}</p>`
+    : '';
+
+  return `
+    <div class="table-lodging">
+      <p>${renderBadge('badge-lodging', '住宿地')} ${escapeHtml(row.lodging.targetZh)}</p>
+      <p>${renderBadge('badge-candidate', '住宿候選')} ${candidates}</p>
+      ${aiSuggested}
+    </div>
+  `;
+}
+
+function renderTableCsv(row: ItineraryTableRow): string {
+  if (row.csvSummary.items.length === 0) {
+    return `
+      <div class="table-csv empty">
+        ${renderBadge('badge-csv', 'CSV')}
+        <p>${escapeHtml(row.csvSummary.textZh)}</p>
+      </div>
+    `;
+  }
+
+  return `
+    <div class="table-csv">
+      ${renderBadge('badge-csv', 'CSV')}
+      <p>${escapeHtml(row.csvSummary.textZh)}</p>
+    </div>
+  `;
+}
+
+function renderTableActions(row: ItineraryTableRow): string {
+  const links = [
+    ['Google Maps', row.actions.googleMapsUrl],
+    ['JMA', row.actions.jmaUrl],
+    ['道路路況', row.actions.roadUrl],
+    ['住宿搜尋', row.actions.hotelSearchUrl],
+  ] as const;
+
+  return `
+    <nav class="itinerary-actions" aria-label="${escapeAttr(row.labelZh)} 外部操作">
+      ${links
+        .map(
+          ([label, href]) => `
+            <a href="${escapeAttr(href)}" target="_blank" rel="noreferrer">
+              ${escapeHtml(label)}
+            </a>
+          `,
+        )
+        .join('')}
+    </nav>
+  `;
+}
+
+export function renderItineraryTable(rows: ItineraryTableRow[]): string {
+  return `
+    <section class="itinerary-table-page" aria-labelledby="itinerary-table-heading">
+      <header class="itinerary-table-header">
+        <p class="eyebrow">TRIP SHEET</p>
+        <h2 id="itinerary-table-heading">行程總表</h2>
+        <p>每天的移動、住宿、CSV 補充與 AI 建議集中成一張可掃描的行程表。</p>
+      </header>
+      <div class="itinerary-table-scroll">
+        <table class="itinerary-table">
+          <thead>
+            <tr>
+              <th scope="col">日期</th>
+              <th scope="col">當日標題</th>
+              <th scope="col">起點 / 停靠點 / 終點</th>
+              <th scope="col">住宿地 / 住宿候選</th>
+              <th scope="col">CSV 景點說明摘要</th>
+              <th scope="col">AI 建議景點說明</th>
+              <th scope="col">車程 / 公里</th>
+              <th scope="col">外部操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows
+              .map(
+                (row) => `
+                  <tr class="itinerary-card" data-date="${escapeAttr(row.date)}">
+                    <th scope="row" data-label="日期">
+                      <span class="table-date">${escapeHtml(row.date)}</span>
+                      <strong>${escapeHtml(row.labelZh)}</strong>
+                    </th>
+                    <td data-label="當日標題">
+                      <strong class="table-title">${escapeHtml(row.titleZh)}</strong>
+                    </td>
+                    <td data-label="起點 / 停靠點 / 終點">${renderTableRoute(row)}</td>
+                    <td data-label="住宿地 / 住宿候選">${renderTableLodging(row)}</td>
+                    <td data-label="CSV 景點說明摘要">${renderTableCsv(row)}</td>
+                    <td data-label="AI 建議景點說明">
+                      <div class="table-ai-note">
+                        ${renderBadge('badge-ai', 'AI 建議')}
+                        <p>${escapeHtml(row.aiSuggestionZh)}</p>
+                      </div>
+                    </td>
+                    <td data-label="車程 / 公里">
+                      <div class="table-drive">
+                        <strong>${escapeHtml(row.drive.durationLabelZh)}</strong>
+                        <span>${escapeHtml(row.drive.distanceLabelZh)}</span>
+                        ${
+                          row.drive.hasFatigueRisk
+                            ? renderBadge('badge-fatigue', '疲勞風險')
+                            : ''
+                        }
+                      </div>
+                    </td>
+                    <td data-label="外部操作">${renderTableActions(row)}</td>
+                  </tr>
+                `,
+              )
+              .join('')}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  `;
+}
+
 export function renderDayButtons(days: TripDay[], selectedDate: string): string {
   return `
     <section class="day-list" aria-label="每日行程">
@@ -230,6 +376,75 @@ export function renderMapOverlay(input: {
         開啟 Google Maps
       </a>
     </div>
+  `;
+}
+
+export function renderOverviewMapOverlay(
+  summary: OverviewRenderSummary,
+): string {
+  return `
+    <div class="map-overlay" aria-label="全程總覽">
+      <div class="glass route-card overview-card">
+        <small>全程總覽</small>
+        <h3>全部行程點</h3>
+        <div class="metrics">
+          <div class="metric">
+            <span>行程點</span>
+            <strong>${summary.totalMarkers}</strong>
+          </div>
+          <div class="metric">
+            <span>CSV 補充</span>
+            <strong>${summary.csvMarkers}</strong>
+          </div>
+          <div class="metric">
+            <span>住宿地</span>
+            <strong>${summary.lodgingMarkers}</strong>
+          </div>
+        </div>
+        <div class="overview-legend" aria-label="圖例">
+          <span><i class="legend-dot legend-regular"></i>一般行程點</span>
+          <span><i class="legend-dot legend-csv"></i>CSV 補充</span>
+          <span><i class="legend-dot legend-lodging"></i>住宿地</span>
+          <span><i class="legend-dot legend-ai"></i>AI 推薦</span>
+        </div>
+      </div>
+      <div class="floating-actions" aria-label="外部檢查">
+        <a class="square-action" href="${escapeAttr(jmaWarningUrl)}" target="_blank" rel="noreferrer">JMA</a>
+        <a class="square-action" href="${escapeAttr(roadTrafficUrl)}" target="_blank" rel="noreferrer">ROAD</a>
+      </div>
+    </div>
+  `;
+}
+
+export function renderOverviewDetailPanel(
+  summary: OverviewRenderSummary,
+): string {
+  const aiIds =
+    summary.aiSuggestedLodgingPlaceIds.length > 0
+      ? summary.aiSuggestedLodgingPlaceIds.join(', ')
+      : '無';
+
+  return `
+    <aside class="detail-panel dashboard-right-panel">
+      <p class="eyebrow">TRIP OVERVIEW</p>
+      <h2>全程總覽</h2>
+      <p>地圖已縮放到能容納所有行程點的範圍，不拉到北海道全圖。</p>
+      <section class="info-card overview-info-card">
+        <h3>圖例</h3>
+        <div class="overview-legend overview-legend-panel" aria-label="總覽圖例">
+          <span><i class="legend-dot legend-regular"></i>一般行程點：原始行程資料</span>
+          <span><i class="legend-dot legend-csv"></i>CSV 補充：細金圈與小徽章</span>
+          <span><i class="legend-dot legend-lodging"></i>住宿地：宿字徽章</span>
+          <span><i class="legend-dot legend-ai"></i>AI 推薦住宿：高亮 AI 徽章</span>
+        </div>
+      </section>
+      <section class="info-card metric-card">
+        <span class="big">${summary.totalMarkers}</span>
+        <span>個總覽行程點</span>
+        <p>CSV 補充 ${summary.csvMarkers} 個；住宿標註 ${summary.lodgingMarkers} 個。</p>
+        <p>AI 推薦住宿候選：${escapeHtml(aiIds)}</p>
+      </section>
+    </aside>
   `;
 }
 

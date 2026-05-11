@@ -20,6 +20,9 @@ test('dashboard travel UI renders and responds to day and marker selection', asy
   ).toBeVisible();
   await expect(page.getByText('2026/6/25 - 2026/7/3')).toBeVisible();
   await expect(page.getByText('每日行程')).toBeVisible();
+  await expect(page.locator('.topbar')).not.toContainText('GSI pale map');
+  await expect(page.locator('.topbar')).not.toContainText('Google Maps 外部導航');
+  await expect(page.getByRole('button', { name: '筆記' })).toBeVisible();
   await expect(page.locator('.leaflet-container')).toBeVisible();
   await expect(page.locator('.map-overlay')).toBeVisible();
   await expect(page.locator('.route-card')).toBeVisible();
@@ -35,8 +38,56 @@ test('dashboard travel UI renders and responds to day and marker selection', asy
   const trafficLink = page.getByRole('link', { name: '道路路況' });
   await expect(trafficLink).toHaveAttribute('href', /^https:\/\//);
 
-  await page.locator('.trip-marker[data-place-id="lake-shikotsu"]').click();
-  await expect(page.locator('.leaflet-popup-content')).toBeVisible();
+  const csvMarker = page.locator(
+    '.trip-marker[data-place-id="lake-shikotsu"][data-csv-place="true"]',
+  );
+  await expect(csvMarker).toBeVisible();
+  const csvLabelColor = await csvMarker.locator('span').evaluate((element) =>
+    getComputedStyle(element).color,
+  );
+  expect(csvLabelColor).not.toBe('rgb(247, 242, 231)');
+  const csvMarkerStyle = await csvMarker.evaluate((element) => {
+    const style = getComputedStyle(element);
+    const badgeStyle = getComputedStyle(element, '::after');
+    return {
+      borderColor: style.borderTopColor,
+      borderWidth: style.borderTopWidth,
+      boxShadow: style.boxShadow,
+      badgeBackground: badgeStyle.backgroundColor,
+      badgeWidth: badgeStyle.width,
+    };
+  });
+  expect(csvMarkerStyle.borderColor).toBe('rgb(249, 244, 236)');
+  expect(csvMarkerStyle.borderWidth).toBe('2px');
+  expect(csvMarkerStyle.boxShadow).toContain('rgba(255, 210, 74');
+  expect(csvMarkerStyle.badgeBackground).toBe('rgb(255, 210, 74)');
+  expect(csvMarkerStyle.badgeWidth).toBe('9px');
+
+  await csvMarker.click();
+  await expect(page.locator('.leaflet-popup-content')).toContainText('航行月份');
+});
+
+test('notes modal saves pending changes in localStorage', async ({ page }) => {
+  await page.goto('/?weatherNow=2026-04-29');
+
+  await page.getByRole('button', { name: '筆記' }).click();
+  await expect(page.getByRole('dialog', { name: '待變更事項筆記' })).toBeVisible();
+
+  const notesTextbox = page.getByRole('textbox', { name: '待變更事項' });
+  await page
+    .getByRole('textbox', { name: '待變更事項' })
+    .fill('6/28 若下雨，積丹海岸改成小樽室內備案。');
+  await page.getByRole('button', { name: '儲存' }).click();
+
+  await expect(page.getByRole('dialog', { name: '待變更事項筆記' })).toBeHidden();
+  await page.reload();
+  await page.getByRole('button', { name: '筆記' }).click();
+  await expect(notesTextbox).toHaveValue(
+    '6/28 若下雨，積丹海岸改成小樽室內備案。',
+  );
+
+  await page.getByRole('button', { name: '清除' }).click();
+  await expect(notesTextbox).toHaveValue('');
 });
 
 test('weather failure state keeps the map usable', async ({ page }) => {
@@ -45,6 +96,106 @@ test('weather failure state keeps the map usable', async ({ page }) => {
   await expect(page.locator('.leaflet-container')).toBeVisible();
   await expect(page.locator('.weather-box.warning')).toBeVisible();
   await expect(page.getByRole('button', { name: '重新讀取天氣' })).toBeVisible();
+});
+
+test('overview tab fits all itinerary markers and distinguishes CSV, lodging, and AI lodging markers', async ({
+  page,
+}) => {
+  const itineraryPlaceIds = new Set(
+    tripDays.flatMap((day) => [day.startPlaceId, ...day.stopIds, day.endPlaceId]),
+  );
+
+  await page.goto('/?weatherNow=2026-04-29');
+  await page.locator('.mode-tab[data-mode="overview"]').click();
+
+  await expect(page.locator('.overview-card')).toBeVisible();
+  await expect(page.locator('.overview-card .overview-legend')).toContainText('一般行程點');
+  await expect(page.locator('.overview-card .overview-legend')).toContainText('CSV 補充');
+  await expect(page.locator('.route-line')).toHaveCount(0);
+  await expect(page.locator('.trip-marker')).toHaveCount(itineraryPlaceIds.size);
+  await expect(page.locator('.trip-marker.marker-from-csv').first()).toBeVisible();
+  await expect(page.locator('.trip-marker.marker-lodging').first()).toBeVisible();
+  await expect(
+    page.locator('.trip-marker.marker-ai-lodging[data-place-id="eniwa-fairfield"]'),
+  ).toBeVisible();
+
+  const aiLodgingBadge = await page
+    .locator('.trip-marker.marker-ai-lodging[data-place-id="eniwa-fairfield"]')
+    .evaluate((element) => getComputedStyle(element, '::before').content);
+  expect(aiLodgingBadge).toContain('AI');
+
+  await page.locator('.mode-tab[data-mode="route"]').click();
+  await expect(page.locator('.route-line')).toHaveCount(1);
+  await expect(page.locator('.route-card')).toBeVisible();
+});
+
+test('table tab shows the itinerary table and route/overview remain usable', async ({
+  page,
+}) => {
+  await page.goto('/?weatherNow=2026-04-29');
+
+  await page.getByRole('button', { name: '表格' }).click();
+
+  await expect(page.getByRole('heading', { name: '行程總表' })).toBeVisible();
+  await expect(page.locator('.itinerary-table-page')).toBeVisible();
+  await expect(page.locator('.itinerary-table')).toBeVisible();
+  await expect(page.locator('.itinerary-table tbody tr')).toHaveCount(
+    tripDays.length,
+  );
+  await expect(page.locator('.badge-ai').first()).toContainText('AI 建議');
+  await expect(page.getByRole('link', { name: /Google Maps/ }).first()).toHaveAttribute(
+    'href',
+    /^https:\/\/www\.google\.com\/maps\/dir\//,
+  );
+  await expect(page.getByRole('link', { name: 'JMA' }).first()).toHaveAttribute(
+    'href',
+    /^https:\/\//,
+  );
+  await expect(page.getByRole('link', { name: '道路路況' }).first()).toHaveAttribute(
+    'href',
+    /^https:\/\//,
+  );
+
+  await page.getByRole('button', { name: '總覽' }).click();
+  await expect(page.locator('.overview-card')).toBeVisible();
+  await expect(page.locator('.route-line')).toHaveCount(0);
+  await expect(page.locator('.itinerary-table-page')).toBeHidden();
+
+  await page.getByRole('button', { name: '路線' }).click();
+  await expect(page.locator('.leaflet-container')).toBeVisible();
+  await expect(page.locator('.route-line')).toHaveCount(1);
+  await expect(page.locator('.route-card')).toBeVisible();
+});
+
+test('map uses pale tiles by default, contour detail when zoomed in, and high-contrast routes', async ({
+  page,
+}) => {
+  await page.goto('/?weatherNow=2026-04-29');
+
+  await expect(page.locator('.leaflet-container')).toBeVisible();
+  await expect(page.locator('.route-halo')).toHaveCount(1);
+  await expect(page.locator('.route-line')).toHaveCount(1);
+  await expect(page.locator('img.leaflet-tile[src*="/xyz/pale/"]').first()).toBeAttached();
+  await expect(page.locator('img.leaflet-tile[src*="/xyz/std/"]')).toHaveCount(0);
+
+  const routeStroke = await page
+    .locator('.route-line')
+    .first()
+    .evaluate((element) => element.getAttribute('stroke'));
+  const routeHaloStroke = await page
+    .locator('.route-halo')
+    .first()
+    .evaluate((element) => element.getAttribute('stroke'));
+
+  expect(routeStroke).toBe('#b0005a');
+  expect(routeHaloStroke).toBe('#fffdf7');
+
+  for (let clickCount = 0; clickCount < 5; clickCount += 1) {
+    await page.locator('.leaflet-control-zoom-in').click();
+  }
+
+  await expect(page.locator('img.leaflet-tile[src*="/xyz/std/"]').first()).toBeAttached();
+  await expect(page.locator('img.leaflet-tile[src*="/xyz/pale/"]')).toHaveCount(0);
 });
 
 test('Google Maps directions preserve 6/26 Eniwa to Noboribetsu order', async ({
