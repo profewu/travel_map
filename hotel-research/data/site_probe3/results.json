@@ -1,0 +1,53 @@
+{
+  "travelocity": {
+    "url": "https://www.travelocity.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&currency=JPY&locale=en_US",
+    "status": 200,
+    "title": "Eniwa, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.travelocity.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false",
+    "len": 33965,
+    "sample": "Skip to main content\nShop travel\nGet the app\nUSD\nList your property\nSupport\nTrips\nSign in\n405 Properties in Eniwa, Hokkaido Prefecture, Japan. June 25, 2026 through June 26, 2026\nWhere to?\nDates\nThu, Jun 25 - Fri, Jun 26\nTravelers\n4 travelers, 1 room\nstatic map image\nView in a map\nSort & Filter\nCompare properties\n\nGet a side-by-side view of up to 5 properties.\n\nSearch by property name\ne.g. Marriott\ne.g. Marriott\nFilter by\nPopular filters\n\nSapporo (and vicinity) (498)\n\nBreakfast included (77)\n\nHotel (145)\n\nGolf course (5)\n\nReserve now, pay later\n\nTotal price\nMin\nMax\nStay options\nFrom\nMaking a selection from this group results in this page refreshing to show relevant results\nAny\nHotels\n$64\nHomes\n$73\nNeighborhood\nMaking a selection from this group results in this page refreshing to show relevant results\nEniwa (2)\nSapporo (and vicinity) (498)\nSapporo (CTS-New Chitose) (25)\nSee more\nPayment type\n\nReserve now, pay later\n\nProperty cancellation options\n\nFully refundable property\n\nProperty amenities\n\nGolf course (5)\n\nPool (9)\n\nPet friendly (8)\n\nHot tub (22)\n\nWifi Included (498)\n\nSee more\nRoom amenities\n\nAccessibility features (12)\n\nJetted or soaking bathtub (1)\n\nPrivate hot tub (4)\n\nIn-room entertainment (305)\n\nYard (2)\n\nSee more\nRoom views\n\nValley view (2)\n\nResort view (2)\n\nCourtyard view (1)\n\nSee more\nProperty type\nProperty type\nFrom\n\nHotel (145)\n\n$64\n\nRyokan (9)\n\n$222\n\nResort (2)\n\n$807\n\nSee more\nGuest rating\nFrom\nMaking a selection from this group results in this page refreshing to show relevant results\nAny\n$64\nWonderful 9+ (91)\n$73\nVery good 8+ (212)\n$64\nGood 7+ (241)\n$64\nStar rating\nStar rating\nFrom\n\n5 stars (2)\n\n4 stars (73)\n\n$126\n\n3 stars (166)\n\n$84\n\nSee more\nNumber of bedrooms\n\nStudio (43)\n\n1 (284)\n\n2 (131)\n\nSee more\nMeal plans available\n\nBreakfast included (77)\n\nDinner included\n\nAll inclusive (1)\n\nLunch included\n\nTraveler experience\n\nFamily friendly (77)\n\nBeach (6)\n\nBusiness friendly (24)\n\nRomantic (20)\n\nSee more\nAvailability\n\nOnly show available properties\n\nAccessi",
+    "photo_count": 5,
+    "prices": [
+      "$64",
+      "$73",
+      "$64",
+      "$222",
+      "$807",
+      "$64",
+      "$73",
+      "$64",
+      "$64",
+      "$126",
+      "$84",
+      "$51",
+      "$64",
+      "$64",
+      "$66",
+      "$103",
+      "$103",
+      "$72",
+      "$72",
+      "$48"
+    ]
+  },
+  "orbitz": {
+    "url": "https://www.orbitz.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&currency=JPY&locale=en_US",
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.orbitz.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&currency=JPY&locale=en_US",
+    "len": 107,
+    "sample": "Show us your human side...\n\nWe can't tell if you're a human or a bot.\n\n741fb002-78a3-46a4-8429-7a6e613c2927",
+    "photo_count": 0,
+    "prices": []
+  },
+  "vrbo": {
+    "url": "https://www.vrbo.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&currency=JPY&locale=en_US",
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.vrbo.com/search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&currency=JPY&locale=en_US",
+    "len": 107,
+    "sample": "Show us your human side...\n\nWe can't tell if you're a human or a bot.\n\n6a0d2e13-754d-02b1-d791-9cc2eed2fe3f",
+    "photo_count": 0,
+    "prices": []
+  }
+}

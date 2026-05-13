@@ -1,0 +1,16 @@
+{
+  "site": "Hotels.com",
+  "date": "2026-06-27",
+  "checkout": "2026-06-28",
+  "search": "Lake Toya, Hokkaido, Japan",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小(10歲)｜1間房",
+  "url": "https://www.hotels.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "hotels": [],
+  "errors": [],
+  "status": 429,
+  "title": "Bot or Not?",
+  "final_url": "https://www.hotels.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "body_len": 107,
+  "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-27.png"
+}

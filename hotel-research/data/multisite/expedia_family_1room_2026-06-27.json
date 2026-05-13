@@ -1,0 +1,57 @@
+{
+  "site": "Expedia",
+  "date": "2026-06-27",
+  "checkout": "2026-06-28",
+  "search": "Lake Toya, Hokkaido, Japan",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小(10歲)｜1間房",
+  "url": "https://www.expedia.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "hotels": [
+    {
+      "site": "Expedia",
+      "name": "World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+      "price": "$127",
+      "price_num": 127.0,
+      "currency": "USD",
+      "score": "8.0",
+      "distance": "Exterior. World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "A house with a panoramic view of the Sea - Blue 2001 / Suttsu-gun Hokkaidō",
+      "price": "$133",
+      "price_num": 133.0,
+      "currency": "USD",
+      "score": "6.8",
+      "distance": "29.36 mi from Lake Toya",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Trailside Apartments & Chalet",
+      "price": "$154",
+      "price_num": 154.0,
+      "currency": "USD",
+      "score": "8.4",
+      "distance": "17.07 mi from Lake Toya",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Hilton Niseko Village",
+      "price": "$155",
+      "price_num": 155.0,
+      "currency": "USD",
+      "score": "8.4",
+      "distance": "17.27 mi from Lake Toya",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    }
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "Lake Toya, Hokkaido Prefecture, Japan Hotel Search Results",
+  "final_url": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option",
+  "body_len": 33899,
+  "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-27.png"
+}

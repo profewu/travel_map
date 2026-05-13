@@ -1,0 +1,424 @@
+[
+  {
+    "destination": "Eniwa, Hokkaido, Japan",
+    "checkin": "2026-06-25",
+    "checkout": "2026-06-26",
+    "hotels_found_text": "We found 179 hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-eniwa-japan?search=200-72064;dr-20260625-20260626",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "Fairfield by Marriott Hokkaido Eniwa",
+        "price_matches": [
+          "TWD 4,352"
+        ],
+        "text_sample": "1 / 51\nPopular choice\nAdd to favorites\nFairfield by Marriott Hokkaido Eniwa\n9.0\nExcellent (703 ratings)\n1.8 km to City center\n\nSurrounded by a beautiful flower garden\n\nFrom\nTWD 4,352\n\nSee prices from 6 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "IZARI Village",
+        "price_matches": [],
+        "text_sample": "1 / 8\nAdd to favorites\nIZARI Village\n8.4\nVery good (98 ratings)\n0.4 km to City center\n\nBalcony in select accommodations\n\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Folks House",
+        "price_matches": [],
+        "text_sample": "Add to favorites\nFolks House\n9.5\nExcellent (63 ratings)\n2.3 km to City center\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Eniwa - House / Vacation Stay 5059",
+        "price_matches": [],
+        "text_sample": "Add to favorites\nEniwa - House / Vacation Stay 5059\n9.2\nExcellent (7 ratings)\n2.3 km to City center\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Hokkaido Bed & Bagel",
+        "price_matches": [],
+        "text_sample": "1 / 4\nAdd to favorites\nHokkaido Bed & Bagel\n/\nNo rating available \n2.2 km to City center\nSelect dates to see exact prices\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/eniwa-hokkaido-japan_2026-06-25_2026-06-26.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/eniwa-hokkaido-japan_2026-06-25_2026-06-26.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/eniwa-hokkaido-japan_2026-06-25_2026-06-26.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Noboribetsu, Hokkaido, Japan",
+    "checkin": "2026-06-26",
+    "checkout": "2026-06-27",
+    "hotels_found_text": "We found 136 hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-noboribetsu-japan?search=200-72150;dr-20260626-20260627;qs-Noboribetsu,%20Hokkaido,%20Japan",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "Dai-ichi Takimotokan",
+        "price_matches": [
+          "TWD 4,982"
+        ],
+        "text_sample": "1 / 97\nPopular choice\nAdd to favorites\nDai-ichi Takimotokan\n8.7\nExcellent (14,142 ratings)\n9.6 km to City center\n\nGrand bath with five spring types\n\nFrom\nTWD 4,982\n\nSee prices from 8 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "Hotel Mahoroba",
+        "price_matches": [
+          "TWD 4,216"
+        ],
+        "text_sample": "1 / 64\nAdd to favorites\nHotel Mahoroba\n8.3\nVery good (9,654 ratings)\n9.4 km to City center\n\nPrime location near Hell Valley\n\nFrom\nTWD 4,216\n\nSee prices from 9 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Noboribetsu Sekisuitei",
+        "price_matches": [
+          "TWD 4,334"
+        ],
+        "text_sample": "1 / 64\nPopular choice\nAdd to favorites\nNoboribetsu Sekisuitei\n7.4\n(6,766 ratings)\n10.1 km to City center\n\nUnique bingo game entertainment\n\nFrom\nTWD 4,334\n\nSee prices from 7 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Noboribetsu Manseikaku",
+        "price_matches": [
+          "TWD 4,968"
+        ],
+        "text_sample": "1 / 51\nAdd to favorites\nNoboribetsu Manseikaku\n7.6\nGood (5,874 ratings)\n9.3 km to City center\n\nTraditional Japanese-style rooms\n\nFrom\nTWD 4,968\n\nSee prices from 7 sites\n\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Noboribetsu Grand Hotel",
+        "price_matches": [
+          "TWD 5,062"
+        ],
+        "text_sample": "1 / 74\nAdd to favorites\nNoboribetsu Grand Hotel\n8.1\nVery good (5,320 ratings)\n9.3 km to City center\n\nOni Sauna with auto-löyly system\n\nFrom\nTWD 5,062\n\nSee prices from 8 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/noboribetsu-hokkaido-japan_2026-06-26_2026-06-27.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/noboribetsu-hokkaido-japan_2026-06-26_2026-06-27.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/noboribetsu-hokkaido-japan_2026-06-26_2026-06-27.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Lake Toya, Hokkaido, Japan",
+    "checkin": "2026-06-27",
+    "checkout": "2026-06-28",
+    "hotels_found_text": "",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-world?search=200-439374;dr-20260627-20260628;qs-Lake%20Toya,%20Hokkaido,%20Japan",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "Toya Sun Palace Resort & Spa",
+        "price_matches": [
+          "TWD 4,388"
+        ],
+        "text_sample": "1 / 25\nPopular choice\nAdd to favorites\nToya Sun Palace Resort & Spa\nRyokan\n7.7\nGood (6,025 ratings)\nSobetsu\n\nExtensive buffet dining, Infinity onsen with lake views\n\nFrom\nTWD 4,388\n\nSee prices from 4 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "The Lake View Toya Nonokaze Resort",
+        "price_matches": [
+          "TWD 10,364"
+        ],
+        "text_sample": "1 / 88\nPopular choice\nAdd to favorites\nThe Lake View Toya Nonokaze Resort\nRyokan\n8.8\nExcellent (9,400 ratings)\nToyako\n\nMemorable Fireworks Display Over Lake, Soothing Hot Spring Baths\n\nFrom\nTWD 10,364\n\nSee prices from 9 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Hotel Grand Toya",
+        "price_matches": [
+          "TWD 2,342"
+        ],
+        "text_sample": "1 / 58\nAdd to favorites\nHotel Grand Toya\nRyokan\n7.3\n(1,861 ratings)\nToyako\n\nUnobstructed lake and fireworks views, Charming retro ambiance\n\nFrom\nTWD 2,342\n\nSee prices from 10 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Hotel Sol at Lake Toya",
+        "price_matches": [
+          "TWD 1,825"
+        ],
+        "text_sample": "1 / 24\nAdd to favorites\nHotel Sol at Lake Toya\n/\nNo rating available \nSobetsu\n\n24/7 access to snacks and treats\n\nFrom\nTWD 1,825\n\nSee prices from 3 sites\n\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Yutorelo Toyako",
+        "price_matches": [
+          "TWD 3,531"
+        ],
+        "text_sample": "1 / 76\nAdd to favorites\nYutorelo Toyako\nRyokan\n7.3\n(1,817 ratings)\nToyako\n\nPet-friendly with dedicated amenities, Authentic hot spring experience\n\nFrom\nTWD 3,531\n\nSee prices from 9 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/lake-toya-hokkaido-japan_2026-06-27_2026-06-28.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/lake-toya-hokkaido-japan_2026-06-27_2026-06-28.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/lake-toya-hokkaido-japan_2026-06-27_2026-06-28.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Otaru, Hokkaido, Japan",
+    "checkin": "2026-06-28",
+    "checkout": "2026-06-29",
+    "hotels_found_text": "We found 393 hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=200-72163;dr-20260628-20260629",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "Dormy Inn Premium Otaru",
+        "price_matches": [
+          "TWD 2,087"
+        ],
+        "text_sample": "1 / 42\nPopular choice\nAdd to favorites\nDormy Inn Premium Otaru\n8.6\nExcellent (16,185 ratings)\n0.9 km to City center\n\nCustomizable seafood breakfast buffet\n\nFrom\nTWD 2,087\n\nSee prices from 5 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "Hotel Nord Otaru",
+        "price_matches": [
+          "TWD 1,916"
+        ],
+        "text_sample": "1 / 76\nAdd to favorites\nHotel Nord Otaru\n8.4\nVery good (8,223 ratings)\n1.1 km to City center\n\nPrime canal-side location\n\nFrom\nTWD 1,916\n\nSee prices from 6 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Tabist THE GREEN OTARU",
+        "price_matches": [
+          "TWD 1,836"
+        ],
+        "text_sample": "1 / 101\nAdd to favorites\nTabist THE GREEN OTARU\n6.8\n(5,941 ratings)\n0.9 km to City center\n\nAuthentic Japanese public bath\n\nFrom\nTWD 1,836\n\nSee prices from 3 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Otaru Furukawa",
+        "price_matches": [],
+        "text_sample": "1 / 25\nAdd to favorites\nOtaru Furukawa\n9.1\nExcellent (2,296 ratings)\n1.0 km to City center\n\nConvenient access to Otaru attractions\n\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Otaru Asari Classe Hotel",
+        "price_matches": [
+          "TWD 2,032"
+        ],
+        "text_sample": "1 / 101\nAdd to favorites\nOtaru Asari Classe Hotel\n8.0\nVery good (3,217 ratings)\n6.3 km to City center\n\nScenic mountain and ski resort views\n\nFrom\nTWD 2,032\n\nSee prices from 7 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/otaru-hokkaido-japan_2026-06-28_2026-06-29.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/otaru-hokkaido-japan_2026-06-28_2026-06-29.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/otaru-hokkaido-japan_2026-06-28_2026-06-29.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Sapporo, Hokkaido, Japan",
+    "checkin": "2026-06-29",
+    "checkout": "2026-06-30",
+    "hotels_found_text": "We found 1000+ hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260629-20260630",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "THE KNOT SAPPORO",
+        "price_matches": [
+          "TWD 1,358"
+        ],
+        "text_sample": "1 / 93\nAdd to favorites\nTHE KNOT SAPPORO\n8.5\nExcellent (5,753 ratings)\n0.9 km to City center\n\nPrime location in Sapporo's heart, Spacious deluxe corner rooms\n\nFrom\nTWD 1,358\n\nSee prices from 11 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "Jozankei View Hotel",
+        "price_matches": [
+          "TWD 3,620"
+        ],
+        "text_sample": "1 / 86\nAdd to favorites\nJozankei View Hotel\n7.3\n(7,626 ratings)\n18.7 km to City center\n\nScenic mountain views, Spacious new wing accommodations\n\nFrom\nTWD 3,620\n\nSee prices from 9 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Chateraise Gateaux Kingdom Sapporo",
+        "price_matches": [
+          "TWD 2,889"
+        ],
+        "text_sample": "1 / 64\nAdd to favorites\nChateraise Gateaux Kingdom Sapporo\n8.1\nVery good (5,154 ratings)\n12.0 km to City center\n\nDiverse dining with four restaurants, Expansive indoor and outdoor waterpark\n\nFrom\nTWD 2,889\n\nSee prices from 8 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Shin Sapporo Arc City Hotel",
+        "price_matches": [],
+        "text_sample": "1 / 5\nAdd to favorites\nShin Sapporo Arc City Hotel\n7.7\nGood (709 ratings)\n9.8 km to City center\n\nScenic views of mountains or cityscapes, Thoughtfully renovated, clean rooms\n\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Hotel Livemax Sapporo",
+        "price_matches": [
+          "TWD 728"
+        ],
+        "text_sample": "1 / 63\nAdd to favorites\nHotel Livemax Sapporo\n6.6\n(1,012 ratings)\n1.6 km to City center\n\nSpacious rooms with separate bath, 24-hour affordable refreshments\n\nFrom\nTWD 728\n\nSee prices from 5 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-06-29_2026-06-30.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-06-29_2026-06-30.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-06-29_2026-06-30.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Sapporo, Hokkaido, Japan",
+    "checkin": "2026-06-30",
+    "checkout": "2026-07-01",
+    "hotels_found_text": "We found 1000+ hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260630-20260701",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "THE KNOT SAPPORO",
+        "price_matches": [
+          "TWD 1,358"
+        ],
+        "text_sample": "1 / 93\nAdd to favorites\nTHE KNOT SAPPORO\n8.5\nExcellent (5,753 ratings)\n0.9 km to City center\n\nPrime location in Sapporo's heart\n\nFrom\nTWD 1,358\n\nSee prices from 11 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "Jozankei View Hotel",
+        "price_matches": [
+          "TWD 3,620"
+        ],
+        "text_sample": "1 / 86\nAdd to favorites\nJozankei View Hotel\n7.3\n(7,626 ratings)\n18.7 km to City center\n\nScenic mountain views\n\nFrom\nTWD 3,620\n\nSee prices from 9 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Chateraise Gateaux Kingdom Sapporo",
+        "price_matches": [
+          "TWD 2,889"
+        ],
+        "text_sample": "1 / 64\nAdd to favorites\nChateraise Gateaux Kingdom Sapporo\n8.1\nVery good (5,154 ratings)\n12.0 km to City center\n\nDiverse dining with four restaurants\n\nFrom\nTWD 2,889\n\nSee prices from 8 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Shin Sapporo Arc City Hotel",
+        "price_matches": [],
+        "text_sample": "1 / 5\nAdd to favorites\nShin Sapporo Arc City Hotel\n7.7\nGood (709 ratings)\n9.8 km to City center\n\nScenic views of mountains or cityscapes\n\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Hotel Livemax Sapporo",
+        "price_matches": [
+          "TWD 728"
+        ],
+        "text_sample": "1 / 63\nAdd to favorites\nHotel Livemax Sapporo\n6.6\n(1,012 ratings)\n1.6 km to City center\n\nSpacious rooms with separate bath\n\nFrom\nTWD 728\n\nSee prices from 5 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-06-30_2026-07-01.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-06-30_2026-07-01.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-06-30_2026-07-01.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Sapporo, Hokkaido, Japan",
+    "checkin": "2026-07-01",
+    "checkout": "2026-07-02",
+    "hotels_found_text": "We found 1000+ hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260701-20260702",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "THE KNOT SAPPORO",
+        "price_matches": [
+          "TWD 1,358"
+        ],
+        "text_sample": "1 / 93\nAdd to favorites\nTHE KNOT SAPPORO\n8.5\nExcellent (5,753 ratings)\n0.9 km to City center\n\nPrime location in Sapporo's heart, Spacious deluxe corner rooms\n\nFrom\nTWD 1,358\n\nSee prices from 11 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "Jozankei View Hotel",
+        "price_matches": [
+          "TWD 3,620"
+        ],
+        "text_sample": "1 / 86\nAdd to favorites\nJozankei View Hotel\n7.3\n(7,626 ratings)\n18.7 km to City center\n\nScenic mountain views, Spacious new wing accommodations\n\nFrom\nTWD 3,620\n\nSee prices from 9 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Chateraise Gateaux Kingdom Sapporo",
+        "price_matches": [
+          "TWD 2,889"
+        ],
+        "text_sample": "1 / 64\nAdd to favorites\nChateraise Gateaux Kingdom Sapporo\n8.1\nVery good (5,154 ratings)\n12.0 km to City center\n\nDiverse dining with four restaurants, Expansive indoor and outdoor waterpark\n\nFrom\nTWD 2,889\n\nSee prices from 8 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Shin Sapporo Arc City Hotel",
+        "price_matches": [],
+        "text_sample": "1 / 5\nAdd to favorites\nShin Sapporo Arc City Hotel\n7.7\nGood (709 ratings)\n9.8 km to City center\n\nScenic views of mountains or cityscapes, Thoughtfully renovated, clean rooms\n\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Hotel Livemax Sapporo",
+        "price_matches": [
+          "TWD 728"
+        ],
+        "text_sample": "1 / 63\nAdd to favorites\nHotel Livemax Sapporo\n6.6\n(1,012 ratings)\n1.6 km to City center\n\nSpacious rooms with separate bath, 24-hour affordable refreshments\n\nFrom\nTWD 728\n\nSee prices from 5 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-07-01_2026-07-02.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-07-01_2026-07-02.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-07-01_2026-07-02.png"
+    },
+    "ok": true
+  },
+  {
+    "destination": "Sapporo, Hokkaido, Japan",
+    "checkin": "2026-07-02",
+    "checkout": "2026-07-03",
+    "hotels_found_text": "We found 1000+ hotels from 117 sites",
+    "final_url": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260702-20260703",
+    "cards": [
+      {
+        "rank": 1,
+        "name": "THE KNOT SAPPORO",
+        "price_matches": [
+          "TWD 1,358"
+        ],
+        "text_sample": "1 / 93\nAdd to favorites\nTHE KNOT SAPPORO\n8.5\nExcellent (5,753 ratings)\n0.9 km to City center\n\nPrime location in Sapporo's heart, Spacious deluxe corner rooms\n\nFrom\nTWD 1,358\n\nSee prices from 11 sites\n\nSee prices"
+      },
+      {
+        "rank": 2,
+        "name": "Jozankei View Hotel",
+        "price_matches": [
+          "TWD 3,620"
+        ],
+        "text_sample": "1 / 85\nAdd to favorites\nJozankei View Hotel\n7.3\n(7,626 ratings)\n18.7 km to City center\n\nScenic mountain views, Spacious new wing accommodations\n\nFrom\nTWD 3,620\n\nSee prices from 9 sites\n\nSee prices"
+      },
+      {
+        "rank": 3,
+        "name": "Chateraise Gateaux Kingdom Sapporo",
+        "price_matches": [
+          "TWD 2,889"
+        ],
+        "text_sample": "1 / 64\nAdd to favorites\nChateraise Gateaux Kingdom Sapporo\n8.1\nVery good (5,154 ratings)\n12.0 km to City center\n\nDiverse dining with four restaurants, Expansive indoor and outdoor waterpark\n\nFrom\nTWD 2,889\n\nSee prices from 8 sites\n\nSee prices"
+      },
+      {
+        "rank": 4,
+        "name": "Shin Sapporo Arc City Hotel",
+        "price_matches": [],
+        "text_sample": "1 / 5\nAdd to favorites\nShin Sapporo Arc City Hotel\n7.7\nGood (709 ratings)\n9.8 km to City center\n\nScenic views of mountains or cityscapes, Thoughtfully renovated, clean rooms\n\nSelect dates to see exact prices\nSee prices"
+      },
+      {
+        "rank": 5,
+        "name": "Hotel Livemax Sapporo",
+        "price_matches": [
+          "TWD 728"
+        ],
+        "text_sample": "1 / 63\nAdd to favorites\nHotel Livemax Sapporo\n6.6\n(1,012 ratings)\n1.6 km to City center\n\nSpacious rooms with separate bath, 24-hour affordable refreshments\n\nFrom\nTWD 728\n\nSee prices from 5 sites\n\nSee prices"
+      }
+    ],
+    "artifacts": {
+      "json": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-07-02_2026-07-03.json",
+      "html": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-07-02_2026-07-03.html",
+      "screenshot": "/home/profe/hotel-research/data/trivago_batch/sapporo-hokkaido-japan_2026-07-02_2026-07-03.png"
+    },
+    "ok": true
+  }
+]

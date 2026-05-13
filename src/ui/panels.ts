@@ -1,4 +1,6 @@
 import type { LodgingCandidate, TripDay } from '../data/trip';
+import type { DisasterDataset } from '../data/disaster';
+import { buildItineraryDisasterSummary } from '../data/disaster';
 import {
   buildGoogleDirectionsUrl,
   buildHotelSearchUrl,
@@ -268,6 +270,98 @@ export function renderItineraryTable(rows: ItineraryTableRow[]): string {
           </tbody>
         </table>
       </div>
+    </section>
+  `;
+}
+
+export function renderDisasterPanel(dataset: DisasterDataset): string {
+  const summary = buildItineraryDisasterSummary(dataset.itineraryAlerts);
+  const epicenter = dataset.epicenter;
+
+  return `
+    <section
+      id="disaster-page"
+      class="disaster-page monitoring-rail"
+      data-page="disaster"
+      aria-labelledby="disaster-heading"
+    >
+      <header class="disaster-header">
+        <p class="eyebrow">DISASTER MONITOR</p>
+        <h2 id="disaster-heading">防災資訊</h2>
+        <p>${escapeHtml(dataset.regionNameZh)} / static mock snapshot ${escapeHtml(dataset.asOfJst)}</p>
+      </header>
+
+      <section class="disaster-itinerary-summary status-${escapeAttr(summary.status)}">
+        <span>${escapeHtml(summary.labelZh)}</span>
+        <strong>${escapeHtml(summary.messageZh)}</strong>
+      </section>
+
+      <section class="disaster-epicenter-card" aria-label="震央">
+        <span class="disaster-marker-sample epicenter-sample" aria-hidden="true">X</span>
+        <div>
+          <p>震央</p>
+          <h3>${escapeHtml(epicenter.nameZh)} M${escapeHtml(String(epicenter.magnitude))}</h3>
+          <span>${escapeHtml(epicenter.maxIntensityZh)} / 深度 ${epicenter.depthKm} km</span>
+        </div>
+      </section>
+
+      <section class="disaster-event-list" aria-label="最近地震列表">
+        <div class="disaster-section-heading">
+          <h3>最近地震</h3>
+          <span>${dataset.events.length} events</span>
+        </div>
+        ${dataset.events
+          .map(
+            (event) => `
+              <article class="disaster-event status-${escapeAttr(event.status)}" data-disaster-event-id="${escapeAttr(event.id)}">
+                <time>${escapeHtml(event.occurredAtJst)}</time>
+                <h4>${escapeHtml(event.titleZh)}</h4>
+                <p>${escapeHtml(event.summaryZh)}</p>
+                <div>
+                  <span>${escapeHtml(event.regionZh)}</span>
+                  <span>M${escapeHtml(String(event.magnitude))}</span>
+                  <span>${escapeHtml(event.maxIntensityZh)}</span>
+                </div>
+              </article>
+            `,
+          )
+          .join('')}
+      </section>
+
+      <section class="disaster-alert-list" aria-label="行程地點附近警示">
+        <div class="disaster-section-heading">
+          <h3>行程點附近</h3>
+          <span>${summary.totalAlertCount} alerts</span>
+        </div>
+        ${dataset.itineraryAlerts
+          .map(
+            (alert) => `
+              <article class="disaster-place-alert status-${escapeAttr(alert.status)}">
+                <strong>${escapeHtml(alert.dayLabelZh)} ${escapeHtml(alert.placeNameZh)}</strong>
+                <p>${escapeHtml(alert.messageZh)}</p>
+                <span>${escapeHtml(String(alert.distanceKmToEpicenter))} km from epicenter</span>
+              </article>
+            `,
+          )
+          .join('')}
+      </section>
+
+      <section class="disaster-legend" aria-label="圖例">
+        <h3>圖例</h3>
+        ${dataset.legend
+          .map(
+            (item) => `
+              <p>
+                <span class="disaster-legend-symbol ${escapeAttr(item.markerClass)}" aria-hidden="true"></span>
+                <strong>${escapeHtml(item.labelZh)}</strong>
+                <span>${escapeHtml(item.descriptionZh)}</span>
+              </p>
+            `,
+          )
+          .join('')}
+      </section>
+
+      <p class="disaster-source-hint">${escapeHtml(dataset.sourceHintZh)}</p>
     </section>
   `;
 }

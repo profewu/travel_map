@@ -1,0 +1,57 @@
+{
+  "site": "Expedia",
+  "date": "2026-06-26",
+  "checkout": "2026-06-27",
+  "search": "Noboribetsu, Hokkaido, Japan",
+  "occupancy_key": "family_2rooms",
+  "occupancy_label": "3大1小(10歲)｜2間房",
+  "url": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "hotels": [
+    {
+      "site": "Expedia",
+      "name": "Rusutsu Grand Cabin",
+      "price": "$97",
+      "price_num": 97.0,
+      "currency": "USD",
+      "score": "8.0",
+      "distance": "26.96 mi from Noboribetsu",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+      "price": "$125",
+      "price_num": 125.0,
+      "currency": "USD",
+      "score": "8.0",
+      "distance": "Exterior. World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Rusutsu Resort Hotel & Convention",
+      "price": "$196",
+      "price_num": 196.0,
+      "currency": "USD",
+      "score": "8.6",
+      "distance": "25.28 mi from Noboribetsu",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "d.d.d home/One private Terrace Family CR Max7ppl",
+      "price": "$214",
+      "price_num": 214.0,
+      "currency": "USD",
+      "score": "10",
+      "distance": "Date, 13.12 mi from Noboribetsu",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    }
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "Noboribetsu, Hokkaido Prefecture, Japan Hotel Search Results",
+  "final_url": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option",
+  "body_len": 34034,
+  "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-26.png"
+}

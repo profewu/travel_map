@@ -1,0 +1,165 @@
+{
+  "site": "Expedia",
+  "output_html": "/home/profe/hotel-research/reports/hokkaido_hotels_expedia_family_combined.html",
+  "output_exists": true,
+  "data_sources_used": [
+    "/home/profe/hotel-research/data/multisite/expedia_hotels_all.json",
+    "/home/profe/hotel-research/data/expedia_probe/otaru-hokkaido-japan_2026-06-28_family_1room.json",
+    "/home/profe/hotel-research/data/expedia_probe/lake-toya-hokkaido-japan_2026-06-27_family_2rooms.json",
+    "/home/profe/hotel-research/scripts/render_expedia_family_combined.py"
+  ],
+  "scripts_used_or_created": [
+    "/home/profe/hotel-research/scripts/rebuild_expedia_family_combined_existing.py"
+  ],
+  "selection_rules_applied": [
+    "同晚同 occupancy Expedia 候選優先",
+    "不足 5 間時，先借同城市同 occupancy 或同城市另一 occupancy 的既有 Expedia property pool",
+    "若同城市仍不足，借相近落腳點成功 pool 補位並標 approximate",
+    "有價格、評分/評論數、落腳點訊號、1 room 家庭型訊號、2 rooms 標準旅館型訊號優先"
+  ],
+  "approx_nights_by_mode": {
+    "family_1room": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ],
+    "family_2rooms": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ]
+  },
+  "validation": {
+    "nights_expected": 8,
+    "nights_found_per_mode": {
+      "family_1room": 8,
+      "family_2rooms": 8
+    },
+    "top5_count_per_night": {
+      "2026-06-25_family_1room": 5,
+      "2026-06-25_family_2rooms": 5,
+      "2026-06-26_family_1room": 5,
+      "2026-06-26_family_2rooms": 5,
+      "2026-06-27_family_1room": 5,
+      "2026-06-27_family_2rooms": 5,
+      "2026-06-28_family_1room": 5,
+      "2026-06-28_family_2rooms": 5,
+      "2026-06-29_family_1room": 5,
+      "2026-06-29_family_2rooms": 5,
+      "2026-06-30_family_1room": 5,
+      "2026-06-30_family_2rooms": 5,
+      "2026-07-01_family_1room": 5,
+      "2026-07-01_family_2rooms": 5,
+      "2026-07-02_family_1room": 5,
+      "2026-07-02_family_2rooms": 5
+    },
+    "all_entries_have_links": true,
+    "price_warning_included": true
+  },
+  "top1_by_night": {
+    "2026-06-25::family_1room": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-06-25::family_2rooms": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-06-26::family_1room": {
+      "name": "Noboribetsu Sekisuitei",
+      "link": "https://www.expedia.com/Noboribetsu-Hotels-Noboribetsu-Sekisuitei.h16294674.Hotel-Information?chkin=2026-06-27&chkout=2026-06-28&x_pwa=1&rfrr=HSR&pwa_ts=1778558501448&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=602068&destination=Lake+Toya%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=6321295&latLong=42.625499%2C140.843314&sort=PRICE_LOW_TO_HIGH&top_dp=304&top_cur=USD&userIntent=&selectedRoomType=32341442&selectedRatePlan=f7f987c0a015&categorySearch=any_option&searchId=18bf2d0d-76b6-4e5e-b9c1-1ba371b2cc25",
+      "price": "$304 total",
+      "approximate": true
+    },
+    "2026-06-26::family_2rooms": {
+      "name": "Noboribetsu Sekisuitei",
+      "link": "https://www.expedia.com/Noboribetsu-Hotels-Noboribetsu-Sekisuitei.h16294674.Hotel-Information?chkin=2026-06-27&chkout=2026-06-28&x_pwa=1&rfrr=HSR&pwa_ts=1778558501448&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=602068&destination=Lake+Toya%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=6321295&latLong=42.625499%2C140.843314&sort=PRICE_LOW_TO_HIGH&top_dp=304&top_cur=USD&userIntent=&selectedRoomType=32341442&selectedRatePlan=f7f987c0a015&categorySearch=any_option&searchId=18bf2d0d-76b6-4e5e-b9c1-1ba371b2cc25",
+      "price": "$304 total",
+      "approximate": true
+    },
+    "2026-06-27::family_1room": {
+      "name": "The Vale Rusutsu",
+      "link": "https://www.expedia.com/Niseko-Hotels-The-Vale-Rusutsu.h46962984.Hotel-Information?chkin=2026-06-27&chkout=2026-06-28&x_pwa=1&rfrr=HSR&pwa_ts=1778558501480&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=602068&destination=Lake+Toya%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&latLong=42.625499%2C140.843314&sort=PRICE_LOW_TO_HIGH&top_dp=352&top_cur=USD&userIntent=&selectedRoomType=232221815&selectedRatePlan=391018292&categorySearch=any_option&searchId=18bf2d0d-76b6-4e5e-b9c1-1ba371b2cc25",
+      "price": "$352 total",
+      "approximate": true
+    },
+    "2026-06-27::family_2rooms": {
+      "name": "The Westin Rusutsu Resort",
+      "link": "https://www.expedia.com/Niseko-Hotels-The-Westin-Rusutsu-Resort.h12809201.Hotel-Information?chkin=2026-06-27&chkout=2026-06-28&x_pwa=1&rfrr=HSR&pwa_ts=1778558501508&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=602068&destination=Lake+Toya%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&latLong=42.625499%2C140.843314&sort=PRICE_LOW_TO_HIGH&top_dp=384&top_cur=USD&userIntent=&selectedRoomType=221132202&selectedRatePlan=294137889&categorySearch=any_option&searchId=18bf2d0d-76b6-4e5e-b9c1-1ba371b2cc25",
+      "price": "$384 total",
+      "approximate": false
+    },
+    "2026-06-28::family_1room": {
+      "name": "roomCD / Otaru Hokkaidō",
+      "link": "https://www.expedia.com/Sapporo-Hotels-RoomCD-Otaru-Hokkaido.h43989432.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558519191&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=129&top_cur=USD&userIntent=&selectedRoomType=43989432&selectedRatePlan=000060c1703ce6724ffe9ced988d177462be&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$129 total",
+      "approximate": false
+    },
+    "2026-06-28::family_2rooms": {
+      "name": "RJHOTEL",
+      "link": "https://www.expedia.com/Sapporo-Hotels-RJHOTEL.h96457230.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558519153&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=117&top_cur=USD&userIntent=&selectedRoomType=324122676&selectedRatePlan=393757262&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$117 total",
+      "approximate": true
+    },
+    "2026-06-29::family_1room": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-06-29::family_2rooms": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-06-30::family_1room": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-06-30::family_2rooms": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-07-01::family_1room": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-07-01::family_2rooms": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-07-02::family_1room": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    },
+    "2026-07-02::family_2rooms": {
+      "name": "Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&pwa_ts=1778558516642&referrerUrl=aHR0cHM6Ly93d3cuZXhwZWRpYS5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&neighborhoodId=553248633981723700&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&userIntent=&selectedRoomType=328504015&selectedRatePlan=409142425&categorySearch=any_option&searchId=aea1690e-c700-4334-b8ee-549c11ad96fb",
+      "price": "$70",
+      "approximate": true
+    }
+  }
+}

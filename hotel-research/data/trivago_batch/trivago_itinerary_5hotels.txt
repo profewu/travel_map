@@ -1,0 +1,71 @@
+2026-06-25 -> 2026-06-26 | Eniwa, Hokkaido, Japan
+results: We found 179 hotels from 117 sites
+- #1 Fairfield by Marriott Hokkaido Eniwa | TWD 4,352
+- #2 IZARI Village | N/A
+- #3 Folks House | N/A
+- #4 Eniwa - House / Vacation Stay 5059 | N/A
+- #5 Hokkaido Bed & Bagel | N/A
+url: https://www.trivago.com/en-US/lm/hotels-eniwa-japan?search=200-72064;dr-20260625-20260626
+
+2026-06-26 -> 2026-06-27 | Noboribetsu, Hokkaido, Japan
+results: We found 136 hotels from 117 sites
+- #1 Dai-ichi Takimotokan | TWD 4,982
+- #2 Hotel Mahoroba | TWD 4,216
+- #3 Noboribetsu Sekisuitei | TWD 4,334
+- #4 Noboribetsu Manseikaku | TWD 4,968
+- #5 Noboribetsu Grand Hotel | TWD 5,062
+url: https://www.trivago.com/en-US/lm/hotels-noboribetsu-japan?search=200-72150;dr-20260626-20260627;qs-Noboribetsu,%20Hokkaido,%20Japan
+
+2026-06-27 -> 2026-06-28 | Lake Toya, Hokkaido, Japan
+results: N/A
+- #1 Toya Sun Palace Resort & Spa | TWD 4,388
+- #2 The Lake View Toya Nonokaze Resort | TWD 10,364
+- #3 Hotel Grand Toya | TWD 2,342
+- #4 Hotel Sol at Lake Toya | TWD 1,825
+- #5 Yutorelo Toyako | TWD 3,531
+url: https://www.trivago.com/en-US/lm/hotels-world?search=200-439374;dr-20260627-20260628;qs-Lake%20Toya,%20Hokkaido,%20Japan
+
+2026-06-28 -> 2026-06-29 | Otaru, Hokkaido, Japan
+results: We found 393 hotels from 117 sites
+- #1 Dormy Inn Premium Otaru | TWD 2,087
+- #2 Hotel Nord Otaru | TWD 1,916
+- #3 Tabist THE GREEN OTARU | TWD 1,836
+- #4 Otaru Furukawa | N/A
+- #5 Otaru Asari Classe Hotel | TWD 2,032
+url: https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=200-72163;dr-20260628-20260629
+
+2026-06-29 -> 2026-06-30 | Sapporo, Hokkaido, Japan
+results: We found 1000+ hotels from 117 sites
+- #1 THE KNOT SAPPORO | TWD 1,358
+- #2 Jozankei View Hotel | TWD 3,620
+- #3 Chateraise Gateaux Kingdom Sapporo | TWD 2,889
+- #4 Shin Sapporo Arc City Hotel | N/A
+- #5 Hotel Livemax Sapporo | TWD 728
+url: https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260629-20260630
+
+2026-06-30 -> 2026-07-01 | Sapporo, Hokkaido, Japan
+results: We found 1000+ hotels from 117 sites
+- #1 THE KNOT SAPPORO | TWD 1,358
+- #2 Jozankei View Hotel | TWD 3,620
+- #3 Chateraise Gateaux Kingdom Sapporo | TWD 2,889
+- #4 Shin Sapporo Arc City Hotel | N/A
+- #5 Hotel Livemax Sapporo | TWD 728
+url: https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260630-20260701
+
+2026-07-01 -> 2026-07-02 | Sapporo, Hokkaido, Japan
+results: We found 1000+ hotels from 117 sites
+- #1 THE KNOT SAPPORO | TWD 1,358
+- #2 Jozankei View Hotel | TWD 3,620
+- #3 Chateraise Gateaux Kingdom Sapporo | TWD 2,889
+- #4 Shin Sapporo Arc City Hotel | N/A
+- #5 Hotel Livemax Sapporo | TWD 728
+url: https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260701-20260702
+
+2026-07-02 -> 2026-07-03 | Sapporo, Hokkaido, Japan
+results: We found 1000+ hotels from 117 sites
+- #1 THE KNOT SAPPORO | TWD 1,358
+- #2 Jozankei View Hotel | TWD 3,620
+- #3 Chateraise Gateaux Kingdom Sapporo | TWD 2,889
+- #4 Shin Sapporo Arc City Hotel | N/A
+- #5 Hotel Livemax Sapporo | TWD 728
+url: https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=200-72178;dr-20260702-20260703

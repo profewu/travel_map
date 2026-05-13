@@ -1,0 +1,18 @@
+{
+  "site": "Expedia",
+  "date": "2026-06-28",
+  "checkout": "2026-06-29",
+  "search": "Otaru, Hokkaido, Japan",
+  "occupancy_key": "family_2rooms",
+  "occupancy_label": "3大1小(10歲)｜2 rooms",
+  "url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "status": 429,
+  "title": "Bot or Not?",
+  "final_url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "links_found": 0,
+  "hotels_found": 0,
+  "hotels": [],
+  "errors": [],
+  "raw_text_path": "/home/profe/hotel-research/data/expedia_probe/otaru-hokkaido-japan_2026-06-28_family_2rooms.txt",
+  "screenshot": "/home/profe/hotel-research/data/expedia_probe/otaru-hokkaido-japan_2026-06-28_family_2rooms.png"
+}

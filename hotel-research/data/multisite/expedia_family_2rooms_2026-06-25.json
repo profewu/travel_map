@@ -1,0 +1,57 @@
+{
+  "site": "Expedia",
+  "date": "2026-06-25",
+  "checkout": "2026-06-26",
+  "search": "Eniwa, Hokkaido, Japan",
+  "occupancy_key": "family_2rooms",
+  "occupancy_label": "3大1小(10歲)｜2間房",
+  "url": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "hotels": [
+    {
+      "site": "Expedia",
+      "name": "Theatel Sapporo",
+      "price": "$64",
+      "price_num": 64.0,
+      "currency": "USD",
+      "score": "8.2",
+      "distance": "Reception. Theatel Sapporo",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Grand Hostel LDK Sapporo",
+      "price": "$73",
+      "price_num": 73.0,
+      "currency": "USD",
+      "score": "8.2",
+      "distance": "Property amenity. Grand Hostel LDK Sapporo",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Randor Hotel Sapporo Heritage",
+      "price": "$76",
+      "price_num": 76.0,
+      "currency": "USD",
+      "score": "9.8",
+      "distance": "Lobby. Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Hotel Nets Sapporo",
+      "price": "$84",
+      "price_num": 84.0,
+      "currency": "USD",
+      "score": "9.0",
+      "distance": "Front of property. Hotel Nets Sapporo",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    }
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "Eniwa, Hokkaido Prefecture, Japan Hotel Search Results",
+  "final_url": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option",
+  "body_len": 34896,
+  "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-25.png"
+}

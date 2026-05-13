@@ -1,5 +1,13 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page } from '@playwright/test';
 import { places, routeSegments, tripDays } from '../src/data/trip';
+
+const modeTab = (
+  page: Page,
+  mode: 'overview' | 'route' | 'table' | 'disaster',
+) => page.locator(`.mode-tab[data-mode="${mode}"]`);
+
+const masterSummaryUrl =
+  'file:///C:/Users/Jonathan/Documents/travel_map/hotel-research/reports/master_summary.html';
 
 test.beforeEach(async ({ page }) => {
   await page.route('https://router.project-osrm.org/**', async (route) => {
@@ -22,6 +30,10 @@ test('dashboard travel UI renders and responds to day and marker selection', asy
   await expect(page.getByText('每日行程')).toBeVisible();
   await expect(page.locator('.topbar')).not.toContainText('GSI pale map');
   await expect(page.locator('.topbar')).not.toContainText('Google Maps 外部導航');
+  await expect(page.getByRole('link', { name: '住宿報表' })).toHaveAttribute(
+    'href',
+    masterSummaryUrl,
+  );
   await expect(page.getByRole('button', { name: '筆記' })).toBeVisible();
   await expect(page.locator('.leaflet-container')).toBeVisible();
   await expect(page.locator('.map-overlay')).toBeVisible();
@@ -165,6 +177,41 @@ test('table tab shows the itinerary table and route/overview remain usable', asy
   await expect(page.locator('.leaflet-container')).toBeVisible();
   await expect(page.locator('.route-line')).toHaveCount(1);
   await expect(page.locator('.route-card')).toBeVisible();
+});
+
+test('disaster tab switches and preserves overview, route, and table behavior', async ({
+  page,
+}) => {
+  await page.goto('/?weatherNow=2026-04-29');
+
+  await modeTab(page, 'disaster').click();
+  await expect(page.locator('[data-page="disaster"]')).toBeVisible();
+  await expect(page.locator('.disaster-event-list')).toContainText('浦河沖');
+  await expect(page.locator('.disaster-epicenter-marker')).toBeVisible();
+  await expect(page.locator('.disaster-itinerary-summary')).toContainText('注意');
+  await expect(page.locator('.map')).toHaveCSS('filter', 'none');
+
+  const disasterTileFilter = await page
+    .locator('img.leaflet-tile[src*="/xyz/pale/"]')
+    .first()
+    .evaluate((element) => getComputedStyle(element).filter);
+  expect(disasterTileFilter).toContain('grayscale');
+
+  await modeTab(page, 'overview').click();
+  await expect(page.locator('.overview-card')).toBeVisible();
+  await expect(page.locator('.route-line')).toHaveCount(0);
+  await expect(page.locator('[data-page="disaster"]')).toBeHidden();
+
+  await modeTab(page, 'route').click();
+  await expect(page.locator('.leaflet-container')).toBeVisible();
+  await expect(page.locator('.route-line')).toHaveCount(1);
+  await expect(page.locator('.route-card')).toBeVisible();
+
+  await modeTab(page, 'table').click();
+  await expect(page.locator('.itinerary-table-page')).toBeVisible();
+  await expect(page.locator('.itinerary-table tbody tr')).toHaveCount(
+    tripDays.length,
+  );
 });
 
 test('map uses pale tiles by default, contour detail when zoomed in, and high-contrast routes', async ({

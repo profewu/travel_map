@@ -1,0 +1,222 @@
+{
+  "site": "trivago",
+  "output_html": "/home/profe/hotel-research/reports/hokkaido_hotels_trivago_family_combined.html",
+  "output_exists": true,
+  "summary_json": "/home/profe/hotel-research/reports/hokkaido_hotels_trivago_family_summary.json",
+  "summary_exists": true,
+  "data_sources_used": [
+    "/home/profe/hotel-research/data/trivago_probe",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_trivago_family_1room.html",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_trivago_family_2rooms.html",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_trivago_family_combined.html"
+  ],
+  "scripts_used_or_created": [
+    "/home/profe/hotel-research/scripts/render_trivago_itinerary_dual_reports.py",
+    "/home/profe/hotel-research/scripts/probe_trivago_search.py"
+  ],
+  "selection_rules_applied": [
+    "固定住宿條件為 3 adults + 1 child age 10",
+    "沿用既有 itinerary，不重排行程",
+    "每晚各模式只保留最值得點開的 5 間",
+    "主動篩選而非直接採用平台前 5",
+    "有明確價格者優先",
+    "評分、評論數與地點吻合 itinerary 者優先",
+    "1 room 偏家庭房/4人可住可能性",
+    "2 rooms 偏標準旅館型、較容易拆成兩房",
+    "札幌外圍區與不利家庭入住型態降權",
+    "缺少連結者不應入選"
+  ],
+  "reused_existing_trivago_render_probe_completely": true,
+  "minimal_modifications_only": [
+    "僅在 render_trivago_itinerary_dual_reports.py 補上 approximate 標記與 summary JSON 輸出",
+    "沿用既有 itinerary 與 trivago probe 資料重新輸出 1room/2rooms/combined HTML",
+    "未重跑 probe，僅以既有資料重新驗證與刷新輸出"
+  ],
+  "approx_nights_by_mode": {
+    "family_1room": [
+      "2026-06-25",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ],
+    "family_2rooms": [
+      "2026-06-25",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ]
+  },
+  "approximation_notes_by_mode": {
+    "family_1room": {
+      "2026-06-25": [
+        "惠庭樣本多為公寓/民宿類，1 room 是否真能住 3大1小仍需點進房型頁再確認"
+      ],
+      "2026-06-29": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ],
+      "2026-06-30": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ],
+      "2026-07-01": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ],
+      "2026-07-02": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ]
+    },
+    "family_2rooms": {
+      "2026-06-25": [
+        "惠庭結果多仰賴千歲周邊旅館補足，2 rooms 雖較穩妥，但仍需點進各房型頁確認可拆兩房"
+      ],
+      "2026-06-29": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ],
+      "2026-06-30": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ],
+      "2026-07-01": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ],
+      "2026-07-02": [
+        "札幌搜尋結果混入定山溪/新札幌等外圍區，已人工偏重市區但仍屬近似篩選"
+      ]
+    }
+  },
+  "validation": {
+    "nights_expected": 8,
+    "night_sections_expected_total": 16,
+    "night_sections_found_total": 16,
+    "nights_found_per_mode": {
+      "family_1room": 8,
+      "family_2rooms": 8
+    },
+    "top5_count_per_night": {
+      "2026-06-25_family_1room": 5,
+      "2026-06-26_family_1room": 5,
+      "2026-06-27_family_1room": 5,
+      "2026-06-28_family_1room": 5,
+      "2026-06-29_family_1room": 5,
+      "2026-06-30_family_1room": 5,
+      "2026-07-01_family_1room": 5,
+      "2026-07-02_family_1room": 5,
+      "2026-06-25_family_2rooms": 5,
+      "2026-06-26_family_2rooms": 5,
+      "2026-06-27_family_2rooms": 5,
+      "2026-06-28_family_2rooms": 5,
+      "2026-06-29_family_2rooms": 5,
+      "2026-06-30_family_2rooms": 5,
+      "2026-07-01_family_2rooms": 5,
+      "2026-07-02_family_2rooms": 5
+    },
+    "all_entries_have_links": true,
+    "all_entries_have_warning_nearby": true,
+    "price_warning_included": true,
+    "warning_occurrences_total": 83,
+    "combined_file_exists": true,
+    "combined_contains_1room_section": true,
+    "combined_contains_2rooms_section": true,
+    "occupancy_fixed_text_present": true,
+    "approximate_marker_present": true,
+    "validated_without_reprobe": true
+  },
+  "top1_by_night": {
+    "2026-06-25": {
+      "family_1room": {
+        "name": "Minn Chitose",
+        "link": "https://www.trivago.com/en-US/lm/hotels-eniwa-japan?search=100-22961628;200-72064;dr-20260625-20260626;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-22961628-0",
+        "price": "TWD 2,141"
+      },
+      "family_2rooms": {
+        "name": "Tower Eleven Hotel",
+        "link": "https://www.trivago.com/en-US/lm/hotels-eniwa-japan?search=100-33435574;200-72064;dr-20260625-20260626;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-33435574-0",
+        "price": "TWD 4,288"
+      }
+    },
+    "2026-06-26": {
+      "family_1room": {
+        "name": "Noboribetsu Manseikaku",
+        "link": "https://www.trivago.com/en-US/lm/hotels-noboribetsu-japan?search=100-521576;200-72150;dr-20260626-20260627;qs-Noboribetsu%2C%20Hokkaido%2C%20Japan;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-521576-0",
+        "price": "TWD 4,968"
+      },
+      "family_2rooms": {
+        "name": "Ryotei Hanayura",
+        "link": "https://www.trivago.com/en-US/lm/hotels-japan-japan?search=100-1532519;200-85;dr-20260626-20260627;qs-Noboribetsu%2C%20Hokkaido%2C%20Japan;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-1532519-0",
+        "price": "TWD 10,679"
+      }
+    },
+    "2026-06-27": {
+      "family_1room": {
+        "name": "Hotel Cocoa - Vacation STAY 29916v",
+        "link": "https://www.trivago.com/en-US/lm/hotels-world?search=100-2798954;200-439374;dr-20260627-20260628;qs-Lake%20Toya%2C%20Hokkaido%2C%20Japan;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-2798954-0",
+        "price": "TWD 2,273"
+      },
+      "family_2rooms": {
+        "name": "Lake Toya Tsuruga Resort Hikari no uta",
+        "link": "https://www.trivago.com/en-US/lm/hotels-world?search=100-33069222;200-439374;dr-20260627-20260628;qs-Lake%20Toya%2C%20Hokkaido%2C%20Japan;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-33069222-0",
+        "price": "TWD 12,795"
+      }
+    },
+    "2026-06-28": {
+      "family_1room": {
+        "name": "Stay's OTARU",
+        "link": "https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=100-18253974;200-72163;dr-20260628-20260629;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-18253974-0",
+        "price": "TWD 2,087, TWD 1,916, TWD 1,836, TWD 2,032, TWD 2,143"
+      },
+      "family_2rooms": {
+        "name": "Stay's OTARU",
+        "link": "https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=100-18253974;200-72163;dr-20260628-20260629;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-18253974-0",
+        "price": "TWD 2,087, TWD 1,916, TWD 1,836, TWD 2,032, TWD 2,143"
+      }
+    },
+    "2026-06-29": {
+      "family_1room": {
+        "name": "THE KNOT SAPPORO",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-17825538;200-72178;dr-20260629-20260630;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-17825538-0",
+        "price": "TWD 1,358"
+      },
+      "family_2rooms": {
+        "name": "KOKO HOTEL Sapporo Odori",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-19812350;200-72178;dr-20260629-20260630;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-19812350-0",
+        "price": "TWD 1,220"
+      }
+    },
+    "2026-06-30": {
+      "family_1room": {
+        "name": "THE KNOT SAPPORO",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-17825538;200-72178;dr-20260630-20260701;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-17825538-0",
+        "price": "TWD 1,358"
+      },
+      "family_2rooms": {
+        "name": "KOKO HOTEL Sapporo Odori",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-19812350;200-72178;dr-20260630-20260701;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-19812350-0",
+        "price": "TWD 1,220"
+      }
+    },
+    "2026-07-01": {
+      "family_1room": {
+        "name": "THE KNOT SAPPORO",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-17825538;200-72178;dr-20260701-20260702;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-17825538-0",
+        "price": "TWD 1,358"
+      },
+      "family_2rooms": {
+        "name": "KOKO HOTEL Sapporo Odori",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-19812350;200-72178;dr-20260701-20260702;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-19812350-0",
+        "price": "TWD 1,220"
+      }
+    },
+    "2026-07-02": {
+      "family_1room": {
+        "name": "KOKO HOTEL Sapporo Odori",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-19812350;200-72178;dr-20260702-20260703;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-19812350-0",
+        "price": "TWD 1,220"
+      },
+      "family_2rooms": {
+        "name": "KOKO HOTEL Sapporo Odori",
+        "link": "https://www.trivago.com/en-US/lm/hotels-sapporo-japan?search=100-19812350;200-72178;dr-20260702-20260703;rc-2-3-6#::effects=open-sl-deal-0;logNewTab-19812350-0",
+        "price": "TWD 1,220"
+      }
+    }
+  }
+}

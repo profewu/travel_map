@@ -1,0 +1,49 @@
+{
+  "site": "Hotels.com",
+  "output_html": "/home/profe/hotel-research/reports/hokkaido_hotels_hotelscom_family_combined.html",
+  "data_sources_used": [
+    "/home/profe/hotel-research/data/hotelscom_probe",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_hotelscom_family_combined.html",
+    "/home/profe/hotel-research/scripts/rebuild_hotelscom_family_combined_minimal.py"
+  ],
+  "approx_nights_by_mode": {
+    "family_1room": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ],
+    "family_2rooms": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28"
+    ]
+  },
+  "validation": {
+    "top5_count_per_night": {
+      "2026-06-25_family_1room": 5,
+      "2026-06-25_family_2rooms": 5,
+      "2026-06-26_family_1room": 5,
+      "2026-06-26_family_2rooms": 5,
+      "2026-06-27_family_1room": 5,
+      "2026-06-27_family_2rooms": 5,
+      "2026-06-28_family_1room": 5,
+      "2026-06-28_family_2rooms": 5,
+      "2026-06-29_family_1room": 5,
+      "2026-06-29_family_2rooms": 5,
+      "2026-06-30_family_1room": 5,
+      "2026-06-30_family_2rooms": 5,
+      "2026-07-01_family_1room": 5,
+      "2026-07-01_family_2rooms": 5,
+      "2026-07-02_family_1room": 5,
+      "2026-07-02_family_2rooms": 5
+    },
+    "all_entries_have_links": true,
+    "price_warning_included": true
+  }
+}

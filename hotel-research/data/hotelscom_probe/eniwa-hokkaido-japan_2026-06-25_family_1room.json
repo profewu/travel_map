@@ -1,0 +1,26 @@
+{
+  "site": "Hotels.com",
+  "date": "2026-06-25",
+  "checkout": "2026-06-26",
+  "search": "Eniwa, Hokkaido, Japan",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小(10歲)｜1 room",
+  "url": "https://www.hotels.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=RECOMMENDED",
+  "status": 429,
+  "title": "Bot or Not?",
+  "final_url": "https://www.hotels.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=RECOMMENDED",
+  "links_found": 0,
+  "hotels_found": 0,
+  "hotels": [],
+  "errors": [
+    "attempt 1: status=429 title=Bot or Not?",
+    "warmup 1: status=429 title=Bot or Not?",
+    "attempt 2: status=429 title=Bot or Not?",
+    "warmup 2: status=200 title=Eniwa, Hokkaido, Japan Hotel Search Results",
+    "attempt 3: status=429 title=Bot or Not?",
+    "warmup 3: status=200 title=Eniwa, Hokkaido, Japan Hotel Search Results",
+    "attempt 4: status=429 title=Bot or Not?"
+  ],
+  "raw_text_path": "/home/profe/hotel-research/data/hotelscom_probe/eniwa-hokkaido-japan_2026-06-25_family_1room.txt",
+  "screenshot": "/home/profe/hotel-research/data/hotelscom_probe/eniwa-hokkaido-japan_2026-06-25_family_1room.png"
+}

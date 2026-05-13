@@ -1,0 +1,103 @@
+{
+  "output_html": "/home/profe/hotel-research/reports/hokkaido_hotels_agoda_family_combined.html",
+  "source_file": "/home/profe/hotel-research/data/multisite/combined_3sites.json",
+  "source_site_used_per_night": "Booking.com entries embedded inside combined_3sites.json",
+  "agoda_suggest_endpoint": "https://www.agoda.com/api/cronos/search/GetUnifiedSuggestResult/3/1/1/0/",
+  "approx_nights_by_mode": {
+    "family_1room": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ],
+    "family_2rooms": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ]
+  },
+  "all_entries_approximate": true,
+  "validation": {
+    "night_sections_expected_total": 16,
+    "night_sections_found_total": 16,
+    "top5_count_per_night": {
+      "2026-06-25_family_1room": 5,
+      "2026-06-26_family_1room": 5,
+      "2026-06-27_family_1room": 5,
+      "2026-06-28_family_1room": 5,
+      "2026-06-29_family_1room": 5,
+      "2026-06-30_family_1room": 5,
+      "2026-07-01_family_1room": 5,
+      "2026-07-02_family_1room": 5,
+      "2026-06-25_family_2rooms": 5,
+      "2026-06-26_family_2rooms": 5,
+      "2026-06-27_family_2rooms": 5,
+      "2026-06-28_family_2rooms": 5,
+      "2026-06-29_family_2rooms": 5,
+      "2026-06-30_family_2rooms": 5,
+      "2026-07-01_family_2rooms": 5,
+      "2026-07-02_family_2rooms": 5
+    },
+    "all_entries_have_links": true,
+    "all_entries_have_selectedproperty_links": true
+  },
+  "sample_mappings": {
+    "2026-06-25_family_1room": [
+      {
+        "source_name": "Fairfield by Marriott Hokkaido Eniwa",
+        "agoda_name": "Fairfield by Marriott Hokkaido Eniwa",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-25&checkOut=2026-06-26&rooms=1&adults=3&children=1&childages=10&textToSearch=Eniwa%2C+Hokkaido%2C+Japan&selectedproperty=31562792&hotel=31562792&familyMode=on"
+      },
+      {
+        "source_name": "Folks House",
+        "agoda_name": "Folks House",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-25&checkOut=2026-06-26&rooms=1&adults=3&children=1&childages=10&textToSearch=Eniwa%2C+Hokkaido%2C+Japan&selectedproperty=9365565&hotel=9365565&familyMode=on"
+      }
+    ],
+    "2026-06-26_family_1room": [
+      {
+        "source_name": "Dai-ichi Takimotokan",
+        "agoda_name": "Noboribetsu Onsen Dai-ichi Takimotokan",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-26&checkOut=2026-06-27&rooms=1&adults=3&children=1&childages=10&textToSearch=Noboribetsu%2C+Hokkaido%2C+Japan&selectedproperty=400220&hotel=400220&familyMode=on"
+      },
+      {
+        "source_name": "MIMIKKO - Vacation STAY 71236v",
+        "agoda_name": "MIMIKKO - Vacation STAY 71236v",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-26&checkOut=2026-06-27&rooms=1&adults=3&children=1&childages=10&textToSearch=Noboribetsu%2C+Hokkaido%2C+Japan&selectedproperty=81362556&hotel=81362556&familyMode=on"
+      }
+    ],
+    "2026-06-27_family_1room": [
+      {
+        "source_name": "The Lake View Toya Nonokaze Resort",
+        "agoda_name": "The Lake view TOYA Nonokaze resort",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-27&checkOut=2026-06-28&rooms=1&adults=3&children=1&childages=10&textToSearch=Lake+Toya%2C+Hokkaido%2C+Japan&selectedproperty=399352&hotel=399352&familyMode=on"
+      },
+      {
+        "source_name": "Lake Toya Tsuruga Resort HIKARINOUTA",
+        "agoda_name": "Lake Toya Tsuruga Resort Hikari no uta",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-27&checkOut=2026-06-28&rooms=1&adults=3&children=1&childages=10&textToSearch=Lake+Toya%2C+Hokkaido%2C+Japan&selectedproperty=37130552&hotel=37130552&familyMode=on"
+      }
+    ],
+    "2026-06-28_family_1room": [
+      {
+        "source_name": "Stay's OTARU",
+        "agoda_name": "Stay's OTARU",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-28&checkOut=2026-06-29&rooms=1&adults=3&children=1&childages=10&textToSearch=Otaru%2C+Hokkaido%2C+Japan&selectedproperty=82212286&hotel=82212286&familyMode=on"
+      },
+      {
+        "source_name": "Hotel Nord Otaru",
+        "agoda_name": "Hotel Nord Otaru",
+        "agoda_link": "https://www.agoda.com/search?checkIn=2026-06-28&checkOut=2026-06-29&rooms=1&adults=3&children=1&childages=10&textToSearch=Otaru%2C+Hokkaido%2C+Japan&selectedproperty=272578&hotel=272578&familyMode=on"
+      }
+    ]
+  }
+}

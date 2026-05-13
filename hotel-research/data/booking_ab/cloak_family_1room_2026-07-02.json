@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-02",
+  "weekday": "Thu",
+  "label": "7/2 札幌自由日與機場巴士確認",
+  "location_zh": "札幌",
+  "search": "Sapporo, Hokkaido, Japan",
+  "note": "札幌自由日與機場巴士確認",
+  "mode": "cloak",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+  "occupancy": {
+    "key": "family_1room",
+    "label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "1"
+  },
+  "checkout": "2026-07-03",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [
+    {
+      "name": "STAYMoiwayama",
+      "price": "¥10,888",
+      "score": "Scored 8.6 8.6 Excellent 113 reviews",
+      "address": "",
+      "distance": "4.1 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/staymoiwayama.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=1462177905_417526732_0_0_0&highlighted_blocks=1462177905_417526732_0_0_0&matching_block_id=1462177905_417526732_0_0_0&sr_pri_blocks=1462177905_417526732_0_0_0__1088800&from=searchresults"
+    },
+    {
+      "name": "Minn Sapporo Odori W14",
+      "price": "¥16,320",
+      "score": "",
+      "address": "",
+      "distance": "1.7 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=1601024602_431376556_4_0_0&highlighted_blocks=1601024602_431376556_4_0_0&matching_block_id=1601024602_431376556_4_0_0&sr_pri_blocks=1601024602_431376556_4_0_0__1632000&nad_id=647afc2c-3fe5-4449-be90-8eeef6d2aa74_0&nad_cpc=0.5&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyODAwODYsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoic2tvTW9pUW9keTJsZWZBcFlIVFVyVndkakYxdXdPUnIvTEVUK0ZodEhsL2h5V1RtaWRQeG9Ra1JxWXJKbUorK01HeHdxOXBlUlJRbC90bGduRWtYR2dXT2YyeUE2aE9McnBiVzUreVFaTnEvRzJ0UXZvOHZBYkRnV3ZRRmpDQ2VLbDdyNXJ5Wk5oSzUwN3pGTVpyUUNVLzZHZHFhN1pNMStidmFTcm5iaUNYWUhMY2QxTEFHS2pDK0MvL2kvQlFaYzZIZWpvc1N1c1pnL2Jkam42OUtldWtSaUNJL3FIeFQzcDhqU1d1VUNJSnp5bVBZK0NybVcyTDh3T294SnI2bVVrdmRxRUVFN05wUjdNRTNuMWdzUEltbHNpdERYZmlpQlYvZUJBMzh4TnFPR3NFYUtZM3htbmdzVCtiZXdmNUJwb0lna3UzTFZwQWV5cm9LUVdkTGc3VkE5OTE1MTZqWEt1czBFVURnODNXNHU2L2xFYXIxb0FFNWtLMlNYNDh3Nzl4Q2d2TTZLS2hDQ3VEa0NtSlJ6cVZkVFYyY3A2WmxORktPWnZtQkdJSFh3My9GdUw3bUp5REhKRVB0YkU3YUxjem1RUmVFZFFSem0xMGJidW5lR05mUnhMYUFYMXc5V1lpODIzUjU1M3JPa3NJOU1KWm0zSGt2c01EcmJFQlN3OUQzQ2RoY1Q1Ulc0VnUwaW9ZTEtPNnBlVW1kNWRFWkI1cy9LZVNOR005eWxFOXgxVFJiclAwbjVvT2FOYTZDZWlRZExJOEtRNWROY2ZCMkpESHIrTHp1blg5MUtKRnNTRnJyL1JvaEJ3MmdwZXRsMlpJTXNmdnBzbFdVeEgyOVZCVG1lbXBxQWg1WWkzU3pmNnJMcnFGVTRDTnkzU0phSDE5WDR2QVJsQ0Z1SW9xMXAwSTBUSkdvY0s2Y2tHT2ZjZ2hraks0cEdLTTBOZ1hBWWhLWE1QMW4xSVMxUHhhTDA0b2ZsUENlUjRTS3kvL0Q4bEpLNGsyTCtmU0ZkMHJwM1UvSGkwVXdld3VtTmUzRUIxSFpwS0krL29CUjFXdXRpalZjMkpCM2d5Wk5NMEMvc2JsNytvVVVsaDR3dGduYjQxdGhFSUVqRDE2M2hkV01SVzlQZVZZMU9pcWljK2NEQXNYQmZZZmcxNlNLT21QYXh6cHl6VlZoOWxhQ2RJU0dIRXcwVFF3K0xkR1F0TkJMakEyR0tMUGNkZmlnOFcwZExLRDgyOFBtMlBQeURSNVNHNnpVTGxIKzFFK2p2M2JFOUNEYmNBNDQ1WUtRRWl6dE80UHNCU2VrcXNyVjQyeXRpR0Y2cTNqQmpvaFJrTkt1eGhEcGt1ZDcwN01TeSt6VW0rZHVCWDlMYnNRT3dJRFZTcjZTbnNqUXNRK3BsUTkrcUFacDNjazd4UGdXV2UvLzFBemxjVFBHRkxIRWpGMFdmY2pRTXozWkZTNXFQSkVnL2dJUWJRc2djdXh0Q1JLc0ovYUtSL0xOR3BNV1FZVjJQT2FMU0poL3FORVc0QnF2TTlJQklHSXhzQWFKWElqOTlBbjMrbTM3ckRqODV3Z1dMaVVkNGdnQStPWXUvdDM2T0pjelN6eUFNeXBEVFF2WDQ5c3psaEJFUlZncGdVTVQ5MXp2ZFhITEMwdzU2RVdIRUVtM0VWV1lCZERPYW0yejVJWlNtZDBoY011dnkrZE8xekZrUmZSY3g4dkJTUzdxR2oyTG1zVE1EK2RBVFgvbUlySVNjL0dXb0xPSGZ0TkIzRko3aUFySUVBV0NmZVJzT1E2S0VHVHI3U1R0YXphckVQcXhKbXh3NG05YWV0UEJUdERiOW04dkgxd0lIaUVxcjlrSXVTa040R0kvcmMwQ1FMamJGTDVrc1R0cnV6NFI4WEt1c0RPUlZ4WlU1cGlkY3ZPejhaL1V2ZlAzRnNRdWtlUHBnYkdNdjlTVjFNbHhPWUJxa3A4ODgva0VYRGJ1UCtmbmZmTUVjME9WZmtUeWdvWEdkQnRRajhjV21LZmQ3NjVCSE9XTWtmTmpVcDArMjJIUDAwQkMwaWNabnUvbTg4QnJCRjAzTEx6alJ1RittNnZHUDNTN2FmckpHa0pkN0VjSzlBeFllM3pMaE91UFRab0RoakdhQmhRWDhxMnhkdnF5QXVWZVcxS2tMOVZETlB3dWZVdlZsYUQwSENOSzVoVHpoZWIrMVZ6YXkrNytDZDYyODBOaUJ0Z3FsSEhub0E9PSJ9&nad_placement=SR_MAIN&from=searchresults"
+    },
+    {
+      "name": "HOTEL MYSTAYS Sapporo Aspen",
+      "price": "¥23,540",
+      "score": "Scored 8.5 8.5 Very Good 4,451 reviews",
+      "address": "",
+      "distance": "1.2 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__2354000&from=searchresults"
+    },
+    {
+      "name": "HOTEL MYSTAYS Sapporo Nakajima Park",
+      "price": "¥19,060",
+      "score": "Scored 8.2 8.2 Very Good 848 reviews",
+      "address": "",
+      "distance": "2.1 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/kita.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=26424623_392572908_3_2_0&highlighted_blocks=26424623_392572908_3_2_0&matching_block_id=26424623_392572908_3_2_0&sr_pri_blocks=26424623_392572908_3_2_0__1906000&from=searchresults"
+    },
+    {
+      "name": "STAY Moiwayama",
+      "price": "¥10,666",
+      "score": "Scored 8.5 8.5 Very Good 520 reviews",
+      "address": "",
+      "distance": "4.1 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/stayzao-yan-shan.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=567230507_422225441_4_0_0&highlighted_blocks=567230507_422225441_4_0_0&matching_block_id=567230507_422225441_4_0_0&sr_pri_blocks=567230507_422225441_4_0_0__1066600&from=searchresults"
+    }
+  ],
+  "errors": [
+    "networkidle_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Hotels in Sapporo. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity&chal_t=1778510278657&force_referer=",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "webdriver": false,
+    "platform": "Win32",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 15541,
+  "block_signals": [],
+  "property_card_count": 26,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/cloak_family_1room_2026-07-02_Sapporo_Hokkaido_Japan.png",
+  "elapsed_sec": 9.13
+}

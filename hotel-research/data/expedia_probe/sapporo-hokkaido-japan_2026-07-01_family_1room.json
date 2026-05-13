@@ -1,0 +1,18 @@
+{
+  "site": "Expedia",
+  "date": "2026-07-01",
+  "checkout": "2026-07-02",
+  "search": "Sapporo, Hokkaido, Japan",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小(10歲)｜1 room",
+  "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "status": 429,
+  "title": "Bot or Not?",
+  "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "links_found": 0,
+  "hotels_found": 0,
+  "hotels": [],
+  "errors": [],
+  "raw_text_path": "/home/profe/hotel-research/data/expedia_probe/sapporo-hokkaido-japan_2026-07-01_family_1room.txt",
+  "screenshot": "/home/profe/hotel-research/data/expedia_probe/sapporo-hokkaido-japan_2026-07-01_family_1room.png"
+}

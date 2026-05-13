@@ -1,0 +1,94 @@
+[
+  {
+    "site": "Agoda",
+    "hotel": "Fairfield by Marriott Hokkaido Eniwa",
+    "expected": "2026-06-25 to 2026-06-26, Eniwa, 3 adults + 1 child age 10, 1 room",
+    "url": "https://www.agoda.com/search?checkIn=2026-06-25&checkOut=2026-06-26&rooms=1&adults=3&children=1&childages=10&textToSearch=Eniwa%2C+Hokkaido%2C+Japan&selectedproperty=31562792&hotel=31562792&familyMode=on",
+    "title": "Agoda官方網站 | 免費取消方案 & 訂房優惠 | 超過2百萬間住宿隨挑隨選",
+    "finalUrl": "https://www.agoda.com/zh-tw/?cid=1922895&ds=f%2FJyhEf3FOxqT4JS",
+    "screenshot": "C:\\Users\\Jonathan\\Documents\\travel_map\\hotel-research\\reports\\live-spotcheck-2026-05-12\\agoda.png",
+    "priceMatches": [
+      "TWD 1,013.18",
+      "TWD 1,876.65",
+      "TWD 685.32"
+    ],
+    "signals": [
+      "2026",
+      "6月25",
+      "6月26",
+      "2026年6月25",
+      "2026年6月26",
+      "10",
+      "札幌",
+      "login prompt visible"
+    ],
+    "excerpt": "跳至主要內容 機票+住宿搜好房 交通 活動體驗優惠專區eSIM旅遊指南旅遊行程 刊登家中空房 選擇語言 NT$ 選擇您的幣別 A咖登入 我是新朋友 以優惠價格暢遊全世界 住宿 機票 民宿 & 公寓 機票+住宿 活動體驗 機場接送 過夜住宿 日間休息住宿 輸入住宿名稱或關鍵字查詢，使用上下鍵或Tab鍵移動，並按「Enter」來選擇 2026年6月25日 週四 2026年6月26日 週五 3位大人,1位兒童 1間客房 加訂機票 搜出好價 台灣熱門城市 台北市 3,566間住宿 台中市 1,918間住宿 高雄市 1,171間住宿 台南市 1,877間住宿 宜蘭縣 2,548間住宿 嘉義縣 420間住宿 桃園市 436間住宿 花蓮縣 2,584間住宿 住宿優惠 查看全部 機票 & 活動體驗優惠 您可能會喜歡的住宿 推薦精選特色民宿 台北市 台中市 高雄市 台南市 宜蘭縣 看更多台北市住宿 9.7 千尋墨問民宿 QIAN XUN MO WEN B&B 滿分5顆星，住宿獲得4顆星 九份, 台北市 每晚價格（不含稅及其他費用） TWD 1,013.18 8.7 淡水愛遛遛民宿 (Tamsui i66 B&B) 滿分5顆星，住宿獲得4.5顆星 淡水區, 台北市 每晚價格（不含稅及其他費用） TWD 1,876.65 7.9 苓旅萬年-LIN INN Wan Nian 滿分5顆星，住宿獲得3.5顆星 西門町, 台北市 每晚價格（不含稅及其他費用） TWD 685.32 其他熱門城市 東京 12,486間住宿 曼谷 12,048間住宿 胡志明市 15,546間住宿 香港 2,621間住宿 東京 12,486間住宿 吉隆坡 19,902間住宿 首爾 5,945間住宿 河內 10,744間住宿 首爾 5,945間住宿 福岡 2,181間住宿 札幌 2,640間住宿 芭達雅 11,909間住宿 福岡 2,181間住宿 京都 6,987間住宿 沖繩本島 5,564間住宿 曼谷 12,048間住宿 墨爾本 5,189間住宿 名古屋 1,183間住宿 首次App預訂享9折優惠！ 掃QR Code立即省 客服中心 服務中心 常見問題 隱私權政策 Cookie政策 服務條款 數位服務法（歐盟） 內容指南與回報 現代奴役法聲明書 公司 關於我們 職缺情報 新聞報導 旅遊部落格 PointsMAX 目的地 國家/地區 所有航線 成為合作夥伴 YCS夥伴平台 Partner Hub 供應商招募 行銷夥伴 Agoda API文件 行動訂房神器 iOS免費下載 Android免費下載 目的地城市 亞洲 峇里島飯店 萬隆飯店 曼谷飯店 長灘島飯店 釜山飯店 宿霧飯店 清邁飯店 峴港飯店 福岡飯店 河內飯店 合艾飯店 胡志明市飯店 會安飯店 香港飯店 華欣飯店 花蓮飯店 怡保飯店 雅加達飯店 濟州島飯店 新"
+  },
+  {
+    "site": "Booking.com",
+    "hotel": "Folks House",
+    "expected": "2026-06-25 to 2026-06-26, Eniwa, 3 adults + 1 child age 10, 1 room",
+    "url": "https://www.booking.com/hotel/jp/folks-house.html?aid=304142&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&all_sr_blocks=549675901_201741693_4_0_0&highlighted_blocks=549675901_201741693_4_0_0&matching_block_id=549675901_201741693_4_0_0&sr_pri_blocks=549675901_201741693_4_0_0__2000000&from=searchresults",
+    "error": "Page.captureScreenshot returned no data for tab 2039789404."
+  },
+  {
+    "site": "Hotels.com",
+    "hotel": "Sapporo View Hotel Odori Park (report row, expected mismatch)",
+    "expected": "report row under 2026-06-25 Eniwa but URL query is 2026-06-30 to 2026-07-01 Sapporo",
+    "url": "https://www.hotels.com/ho4082678304/?chkin=2026-06-30&chkout=2026-07-01&x_pwa=1&rfrr=HSR&useRewards=false&rm1=a3%3Ac10&regionId=3250&destination=Sapporo%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&sort=RECOMMENDED&top_dp=68&top_cur=USD&selectedRoomType=328504015&selectedRatePlan=409142425&expediaPropertyId=127552447",
+    "title": "Randor Hotel Sapporo Heritage",
+    "finalUrl": "https://www.hotels.com/ho4082678304/?chkin=2026-06-30&chkout=2026-07-01&x_pwa=1&rfrr=HSR&useRewards=false&rm1=a3%3Ac10&regionId=3250&destination=Sapporo%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&sort=RECOMMENDED&top_dp=68&top_cur=USD&selectedRoomType=328504015&selectedRatePlan=409142425&expediaPropertyId=127552447",
+    "screenshot": "C:\\Users\\Jonathan\\Documents\\travel_map\\hotel-research\\reports\\live-spotcheck-2026-05-12\\hotels-com.png",
+    "priceMatches": [],
+    "signals": [
+      "2026",
+      "10",
+      "1 room",
+      "Sapporo",
+      "login prompt visible"
+    ],
+    "excerpt": "Skip to main content Shop travel Open app USD List your property Support Trips Sign in Unlock instant savings with Member Prices Sign in Learn more about One Key Feedback Where to? Dates Tue, Jun 30 - Wed, Jul 1 Travelers 4 travelers, 1 room Search Share Save Photo gallery for Randor Hotel Sapporo Heritage Lobby Exterior Deluxe Twin Room | Free WiFi Lobby Budget Double Room | Bathroom | Combined shower/tub, hair dryer, towels, shampoo 40+ Overview About Prices Policies Aparthotel Randor Hotel Sapporo Heritage 2.0 star property Reviews 9.8 9.8 out of 10 Exceptional See all 8 reviews About this property City-center aparthotel within easy reach of Odori Park Off-street parking available Kitchen Air conditioning Free WiFi Microwave Bathtub See all about this property Explore the area View in a map 424, Sapporo, Hokkaido, 064-0807 View in a map Nakajima Park Place, Nakajima Park ‪5 min walk‬ Tanukikoji Shopping Street Place, Tanukikoji Shopping Street ‪8 min walk‬ Nijo Market Place, Nijo Market ‪9 min walk‬ Sapporo (CTS-New Chitose) Airport, Sapporo (CTS-New Chitose) ‪59 min drive‬ See all about this area Change Search Start date Jun 30 End date Jul 1 Travelers Have a question? Beta Bet"
+  },
+  {
+    "site": "Expedia",
+    "hotel": "Randor Hotel Sapporo Heritage (report row, expected mismatch)",
+    "expected": "report row under 2026-06-25 Eniwa but URL query is 2026-06-28 to 2026-06-29 Otaru",
+    "url": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&selectedRoomType=328504015&selectedRatePlan=409142425",
+    "title": "Randor Hotel Sapporo Heritage",
+    "finalUrl": "https://www.expedia.com/Sapporo-Hotels-Randor-Hotel-Sapporo-Heritage.h127552447.Hotel-Information?chkin=2026-06-28&chkout=2026-06-29&x_pwa=1&rfrr=HSR&useRewards=false&rm1=a3%3Ac10&regionId=6023780&destination=Otaru%2C+Hokkaido+Prefecture%2C+Japan&destType=MARKET&latLong=43.19862%2C140.99678&sort=PRICE_LOW_TO_HIGH&top_dp=68&top_cur=USD&selectedRoomType=328504015&selectedRatePlan=409142425",
+    "screenshot": "C:\\Users\\Jonathan\\Documents\\travel_map\\hotel-research\\reports\\live-spotcheck-2026-05-12\\expedia.png",
+    "priceMatches": [
+      "$59",
+      "$49",
+      "$60",
+      "$62",
+      "$223"
+    ],
+    "signals": [
+      "2026",
+      "10",
+      "1 room",
+      "Sapporo",
+      "Otaru",
+      "login prompt visible"
+    ],
+    "excerpt": "Skip to main content Shop travel Open app USD List your property Support Trips Sign in Unlock instant savings with Member Prices Sign in Learn more about One Key Feedback Where to? Dates Sun, Jun 28 - Mon, Jun 29 Travelers 4 travelers, 1 room Search Share Save Photo gallery for Randor Hotel Sapporo Heritage Lobby Exterior Deluxe Twin Room | Free WiFi Lobby Budget Double Room | Bathroom | Combined shower/tub, hair dryer, towels, shampoo 40+ Overview About Prices Policies Aparthotel Randor Hotel Sapporo Heritage 2.0 star property Reviews 9.8 9.8 out of 10 Exceptional See all 8 reviews Family-friendly highlights for your trip Exceptional service & staff The top-rated staff and service will ensure you feel welcome and pampered. Onsite parking available Convenient and secure onsite parking, a rare amenity in the area. Discover nearby landmarks Walk to Tanukikoji Shopping Street About this property Off-street parking available Kitchen Air conditioning Free WiFi Microwave Bathtub See all about this property Explore the area View in a map 424, Sapporo, Hokkaido, 064-0807 View in a map Nakajima Park Place, Nakajima Park ‪5 min walk‬ Tanukikoji Shopping Street Place, Tanukikoji Shopping Stre"
+  },
+  {
+    "site": "trivago",
+    "hotel": "Minn Chitose",
+    "expected": "2026-06-25 to 2026-06-26, Eniwa-ish, 3 adults + child count encoded as rc-1-3-6, 1 room",
+    "url": "https://www.trivago.com/en-US/lm/hotels-eniwa-japan?search=100-22961628;200-72064;dr-20260625-20260626;rc-1-3-6#::effects=open-sl-deal-0;logNewTab-22961628-0",
+    "title": "trivago - 全球飯店比價",
+    "finalUrl": "https://www.trivago.com/zh-Hant-TW/lm/hotels-eniwa-japan?languageCode=en-US&search=100-22961628;200-72064;dr-20260625-20260626;rc-1-3-6#",
+    "screenshot": "C:\\Users\\Jonathan\\Documents\\travel_map\\hotel-research\\reports\\live-spotcheck-2026-05-12\\trivago.png",
+    "priceMatches": [],
+    "signals": [
+      "2026",
+      "6月25",
+      "6月26",
+      "1 間客房"
+    ],
+    "excerpt": "目的地 入住日期/退房日期 6月25日 - 6月26日 旅客和客房數 4 位旅客，1 間客房 我的最愛 ZH · TWD 進階搜尋 排序方式 價格 地點 評分：8.0+ 佣金如何影響排序 正在載入 展開地圖 系統根據您的所在位置顯示了 www.trivago.com.tw 的優惠。想查看www.trivago.com網站的優惠嗎？ 關閉 Facebook Twitter Instagram Youtube Linkedin Arab World (العالم العربي) Argentina Australia Austria (Österreich) Belgium (België) Brazil (Brasil) Bulgaria (България) Canada Chile Colombia Croatia (Hrvatska) Czechia (Česko) Denmark (Danmark) Ecuador Finland (Suomi) France Germany (Deutschland) Greece (Ελλάδα) Hong Kong (香港) Hungary (Magyarország) India Indonesia Ireland Israel (ישראל) Italy (Italia) Japan (日本) Korea (한국) Malaysia Mexico (México) Netherlands (Nederland) New Zealand Norway (Norge) Peru (Perú) Philippines (Pilipinas) Poland (Polska) Portugal Romania (România) Serbia (Srbija) Singapore Slovakia (Slovensko) Slovenia (Slovenija) South Africa Spain (España) Sweden (Sverige) Switzerland (Schweiz) Taiwan (台灣) Thailand (ประเทศไทย) Turkey (Türkiye) UAE United Kingdom Uruguay USA Vietnam (Việt Nam) 公司 目前職缺 新聞中心 投資人關係 行動裝置 Apps - 隨時隨地的使用 飯店業者專用的 trivago 支援中心 了解 trivago 的運作方式 使用條款 法律資訊 Cookie 偏好 隱私權聲明 DSA 相關資訊 漏洞揭露計畫 歡迎訂閱電子報，為您下次住宿尋找獨特的靈感！ 電子郵件地址 訂閱 trivago N.V., Kesselstraße 5 – 7, 40221 杜賽道夫，德國 2026 trivago | 版權"
+  }
+]

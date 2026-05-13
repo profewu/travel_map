@@ -1,0 +1,57 @@
+{
+  "site": "Expedia",
+  "date": "2026-06-28",
+  "checkout": "2026-06-29",
+  "search": "Otaru, Hokkaido, Japan",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小(10歲)｜1間房",
+  "url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+  "hotels": [
+    {
+      "site": "Expedia",
+      "name": "Theatel Sapporo",
+      "price": "$40",
+      "price_num": 40.0,
+      "currency": "USD",
+      "score": "8.2",
+      "distance": "Reception. Theatel Sapporo",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "The Stay Yuki",
+      "price": "$69",
+      "price_num": 69.0,
+      "currency": "USD",
+      "score": "2.0",
+      "distance": "Otaru",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Randor Hotel Sapporo Heritage",
+      "price": "$70",
+      "price_num": 70.0,
+      "currency": "USD",
+      "score": "9.8",
+      "distance": "Lobby. Randor Hotel Sapporo Heritage",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    },
+    {
+      "site": "Expedia",
+      "name": "Tug-B Bar&Hostel",
+      "price": "$73",
+      "price_num": 73.0,
+      "currency": "USD",
+      "score": "6.0",
+      "distance": "Otaru",
+      "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+    }
+  ],
+  "errors": [],
+  "status": 200,
+  "title": "Otaru, Hokkaido Prefecture, Japan Hotel Search Results",
+  "final_url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option",
+  "body_len": 33875,
+  "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-28.png"
+}

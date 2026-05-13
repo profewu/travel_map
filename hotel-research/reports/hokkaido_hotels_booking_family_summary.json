@@ -1,0 +1,369 @@
+{
+  "site": "Booking.com",
+  "output_html": "/home/profe/hotel-research/reports/hokkaido_hotels_booking_family_combined.html",
+  "output_exists": true,
+  "data_sources_used": [
+    "/home/profe/hotel-research/data/booking_ab/cloak_all.json",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_booking_cloak_only_select.html",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_booking_playwright_vs_cloak.html",
+    "/home/profe/hotel-research/scripts/booking_itinerary_ab.py",
+    "/home/profe/hotel-research/reports/hokkaido_hotels_trivago_family_combined.html"
+  ],
+  "scripts_used_or_created": [
+    "/home/profe/hotel-research/scripts/render_cloak_only_report.py",
+    "/home/profe/hotel-research/scripts/render_booking_family_combined.py"
+  ],
+  "selection_rules_applied": [
+    "有價格優先",
+    "評分/評論數優先",
+    "地點吻合 itinerary 落腳點",
+    "符合 3大1小住宿型態",
+    "1 room 偏家庭/4人房訊號",
+    "2 rooms 偏標準旅館型拆兩房穩妥度",
+    "外圍區域降權",
+    "無法確認 3大1小時標 approximate"
+  ],
+  "approx_nights_by_mode": {
+    "family_1room": [
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ],
+    "family_2rooms": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ]
+  },
+  "validation": {
+    "nights_expected": 8,
+    "nights_found_per_mode": {
+      "family_1room": 8,
+      "family_2rooms": 8
+    },
+    "top5_count_per_night": {
+      "2026-06-25_family_1room": 5,
+      "2026-06-25_family_2rooms": 5,
+      "2026-06-26_family_1room": 5,
+      "2026-06-26_family_2rooms": 5,
+      "2026-06-27_family_1room": 5,
+      "2026-06-27_family_2rooms": 5,
+      "2026-06-28_family_1room": 5,
+      "2026-06-28_family_2rooms": 5,
+      "2026-06-29_family_1room": 5,
+      "2026-06-29_family_2rooms": 5,
+      "2026-06-30_family_1room": 5,
+      "2026-06-30_family_2rooms": 5,
+      "2026-07-01_family_1room": 5,
+      "2026-07-01_family_2rooms": 5,
+      "2026-07-02_family_1room": 5,
+      "2026-07-02_family_2rooms": 5
+    },
+    "all_entries_have_links": true,
+    "all_top5_links_labeled": true,
+    "top5_link_types_per_night": {
+      "2026-06-25_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-25_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-26_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-26_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-27_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-27_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-28_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-28_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-29_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-29_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-30_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-06-30_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-07-01_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-07-01_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-07-02_family_1room": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ],
+      "2026-07-02_family_2rooms": [
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level",
+        "room-level"
+      ]
+    },
+    "used_existing_cloak_json_only": true,
+    "minimal_refetch_performed": false,
+    "price_warning_included": true
+  },
+  "top1_by_night": {
+    "2026-06-25": {
+      "family_1room": {
+        "name": "Folks House",
+        "price": "¥20,000",
+        "score": "Scored 9.7 9.7 Exceptional 90 reviews",
+        "distance": "2.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/folks-house.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=549675901_201741693_4_0_0&highlighted_blocks=549675901_201741693_4_0_0&matching_block_id=549675901_201741693_4_0_0&sr_pri_blocks=549675901_201741693_4_0_0__2000000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 110.25,
+        "approximate": false
+      },
+      "family_2rooms": {
+        "name": "Fairfield by Marriott Hokkaido Eniwa",
+        "price": "¥22,400",
+        "score": "Scored 8.8 8.8 Excellent 416 reviews",
+        "distance": "1.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/fairfield-by-marriott-hokkaido-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtdKH0AbAAgHSAiRlYTliNTRkYS03YWU0LTRkOWItYWYzOC05NzVkOWM4YzFiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=52a9669a52af02bc&srepoch=1778510136&all_sr_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&highlighted_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&matching_block_id=835863602_349030253_0_0_0&sr_pri_blocks=835863602_349030253_0_0_0__1120000%2C835863602_349030253_0_0_0__1120000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 119.47,
+        "approximate": false
+      }
+    },
+    "2026-06-26": {
+      "family_1room": {
+        "name": "Green House",
+        "price": "¥22,500",
+        "score": "Scored 9.8 9.8 Exceptional 105 reviews",
+        "distance": "6.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/green-house-bei-hai-dao-deng-bie-shi-deng-bie-ben-ting-2-26-2.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwNKH0AbAAgHSAiRkZjM2ZDY5My1mZTQxLTRkYWMtYTVkNy0zYmM2YmJiNTQyMWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=059466a0c51112d8&srepoch=1778510147&all_sr_blocks=1277598001_432864964_4_0_0&highlighted_blocks=1277598001_432864964_4_0_0&matching_block_id=1277598001_432864964_4_0_0&sr_pri_blocks=1277598001_432864964_4_0_0__2250000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 107.88,
+        "approximate": false
+      },
+      "family_2rooms": {
+        "name": "Dai-ichi Takimotokan",
+        "price": "¥79,000",
+        "score": "Scored 8.9 8.9 Excellent 3,735 reviews",
+        "distance": "7.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/daiichi-takimotokan.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=58525991_428056088_3_1_0_2755%2C58526023_428056088_1_1_0_2755&highlighted_blocks=58525991_428056088_3_1_0_2755%2C58526023_428056088_1_1_0_2755&matching_block_id=58525991_428056088_3_1_0_2755&sr_pri_blocks=58525991_428056088_3_1_0_2755_5160000%2C58526023_428056088_1_1_0_2755_2740000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 100.5,
+        "approximate": false
+      }
+    },
+    "2026-06-27": {
+      "family_1room": {
+        "name": "The Lake View Toya Nonokaze Resort",
+        "price": "¥154,000",
+        "score": "Scored 8.9 8.9 Excellent 1,307 reviews",
+        "distance": "0.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/the-lake-view-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=44472511_367400025_4_17_0_1385472&highlighted_blocks=44472511_367400025_4_17_0_1385472&matching_block_id=44472511_367400025_4_17_0_1385472&sr_pri_blocks=44472511_367400025_4_17_0_1385472_15400000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 131.39,
+        "approximate": false
+      },
+      "family_2rooms": {
+        "name": "The Lake View Toya Nonokaze Resort",
+        "price": "¥215,600",
+        "score": "Scored 8.9 8.9 Excellent 1,307 reviews",
+        "distance": "0.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/the-lake-view-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuLSh9AGwAIB0gIkNzk5MzI5N2MtOGI3MS00NDI2LWFjNjgtNWNiOTE2MGUzODA52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=92a666b1297a10c4&srepoch=1778510180&all_sr_blocks=44472511_367400025_3_17_0_1385472%2C44472527_367400025_1_17_0_1385472&highlighted_blocks=44472511_367400025_3_17_0_1385472%2C44472527_367400025_1_17_0_1385472&matching_block_id=44472511_367400025_3_17_0_1385472&sr_pri_blocks=44472511_367400025_3_17_0_1385472_11550000%2C44472527_367400025_1_17_0_1385472_10010000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 121.39,
+        "approximate": false
+      }
+    },
+    "2026-06-28": {
+      "family_1room": {
+        "name": "Stay's OTARU",
+        "price": "¥25,413",
+        "score": "Scored 9.2 9.2 Wonderful 1,070 reviews",
+        "distance": "4.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stay-sotaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=529739008_265459577_5_0_0&highlighted_blocks=529739008_265459577_5_0_0&matching_block_id=529739008_265459577_5_0_0&sr_pri_blocks=529739008_265459577_5_0_0__2541250&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 123.92,
+        "approximate": false
+      },
+      "family_2rooms": {
+        "name": "Stay's OTARU",
+        "price": "¥25,413",
+        "score": "Scored 9.2 9.2 Wonderful 1,070 reviews",
+        "distance": "4.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stay-sotaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=529739008_265459577_5_0_0&highlighted_blocks=529739008_265459577_5_0_0&matching_block_id=529739008_265459577_5_0_0&sr_pri_blocks=529739008_265459577_5_0_0__2541250&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 108.92,
+        "approximate": true
+      }
+    },
+    "2026-06-29": {
+      "family_1room": {
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥17,010",
+        "score": "Scored 8.5 8.5 Very Good 4,451 reviews",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKD04fQBsACAdICJDc3OTZiOTRmLTFkMjUtNDYxZS1iYzRmLWM2Y2UwYTRhNzM1NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=744b66c13991024f&srepoch=1778510214&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__1701000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 141.5,
+        "approximate": true
+      },
+      "family_2rooms": {
+        "name": "LAMP LIGHT BOOKS HOTEL sapporo",
+        "price": "¥20,120",
+        "score": "Scored 8.7 8.7 Excellent 3,698 reviews",
+        "distance": "0.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/lamp-light-books-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKP04fQBsACAdICJGY1YjU1NjExLTFkNjMtNDM0MS1hZTZkLTk4NzA0MjVkOTJhM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=5ccb66c7dcd40665&srepoch=1778510226&all_sr_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&highlighted_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&matching_block_id=719481901_307906462_2_0_0&sr_pri_blocks=719481901_307906462_2_0_0__1006020%2C719481901_307906462_2_0_0__1006020&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 139.5,
+        "approximate": false
+      }
+    },
+    "2026-06-30": {
+      "family_1room": {
+        "name": "HOTEL MYSTAYS Sapporo Station",
+        "price": "¥17,010",
+        "score": "Scored 8.6 8.6 Excellent 2,678 reviews",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/best-western-fino-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKa04fQBsACAdICJDllMTNlOTIxLTYzMzItNGFhNS05YjdjLWRjMzQ1MWEwYTAyMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=2c4566cde72a0569&srepoch=1778510238&all_sr_blocks=26036411_378201102_3_2_0&highlighted_blocks=26036411_378201102_3_2_0&matching_block_id=26036411_378201102_3_2_0&sr_pri_blocks=26036411_378201102_3_2_0__1701000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 142.0,
+        "approximate": true
+      },
+      "family_2rooms": {
+        "name": "LAMP LIGHT BOOKS HOTEL sapporo",
+        "price": "¥19,941",
+        "score": "Scored 8.7 8.7 Excellent 3,698 reviews",
+        "distance": "0.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/lamp-light-books-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKl04fQBsACAdICJDU0M2U4ZThkLTJlYmMtNGVkMC04NDdiLWY4MzRjYTZjNGE4N9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=294f66d26f2900f6&srepoch=1778510249&all_sr_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&highlighted_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&matching_block_id=719481901_307906462_2_0_0&sr_pri_blocks=719481901_307906462_2_0_0__997036%2C719481901_307906462_2_0_0__997036&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 139.5,
+        "approximate": false
+      }
+    },
+    "2026-07-01": {
+      "family_1room": {
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥23,540",
+        "score": "Scored 8.5 8.5 Very Good 4,451 reviews",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKx04fQBsACAdICJDFiYmFhNTdiLTUxOWMtNDk4MS1iMDA5LWFjYzgwNGZmZDk5ZtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=60e366d83b1d0e4d&srepoch=1778510261&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__2354000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 141.5,
+        "approximate": true
+      },
+      "family_2rooms": {
+        "name": "Hotel Gracery Sapporo",
+        "price": "¥31,920",
+        "score": "Scored 8.0 8.0 Very Good 1,814 reviews",
+        "distance": "0.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/gracery-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK804fQBsACAdICJGI2ZTMzZDNiLWE3NjAtNDM1ZS05MDlhLTQ3OWMxZGQ3OTcwNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=98f966dda67f0909&srepoch=1778510271&all_sr_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&highlighted_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&matching_block_id=26841588_181579321_2_2_0&sr_pri_blocks=26841588_181579321_2_2_0__1596000%2C26841588_181579321_2_2_0__1596000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 131.12,
+        "approximate": false
+      }
+    },
+    "2026-07-02": {
+      "family_1room": {
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥23,540",
+        "score": "Scored 8.5 8.5 Very Good 4,451 reviews",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__2354000&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 141.5,
+        "approximate": true
+      },
+      "family_2rooms": {
+        "name": "Keio Prelia Hotel Sapporo",
+        "price": "¥37,310",
+        "score": "Scored 8.9 8.9 Excellent 3,118 reviews",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/keio-prelia-hotel-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALS04fQBsACAdICJGEwZGQwYWM0LWNiYmQtNDY1OC1iNzYyLWY0YmZjNGU1MzM1MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=804666e9641703a2&srepoch=1778510294&all_sr_blocks=452179821_383216676_2_2_0%2C452179821_383216676_2_2_0&highlighted_blocks=452179821_383216676_2_2_0%2C452179821_383216676_2_2_0&matching_block_id=452179821_383216676_2_2_0&sr_pri_blocks=452179821_383216676_2_2_0__1865500%2C452179821_383216676_2_2_0__1865500&from_sustainable_property_sr=1&from=searchresults",
+        "link_type": "room-level",
+        "selection_score": 140.5,
+        "approximate": false
+      }
+    }
+  }
+}

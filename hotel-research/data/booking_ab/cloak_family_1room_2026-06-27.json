@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-27",
+  "weekday": "Sat",
+  "label": "6/27 登別、白老、室蘭，夜宿洞爺湖",
+  "location_zh": "洞爺湖",
+  "search": "Lake Toya, Hokkaido, Japan",
+  "note": "夜宿洞爺湖",
+  "mode": "cloak",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+  "occupancy": {
+    "key": "family_1room",
+    "label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "1"
+  },
+  "checkout": "2026-06-28",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Lake+Toya%2C+Hokkaido%2C+Japan&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [
+    {
+      "name": "The Lake View Toya Nonokaze Resort",
+      "price": "¥154,000",
+      "score": "Scored 8.9 8.9 Excellent 1,307 reviews",
+      "address": "",
+      "distance": "0.5 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/the-lake-view-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=44472511_367400025_4_17_0_1385472&highlighted_blocks=44472511_367400025_4_17_0_1385472&matching_block_id=44472511_367400025_4_17_0_1385472&sr_pri_blocks=44472511_367400025_4_17_0_1385472_15400000&from=searchresults"
+    },
+    {
+      "name": "Lake Toya Tsuruga Resort HIKARINOUTA",
+      "price": "¥169,884",
+      "score": "Scored 9.5 9.5 Exceptional 183 reviews",
+      "address": "",
+      "distance": "3.8 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/dong-ye-hu-he-ya-rizoto-guang-noge.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=950849302_388577923_4_17_0&highlighted_blocks=950849302_388577923_4_17_0&matching_block_id=950849302_388577923_4_17_0&sr_pri_blocks=950849302_388577923_4_17_0__16988400&from=searchresults"
+    },
+    {
+      "name": "WE Hotel Toya",
+      "price": "¥145,200",
+      "score": "Scored 8.2 8.2 Very Good 484 reviews",
+      "address": "",
+      "distance": "8.5 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/we-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=331727401_428231533_2_0_0%2C331727401_428231533_2_0_0&highlighted_blocks=331727401_428231533_2_0_0%2C331727401_428231533_2_0_0&matching_block_id=331727401_428231533_2_0_0&sr_pri_blocks=331727401_428231533_2_0_0__7260000%2C331727401_428231533_2_0_0__7260000&from=searchresults"
+    },
+    {
+      "name": "2023 Open 【Lake Toya】IWANKE",
+      "price": "¥100,100",
+      "score": "Scored 7.7 7.7 Good 3 reviews",
+      "address": "",
+      "distance": "2.6 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/2023-open-lake-toya-iwanke.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=1115464201_386973629_5_0_0&highlighted_blocks=1115464201_386973629_5_0_0&matching_block_id=1115464201_386973629_5_0_0&sr_pri_blocks=1115464201_386973629_5_0_0__10010000&from=searchresults"
+    },
+    {
+      "name": "THE BLAUBAUM TOYA",
+      "price": "¥180,700",
+      "score": "Scored 9.5 9.5 Exceptional 43 reviews",
+      "address": "",
+      "distance": "4.8 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/the-blaubaum-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=851539101_386973692_12_0_0&highlighted_blocks=851539101_386973692_12_0_0&matching_block_id=851539101_386973692_12_0_0&sr_pri_blocks=851539101_386973692_12_0_0__18070000&from=searchresults"
+    }
+  ],
+  "errors": [
+    "networkidle_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Hotels in Lake Toya. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html?ss=Lake+Toya%2C+Hokkaido%2C+Japan&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity&chal_t=1778510166315&force_referer=",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "webdriver": false,
+    "platform": "Win32",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 13030,
+  "block_signals": [],
+  "property_card_count": 25,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/cloak_family_1room_2026-06-27_Lake_Toya_Hokkaido_Japan.png",
+  "elapsed_sec": 9.12
+}

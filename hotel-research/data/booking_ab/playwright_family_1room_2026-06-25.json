@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-25",
+  "weekday": "Thu",
+  "label": "6/25 抵達新千歲，惠庭緩衝",
+  "location_zh": "惠庭",
+  "search": "Eniwa, Hokkaido, Japan",
+  "note": "抵達新千歲後在惠庭緩衝",
+  "mode": "playwright",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+  "occupancy": {
+    "key": "family_1room",
+    "label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "1"
+  },
+  "checkout": "2026-06-26",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Eniwa%2C+Hokkaido%2C+Japan&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [],
+  "errors": [
+    "property_card_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Search results. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+    "webdriver": true,
+    "platform": "Linux x86_64",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 1180,
+  "block_signals": [],
+  "property_card_count": 0,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/playwright_family_1room_2026-06-25_Eniwa_Hokkaido_Japan.png",
+  "elapsed_sec": 15.51
+}

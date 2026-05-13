@@ -1,0 +1,39 @@
+destination: Eniwa, Hokkaido, Japan
+checkin: 2026-06-25
+checkout: 2026-06-26
+hotels_found_text: We found 179 hotels from 117 sites
+final_url: https://www.trivago.com/en-US/lm/hotels-eniwa-japan?search=200-72064;dr-20260625-20260626
+
+top_cards:
+- rank: 1
+  name: Fairfield by Marriott Hokkaido Eniwa
+  prices: TWD 4,354
+  sample: 1 / 51 | Popular choice | Add to favorites | Fairfield by Marriott Hokkaido Eniwa | 9.0 | Excellent (703 ratings) | 1.8 km to City center |  | Surrounded by a beautiful flower garden, Shared kitchen for guest use |  | From | TWD 4,354 |  | See prices from 6 sites |  | See prices
+- rank: 2
+  name: IZARI Village
+  prices: N/A
+  sample: 1 / 8 | Add to favorites | IZARI Village | Entire House / Apartment | 8.4 | Very good (98 ratings) | 0.4 km to City center |  | Balcony in select accommodations, Proximity to New Chitose Airport |  | Select dates to see exact prices | See prices
+- rank: 3
+  name: Folks House
+  prices: N/A
+  sample: Add to favorites | Folks House | Entire House / Apartment | 9.5 | Excellent (63 ratings) | 2.3 km to City center | Select dates to see exact prices | See prices
+- rank: 4
+  name: Eniwa - House / Vacation Stay 5059
+  prices: N/A
+  sample: Add to favorites | Eniwa - House / Vacation Stay 5059 | Entire House / Apartment | 9.2 | Excellent (7 ratings) | 2.3 km to City center | Select dates to see exact prices | See prices
+- rank: 5
+  name: Hokkaido Bed & Bagel
+  prices: N/A
+  sample: 1 / 4 | Add to favorites | Hokkaido Bed & Bagel | Entire House / Apartment | / | No rating available  | 2.2 km to City center | Select dates to see exact prices | See prices
+- rank: 6
+  name: Maisonette Izari
+  prices: N/A
+  sample: 1 / 21 | Add to favorites | Maisonette Izari | Entire House / Apartment | / | No rating available  | 0.4 km to City center | Select dates to see exact prices | See prices
+- rank: 7
+  name: Eniwa Station
+  prices: N/A
+  sample: Add to favorites | Eniwa Station | / | No rating available  | 1.2 km to City center | Select dates to see exact prices | See prices
+- rank: 8
+  name: Lodging In A Shopping Street 5min From Sta - Private House Of General Store / Eniwa Hokkaido
+  prices: N/A
+  sample: 1 / 29 | Add to favorites | Lodging In A Shopping Street 5min From Sta - Private House Of General Store / Eniwa Hokkaido | Entire House / Apartment | / | No rating available  | 2.2 km to City center | Select dates to see exact prices | See prices

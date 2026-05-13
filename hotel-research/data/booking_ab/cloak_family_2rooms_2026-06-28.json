@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-28",
+  "weekday": "Sun",
+  "label": "6/28 洞爺湖轉場小樽",
+  "location_zh": "小樽",
+  "search": "Otaru, Hokkaido, Japan",
+  "note": "洞爺湖轉場小樽",
+  "mode": "cloak",
+  "occupancy_key": "family_2rooms",
+  "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+  "occupancy": {
+    "key": "family_2rooms",
+    "label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "2"
+  },
+  "checkout": "2026-06-29",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Otaru%2C+Hokkaido%2C+Japan&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [
+    {
+      "name": "Plum House Otaru",
+      "price": "¥18,143",
+      "score": "Scored 8.5 8.5 Very Good 902 reviews",
+      "address": "",
+      "distance": "4.7 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/plum-house-otaru1.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=214061402_96672298_2_1_0%2C214061402_96672298_2_1_0&highlighted_blocks=214061402_96672298_2_1_0%2C214061402_96672298_2_1_0&matching_block_id=214061402_96672298_2_1_0&sr_pri_blocks=214061402_96672298_2_1_0__907146%2C214061402_96672298_2_1_0__907146&from=searchresults"
+    },
+    {
+      "name": "Stay's OTARU",
+      "price": "¥25,413",
+      "score": "Scored 9.2 9.2 Wonderful 1,070 reviews",
+      "address": "",
+      "distance": "4.4 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/stay-sotaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=529739008_265459577_5_0_0&highlighted_blocks=529739008_265459577_5_0_0&matching_block_id=529739008_265459577_5_0_0&sr_pri_blocks=529739008_265459577_5_0_0__2541250&from=searchresults"
+    },
+    {
+      "name": "menow",
+      "price": "¥15,800",
+      "score": "Scored 8.9 8.9 Excellent 84 reviews",
+      "address": "",
+      "distance": "4.5 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/menow.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=1476295803_419073002_4_0_0&highlighted_blocks=1476295803_419073002_4_0_0&matching_block_id=1476295803_419073002_4_0_0&sr_pri_blocks=1476295803_419073002_4_0_0__1580000&from=searchresults"
+    },
+    {
+      "name": "SecondHouse Otaru Garden",
+      "price": "¥16,065",
+      "score": "Scored 8.7 8.7 Excellent 73 reviews",
+      "address": "",
+      "distance": "4.4 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/secondhouse-otaru-garden.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=1172938901_389826517_4_0_0&highlighted_blocks=1172938901_389826517_4_0_0&matching_block_id=1172938901_389826517_4_0_0&sr_pri_blocks=1172938901_389826517_4_0_0__1606500&from=searchresults"
+    },
+    {
+      "name": "Garden House Umenoya Otaru",
+      "price": "¥18,772",
+      "score": "Scored 8.6 8.6 Excellent 620 reviews",
+      "address": "",
+      "distance": "4.7 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/plum-inn-otaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=419457606_127501499_0_1_0%2C419457609_127501499_0_1_0&highlighted_blocks=419457606_127501499_0_1_0%2C419457609_127501499_0_1_0&matching_block_id=419457606_127501499_0_1_0&sr_pri_blocks=419457606_127501499_0_1_0__928625%2C419457609_127501499_0_1_0__948570&from=searchresults"
+    }
+  ],
+  "errors": [
+    "networkidle_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Search results: Otaru%2C+Hokkaido%2C+Japan. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html?ss=Otaru%2C+Hokkaido%2C+Japan&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity&chal_t=1778510199767&force_referer=",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "webdriver": false,
+    "platform": "Win32",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 14342,
+  "block_signals": [],
+  "property_card_count": 25,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/cloak_family_2rooms_2026-06-28_Otaru_Hokkaido_Japan.png",
+  "elapsed_sec": 9.13
+}

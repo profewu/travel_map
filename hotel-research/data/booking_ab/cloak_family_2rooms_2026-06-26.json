@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-26",
+  "weekday": "Fri",
+  "label": "6/26 惠庭親子活動、支笏湖，進登別",
+  "location_zh": "登別",
+  "search": "Noboribetsu, Hokkaido, Japan",
+  "note": "經支笏湖後入住登別",
+  "mode": "cloak",
+  "occupancy_key": "family_2rooms",
+  "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+  "occupancy": {
+    "key": "family_2rooms",
+    "label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "2"
+  },
+  "checkout": "2026-06-27",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Noboribetsu%2C+Hokkaido%2C+Japan&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [
+    {
+      "name": "Dai-ichi Takimotokan",
+      "price": "¥79,000",
+      "score": "Scored 8.9 8.9 Excellent 3,735 reviews",
+      "address": "",
+      "distance": "7.2 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/daiichi-takimotokan.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=58525991_428056088_3_1_0_2755%2C58526023_428056088_1_1_0_2755&highlighted_blocks=58525991_428056088_3_1_0_2755%2C58526023_428056088_1_1_0_2755&matching_block_id=58525991_428056088_3_1_0_2755&sr_pri_blocks=58525991_428056088_3_1_0_2755_5160000%2C58526023_428056088_1_1_0_2755_2740000&from=searchresults"
+    },
+    {
+      "name": "Green House",
+      "price": "¥22,500",
+      "score": "Scored 9.8 9.8 Exceptional 105 reviews",
+      "address": "",
+      "distance": "6.8 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/green-house-bei-hai-dao-deng-bie-shi-deng-bie-ben-ting-2-26-2.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=1277598001_432864964_4_0_0&highlighted_blocks=1277598001_432864964_4_0_0&matching_block_id=1277598001_432864964_4_0_0&sr_pri_blocks=1277598001_432864964_4_0_0__2250000&from=searchresults"
+    },
+    {
+      "name": "Horomisou",
+      "price": "¥16,200",
+      "score": "Scored 8.5 8.5 Very Good 2 reviews",
+      "address": "",
+      "distance": "4 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/horomisou.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=1620634101_432885723_4_0_0&highlighted_blocks=1620634101_432885723_4_0_0&matching_block_id=1620634101_432885723_4_0_0&sr_pri_blocks=1620634101_432885723_4_0_0__1620000&from=searchresults"
+    },
+    {
+      "name": "NOBORIBETSU no MORI",
+      "price": "¥24,300",
+      "score": "Scored 8.4 8.4 Very Good 84 reviews",
+      "address": "",
+      "distance": "6.2 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/1dong-marumarudai-siqie-ri-noboribetsu-no-mori-noboribetunodu-bei-hai-dao.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=849111201_352125362_4_0_0&highlighted_blocks=849111201_352125362_4_0_0&matching_block_id=849111201_352125362_4_0_0&sr_pri_blocks=849111201_352125362_4_0_0__2430000&from=searchresults"
+    },
+    {
+      "name": "Yumoto Noboribetsu",
+      "price": "¥96,558",
+      "score": "Scored 8.6 8.6 Excellent 314 reviews",
+      "address": "",
+      "distance": "6.9 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/yumoto-noboribetsu.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=25943161_384179499_2_17_0_27483%2C25943165_384179499_2_17_0_27483&highlighted_blocks=25943161_384179499_2_17_0_27483%2C25943165_384179499_2_17_0_27483&matching_block_id=25943161_384179499_2_17_0_27483&sr_pri_blocks=25943161_384179499_2_17_0_27483_4675440%2C25943165_384179499_2_17_0_27483_4980360&from=searchresults"
+    }
+  ],
+  "errors": [
+    "networkidle_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Hotels in Noboribetsu. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html?ss=Noboribetsu%2C+Hokkaido%2C+Japan&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity&chal_t=1778510155266&force_referer=",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "webdriver": false,
+    "platform": "Win32",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 13422,
+  "block_signals": [],
+  "property_card_count": 25,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/cloak_family_2rooms_2026-06-26_Noboribetsu_Hokkaido_Japan.png",
+  "elapsed_sec": 8.81
+}

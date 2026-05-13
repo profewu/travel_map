@@ -1,6 +1,7 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { CsvPlaceSummary } from '../data/csvPlaceSummaries';
+import type { DisasterDataset, DisasterGeoPoint } from '../data/disaster';
 import { aiSuggestedLodgingPlaceByDate } from '../data/lodgingPolicy';
 import type { Place, RouteSegment, TripDay } from '../data/trip';
 import { fetchRouteGeometry } from '../services/routes';
@@ -8,6 +9,7 @@ import { fetchRouteGeometry } from '../services/routes';
 export interface MapController {
   renderDay(day: TripDay): Promise<RouteRenderSummary>;
   renderOverview(days: TripDay[]): OverviewRenderSummary;
+  renderDisaster(dataset: DisasterDataset): DisasterRenderSummary;
 }
 
 export interface RouteRenderSummary {
@@ -31,6 +33,13 @@ export interface OverviewRenderSummary {
   csvMarkers: number;
   lodgingMarkers: number;
   aiSuggestedLodgingPlaceIds: string[];
+}
+
+export interface DisasterRenderSummary {
+  epicenterId: string;
+  intensityCount: number;
+  alertCount: number;
+  affectedPlaceIds: string[];
 }
 
 interface TileLayerConfig {
@@ -197,6 +206,10 @@ const formatPopupText = (value: string): string =>
   escapeHtml(value).replace(/\r?\n/g, '<br>');
 
 const toLatLngTuple = (place: Place): [number, number] => [place.lat, place.lng];
+const toGeoLatLngTuple = (point: DisasterGeoPoint): [number, number] => [
+  point.lat,
+  point.lng,
+];
 
 const createConfiguredTileLayer = (config: TileLayerConfig): L.TileLayer => {
   const { url, ...options } = config;
@@ -240,7 +253,19 @@ export function createTripMap(
 
   const markerLayer = L.layerGroup().addTo(map);
   const routeLayer = L.layerGroup().addTo(map);
+  const disasterLayer = L.layerGroup().addTo(map);
+  const disasterAlertLayer = L.layerGroup().addTo(map);
   let renderSequence = 0;
+
+  function clearStandardLayers(): void {
+    markerLayer.clearLayers();
+    routeLayer.clearLayers();
+  }
+
+  function clearDisasterLayers(): void {
+    disasterLayer.clearLayers();
+    disasterAlertLayer.clearLayers();
+  }
 
   function addPlaceMarker(
     place: Place,
@@ -301,10 +326,116 @@ export function createTripMap(
     marker.on('click', () => onPlaceSelected(place));
   }
 
+  function addEpicenterMarker(dataset: DisasterDataset): void {
+    const marker = L.marker(toGeoLatLngTuple(dataset.epicenter), {
+      title: dataset.epicenter.nameZh,
+      icon: L.divIcon({
+        className: 'disaster-epicenter-marker',
+        html: '<span aria-hidden="true">X</span>',
+        iconSize: [34, 34],
+        iconAnchor: [17, 17],
+      }),
+    })
+      .addTo(disasterLayer)
+      .bindPopup(
+        `<strong>${escapeHtml(dataset.epicenter.nameZh)}</strong><br>M${escapeHtml(
+          String(dataset.epicenter.magnitude),
+        )} / ${escapeHtml(dataset.epicenter.maxIntensityZh)}`,
+      );
+
+    marker.getElement()?.setAttribute('data-disaster-epicenter-id', dataset.epicenter.id);
+  }
+
+  function addIntensityMarkers(dataset: DisasterDataset): void {
+    for (const point of dataset.intensityPoints) {
+      const marker = L.marker(toGeoLatLngTuple(point), {
+        title: `${point.nameZh} ${point.intensityZh}`,
+        icon: L.divIcon({
+          className: `disaster-intensity-marker intensity-${point.intensityClass}`,
+          html: `<span>${escapeHtml(point.intensityZh.replace('震度', ''))}</span>`,
+          iconSize: [28, 28],
+          iconAnchor: [14, 14],
+        }),
+      })
+        .addTo(disasterLayer)
+        .bindPopup(
+          `<strong>${escapeHtml(point.nameZh)}</strong><br>${escapeHtml(
+            point.intensityZh,
+          )}`,
+        );
+
+      marker.getElement()?.setAttribute('data-disaster-intensity-id', point.id);
+    }
+  }
+
+  function addItineraryAlertMarkers(dataset: DisasterDataset): void {
+    for (const alert of dataset.itineraryAlerts) {
+      if (alert.status === 'none') {
+        continue;
+      }
+
+      const marker = L.marker(toGeoLatLngTuple(alert), {
+        title: `${alert.dayLabelZh} ${alert.placeNameZh}`,
+        icon: L.divIcon({
+          className: `disaster-itinerary-alert-marker status-${alert.status}`,
+          html: '<span aria-hidden="true">!</span>',
+          iconSize: [30, 30],
+          iconAnchor: [15, 15],
+        }),
+      })
+        .addTo(disasterAlertLayer)
+        .bindPopup(
+          `<strong>${escapeHtml(alert.dayLabelZh)} ${escapeHtml(
+            alert.placeNameZh,
+          )}</strong><br>${escapeHtml(alert.messageZh)}`,
+        );
+
+      marker.getElement()?.setAttribute('data-disaster-alert-id', alert.id);
+      marker.getElement()?.setAttribute('data-place-id', alert.placeId);
+    }
+  }
+
+  function renderDisaster(dataset: DisasterDataset): DisasterRenderSummary {
+    renderSequence += 1;
+    clearStandardLayers();
+    clearDisasterLayers();
+
+    addEpicenterMarker(dataset);
+    addIntensityMarkers(dataset);
+    addItineraryAlertMarkers(dataset);
+
+    const boundsPoints = [
+      dataset.epicenter,
+      ...dataset.intensityPoints,
+      ...dataset.itineraryAlerts,
+    ].map(toGeoLatLngTuple);
+
+    if (boundsPoints.length > 0) {
+      map.fitBounds(L.latLngBounds(boundsPoints).pad(0.2), {
+        animate: false,
+        maxZoom: 8,
+      });
+    } else {
+      map.setView([42.8, 141.1], 7, { animate: false });
+    }
+
+    map.invalidateSize();
+
+    return {
+      epicenterId: dataset.epicenter.id,
+      intensityCount: dataset.intensityPoints.length,
+      alertCount: dataset.itineraryAlerts.filter((alert) => alert.status !== 'none')
+        .length,
+      affectedPlaceIds: dataset.itineraryAlerts
+        .filter((alert) => alert.status !== 'none')
+        .map((alert) => alert.placeId),
+    };
+  }
+
   async function renderDay(day: TripDay): Promise<RouteRenderSummary> {
     const sequence = ++renderSequence;
-    markerLayer.clearLayers();
-    routeLayer.clearLayers();
+    clearStandardLayers();
+    clearDisasterLayers();
     let routeSummary = emptyRouteSummary;
 
     const placeIds = collectTripDayPlaceIds(day);
@@ -383,8 +514,8 @@ export function createTripMap(
 
   function renderOverview(days: TripDay[]): OverviewRenderSummary {
     renderSequence += 1;
-    markerLayer.clearLayers();
-    routeLayer.clearLayers();
+    clearStandardLayers();
+    clearDisasterLayers();
 
     const overviewMarkers = buildOverviewMarkers({
       days,
@@ -427,5 +558,5 @@ export function createTripMap(
     };
   }
 
-  return { renderDay, renderOverview };
+  return { renderDay, renderOverview, renderDisaster };
 }

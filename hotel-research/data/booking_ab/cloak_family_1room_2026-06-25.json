@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-25",
+  "weekday": "Thu",
+  "label": "6/25 抵達新千歲，惠庭緩衝",
+  "location_zh": "惠庭",
+  "search": "Eniwa, Hokkaido, Japan",
+  "note": "抵達新千歲後在惠庭緩衝",
+  "mode": "cloak",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+  "occupancy": {
+    "key": "family_1room",
+    "label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "1"
+  },
+  "checkout": "2026-06-26",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Eniwa%2C+Hokkaido%2C+Japan&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [
+    {
+      "name": "Fairfield by Marriott Hokkaido Eniwa",
+      "price": "¥22,400",
+      "score": "Scored 8.8 8.8 Excellent 416 reviews",
+      "address": "",
+      "distance": "1.9 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/fairfield-by-marriott-hokkaido-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&highlighted_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&matching_block_id=835863602_349030253_0_0_0&sr_pri_blocks=835863602_349030253_0_0_0__1120000%2C835863602_349030253_0_0_0__1120000&from=searchresults"
+    },
+    {
+      "name": "Folks House",
+      "price": "¥20,000",
+      "score": "Scored 9.7 9.7 Exceptional 90 reviews",
+      "address": "",
+      "distance": "2.3 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/folks-house.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=549675901_201741693_4_0_0&highlighted_blocks=549675901_201741693_4_0_0&matching_block_id=549675901_201741693_4_0_0&sr_pri_blocks=549675901_201741693_4_0_0__2000000&from=searchresults"
+    },
+    {
+      "name": "Koukaso",
+      "price": "¥14,400",
+      "score": "Scored 7.9 7.9 Good 76 reviews",
+      "address": "",
+      "distance": "4.8 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/jiang-hua-zhuang.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=163075304_367712212_4_0_0&highlighted_blocks=163075304_367712212_4_0_0&matching_block_id=163075304_367712212_4_0_0&sr_pri_blocks=163075304_367712212_4_0_0__1440000&from=searchresults"
+    },
+    {
+      "name": "キャンパーズエリア恵庭 TCS Village",
+      "price": "¥31,350",
+      "score": "Scored 7.4 7.4 Good 30 reviews",
+      "address": "",
+      "distance": "7.6 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/kiyanpazueriahui-ting-tcs-village.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=1108489901_383607317_6_0_0&highlighted_blocks=1108489901_383607317_6_0_0&matching_block_id=1108489901_383607317_6_0_0&sr_pri_blocks=1108489901_383607317_6_0_0__3135000&from=searchresults"
+    },
+    {
+      "name": "IZARI Village",
+      "price": "¥19,000",
+      "score": "Scored 8.1 8.1 Very Good 95 reviews",
+      "address": "",
+      "distance": "350 m from downtown",
+      "link": "https://www.booking.com/hotel/jp/guest-house-izari-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=410833802_174560613_4_0_0&highlighted_blocks=410833802_174560613_4_0_0&matching_block_id=410833802_174560613_4_0_0&sr_pri_blocks=410833802_174560613_4_0_0__1900000&from=searchresults"
+    }
+  ],
+  "errors": [
+    "networkidle_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Hotels in Eniwa. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html?ss=Eniwa%2C+Hokkaido%2C+Japan&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity&chal_t=1778510122289&force_referer=",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "webdriver": false,
+    "platform": "Win32",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 13165,
+  "block_signals": [],
+  "property_card_count": 25,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/cloak_family_1room_2026-06-25_Eniwa_Hokkaido_Japan.png",
+  "elapsed_sec": 9.22
+}

@@ -1,0 +1,105 @@
+{
+  "destination": "Noboribetsu, Hokkaido, Japan",
+  "checkin": "2026-06-26",
+  "checkout": "2026-06-27",
+  "adults_requested": 3,
+  "children_requested": [
+    10
+  ],
+  "rooms_requested": 1,
+  "locale": "en-US",
+  "timezone": "Asia/Taipei",
+  "currency_note": "trivago locale/currency is whatever the session renders; child ages are recorded but the current UI automation only applies adult/children count and room count.",
+  "selection": {
+    "destination": "Noboribetsu, Hokkaido, Japan",
+    "suggestion_count": 6,
+    "suggestions": [
+      "Noboribetsu, Hokkaido, Japan\nStays matching your keywords",
+      "Noboribetsu\nCity · Hokkaido, Japan",
+      "Noboribetsu onsen hot spring\nOther Places of Interest · Noboribetsu, Japan",
+      "Sanlaiva Ski Area\nSki Resort · Noboribetsu, Japan",
+      "Noboribetsu cherry blossoms\nNature Spot · Noboribetsu, Japan",
+      "Hotel Mahoroba\nRyokan · Noboribetsu, Japan"
+    ],
+    "search_url": "https://www.trivago.com/en-US/lm/hotels-noboribetsu-japan?search=200-72150;dr-20260519-20260520;qs-Noboribetsu%2C%20Hokkaido%2C%20Japan",
+    "search_title": "Noboribetsu Hotels | Find and compare great deals on trivago"
+  },
+  "guest_configuration": {
+    "before": "2 Guests, 1 Room",
+    "after": "",
+    "current": {
+      "guests": 2,
+      "rooms": 1,
+      "adults": 2,
+      "children": 0
+    },
+    "target": {
+      "adults": 3,
+      "children": 1,
+      "rooms": 1
+    },
+    "plan": [
+      {
+        "button": "adults-amount-plus-button",
+        "clicks": 1
+      },
+      {
+        "button": "children-amount-plus-button",
+        "clicks": 1
+      }
+    ],
+    "child_ages_note": [
+      10
+    ]
+  },
+  "dated_url": "https://www.trivago.com/en-US/lm/hotels-noboribetsu-japan?search=200-72150;dr-20260626-20260627;qs-Noboribetsu, Hokkaido, Japan;rc-1-3-6",
+  "final_url": "https://www.trivago.com/en-US/lm/hotels-noboribetsu-japan?search=200-72150;dr-20260626-20260627;qs-Noboribetsu,%20Hokkaido,%20Japan;rc-1-3-6",
+  "title": "Noboribetsu Hotels | Find and compare great deals on trivago",
+  "search_form_calendar_value": "Select dates",
+  "search_form_guest_value": "4 Guests, 1 Room",
+  "summary_text": "Smart search\nCheck-in/out\nSelect dates\nGuests and rooms\n4 Guests, 1 Room\nDates\nMonths\nMay 2026\nSunday\nSu\nMonday\nMo\nTuesday\nTu\nWednesday\nWe\nThursday\nTh\nFriday\nFr\nSaturday\nSa\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nJune 2026\nSunday\nSu\nMonday\nMo\nTuesday\nTu\nWednesday\nWe\nThursday\nTh\nFriday\nFr\nSaturday\nSa\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nTonight\nTomorrow night\nThis weekend\nNext weekend\nEN · TWD\nSign in\nMenu\nFilters\nSort by\nPrice\nLocation\nHotels\nRating: 8.0+\nNear city center\nHalf board\nBreakfast included\nParking\nNon-smoking rooms\nOpen-air bath\nPay at the property\nSmoking rooms\nPet-friendly\nSpa\nWe found 136 hotels from 117 sites\n\nHow payments to us affect ranking\n\nSign in to save more\nClose\n1 / 97\nPopular choice\nAdd to favorites\nDai-ichi Takimotokan\n8.7\nExcellent (14,142 ratings)\n9.6 km to City center\n\nGrand bath with five spring types, Traditional Japanese room design\n\nFrom\nTWD 4,982\n\nSee prices from 8 sites\n\nSee prices\n1 / 64\nAdd to favorites\nHotel Mahoroba\n8.3\nVery good (9,654 ratings)\n9.4 km to City center\n\nPrime location near Hell Valley, Family-friendly onsen with waterslide\n\nFrom\nTWD 4,216\n\nSee prices from 9 sites\n\nSee prices\n1 / 64\nPopular choice\nAdd to favorites\nNoboribetsu Sekisuitei\n7.4\n(6,766 ratings)\n10.1 km to City center\n\nUnique bingo game entertainment, Relaxing sauna facilities\n\nFrom\nTWD 4,334\n\nSee prices from 7 sites\n\nSee prices\n1 / 51\nAdd to favorites\nNoboribetsu Manseikaku\n7.6\nGood (5,874 ratings)\n9.3 km to City center\n\nTraditional Japanese-style rooms, Invigorating sauna with cold spring\n\nFrom\nTWD 4,968\n\nSee prices from 7 sites\n\nSee prices\n1 / 74\nAdd to favorites\nNoboribetsu Grand Hotel\n8.1\nVery good (5,320 ratings)\n9.3 km to City center\n\nOni Sauna with auto-löyly system, Extensive Hokkaido buffet dining\n\nFrom\nTWD 5,062\n\nSee prices from 8 sites\n\nSee prices\n1 / 27\nPopular choice\nAdd to favorites\nTakinoya\n9.1\nExcellent (1,160 ratings)\n9.5 km to City center\n\nProximity to Hell Valley, Traditional Japanese-Western fusion rooms\n\nSelect dates to see exact prices\nSee prices\n1 / 67\nAdd to favorites\nYumoto Noboribetsu\n8.4\nVery good (1,460 ratings)\n9.3 km to City center\n\nFour distinct hot spring types, Private in-room dining experience\n\nFrom\nTWD 3,808\n\nSee prices from 8 sites\n\nSee prices\n1 / 61\nAdd to favorites\nOyado Kiyomizuya\n8.3\nVery good (2,422 ratings)\n9.7 km to City center\n\nExceptional in-room dining service, Proximity to Noboribetsu attractions\n\nSelect dates to see exact prices\nSee prices\n1 / 43\nPopular choice\nAdd to favorites\nTakinoya Bekkan Tamanoyu\n8.7\nExcellent (1,801 ratings)\n9.4 km to City center\n\nPrime location near Noboribetsu attractions, Authentic milky white sulfur onsen\n\nSelect dates to see exact prices\nSee prices\n1 / 62\nPopular choice\nAdd to favorites\nBourou Noguchi Noboribetsu\n8.7\nExcellent (1,268 ratings)\n10.1 km to City center\n\nPrivate in-room hot spring baths, Exquisite Japanese-Western fusion dining\n\nFrom\nTWD 13,758\n\nSee prices from 7 sites\n\nSee prices\n1 / 72\nAdd to favorites\nKojohama Onsen Hotel\n8.1\nVery good (2,187 ratings)\n10.0 km to City center\n\nOcean-facing upgraded rooms, Natural hot spring baths\n\nFrom\nTWD 4,763\n\nSee prices from 7 sites\n\nSee prices\n1 / 51\nAdd to favorites\nPark Hotel Miyabitei\n8.0\nVery good (4,099 ratings)\n9.7 km to City center\n\nMountain views from rooms, Five distinct natural hot springs\n\nFrom\nTWD 3,718\n\nSee prices from 9 sites\n\nSee prices\n1 / 65\nAdd to favorites\nKashoutei Hanaya\n8.8\nExcellent (2,973 ratings)\n9.1 km to City center\n\nScenic river and garden views, Proximity to Noboribetsu attractions\n\nFrom\nTWD 6,733\n\nSee prices from 6 sites\n\nSee prices\n1 / 39\nAdd to favorites\nAdex Inn\n7.9\nGood (2,677 ratings)\n9.6 km to City center\n\nPrime location near Hell Valley, Alpine-lodge inspired design\n\nFrom\nTWD 3,082\n\nSee prices from 7 sites\n\nSee prices\n1 / 41\nPopular choice\nAdd to favorites\nNoboribetsu Guest House AKA & AO\n8.5\nExcellent (1,586 ratings)\n7.5 km to City center\n\nProximity to Noboribetsu Marine Park Nixe, Delicious local soft serve ice cream\n\nSelect dates to see exact prices\nSee prices\n1 / 21\nAdd to favorites\nKarurusu Onsen Yumoto Orofuresou\n8.5\nExcellent (135 ratings)\n11.8 km to City center\n\nTraditional tatami rooms, Open-air onsen bath\n\nSelect dates to see exact prices\nSee prices\n1 / 51\nAdd to favorites\nRyotei Hanayura\n8.9\nExcellent (2,193 ratings)\n9.6 km to City center\n\nPrime location near Hell Valley, Gender-segregated communal bathhouse\n\nFrom\nTWD 10,679\n\nSee prices from 7 sites\n\nSee prices\n1 / 25\nAdd to favorites\nSanseikan\n8.4\nVery good (158 ratings)\n11.9 km to City center\n\nTraditional Japanese onsen experience, Authentic Japanese futon bedding\n\nSelect dates to see exact prices\nSee prices\n1 / 18\nPopular choice\nAdd to favorites\nKokoronoresort Uminobetti Furukawa\n8.9\nExcellent (60 ratings)\n9.3 km to City center\n\nOcean-view open-air onsen baths, Cozy and beautiful lobby design\n\nSelect dates to see exact prices\nSee prices\nAdd to favorites\nOceanview 貸別荘Hosuikan\n8.4\n",
+  "hotels_found_text": "We found 136 hotels from 117 sites",
+  "cards": [
+    {
+      "rank": 1,
+      "name": "Dai-ichi Takimotokan",
+      "price_matches": [
+        "TWD 4,982"
+      ],
+      "text_sample": "1 / 97\nPopular choice\nAdd to favorites\nDai-ichi Takimotokan\n8.7\nExcellent (14,142 ratings)\n9.6 km to City center\n\nGrand bath with five spring types, Traditional Japanese room design\n\nFrom\nTWD 4,982\n\nSee prices from 8 sites\n\nSee prices"
+    },
+    {
+      "rank": 2,
+      "name": "Hotel Mahoroba",
+      "price_matches": [
+        "TWD 4,216"
+      ],
+      "text_sample": "1 / 64\nAdd to favorites\nHotel Mahoroba\n8.3\nVery good (9,654 ratings)\n9.4 km to City center\n\nPrime location near Hell Valley, Family-friendly onsen with waterslide\n\nFrom\nTWD 4,216\n\nSee prices from 9 sites\n\nSee prices"
+    },
+    {
+      "rank": 3,
+      "name": "Noboribetsu Sekisuitei",
+      "price_matches": [
+        "TWD 4,334"
+      ],
+      "text_sample": "1 / 64\nPopular choice\nAdd to favorites\nNoboribetsu Sekisuitei\n7.4\n(6,766 ratings)\n10.1 km to City center\n\nUnique bingo game entertainment, Relaxing sauna facilities\n\nFrom\nTWD 4,334\n\nSee prices from 7 sites\n\nSee prices"
+    },
+    {
+      "rank": 4,
+      "name": "Noboribetsu Manseikaku",
+      "price_matches": [
+        "TWD 4,968"
+      ],
+      "text_sample": "1 / 51\nAdd to favorites\nNoboribetsu Manseikaku\n7.6\nGood (5,874 ratings)\n9.3 km to City center\n\nTraditional Japanese-style rooms, Invigorating sauna with cold spring\n\nFrom\nTWD 4,968\n\nSee prices from 7 sites\n\nSee prices"
+    },
+    {
+      "rank": 5,
+      "name": "Noboribetsu Grand Hotel",
+      "price_matches": [
+        "TWD 5,062"
+      ],
+      "text_sample": "1 / 74\nAdd to favorites\nNoboribetsu Grand Hotel\n8.1\nVery good (5,320 ratings)\n9.3 km to City center\n\nOni Sauna with auto-löyly system, Extensive Hokkaido buffet dining\n\nFrom\nTWD 5,062\n\nSee prices from 8 sites\n\nSee prices"
+    }
+  ],
+  "card_count": 5
+}

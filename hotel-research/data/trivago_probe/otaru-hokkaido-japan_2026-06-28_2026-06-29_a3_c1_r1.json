@@ -1,0 +1,103 @@
+{
+  "destination": "Otaru, Hokkaido, Japan",
+  "checkin": "2026-06-28",
+  "checkout": "2026-06-29",
+  "adults_requested": 3,
+  "children_requested": [
+    10
+  ],
+  "rooms_requested": 1,
+  "locale": "en-US",
+  "timezone": "Asia/Taipei",
+  "currency_note": "trivago locale/currency is whatever the session renders; child ages are recorded but the current UI automation only applies adult/children count and room count.",
+  "selection": {
+    "destination": "Otaru, Hokkaido, Japan",
+    "suggestion_count": 6,
+    "suggestions": [
+      "Otaru\nCity · Hokkaido, Japan",
+      "Otaru Station\nTrain station · Otaru, Japan",
+      "Asarigawa Hot Spring Ski Area\nSki Resort · Otaru, Japan",
+      "Dormy Inn Premium Otaru\nHotel · Otaru, Japan",
+      "Hotel Sonia Otaru\nHotel · Otaru, Japan",
+      "Otaru, Hokkaido, Japan\nStays matching your keywords"
+    ],
+    "search_url": "https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=200-72163;dr-20260518-20260519",
+    "search_title": "Otaru Hotels | Find and compare great deals on trivago"
+  },
+  "guest_configuration": {
+    "before": "2 Guests, 1 Room",
+    "after": "4 Guests, 1 Room",
+    "current": {
+      "guests": 2,
+      "rooms": 1,
+      "adults": 2,
+      "children": 0
+    },
+    "target": {
+      "adults": 3,
+      "children": 1,
+      "rooms": 1
+    },
+    "plan": [
+      {
+        "button": "adults-amount-plus-button",
+        "clicks": 1
+      },
+      {
+        "button": "children-amount-plus-button",
+        "clicks": 1
+      }
+    ],
+    "child_ages_note": [
+      10
+    ]
+  },
+  "dated_url": "https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=200-72163;dr-20260628-20260629;rc-1-3-6",
+  "final_url": "https://www.trivago.com/en-US/lm/hotels-otaru-japan?search=200-72163;dr-20260628-20260629;rc-1-3-6",
+  "title": "Otaru Hotels | Find and compare great deals on trivago",
+  "search_form_calendar_value": "Select dates",
+  "search_form_guest_value": "4 Guests, 1 Room",
+  "summary_text": "Destination\nCheck-in/out\nSelect dates\nGuests and rooms\n4 Guests, 1 Room\nDates\nMonths\nMay 2026\nSunday\nSu\nMonday\nMo\nTuesday\nTu\nWednesday\nWe\nThursday\nTh\nFriday\nFr\nSaturday\nSa\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\nJune 2026\nSunday\nSu\nMonday\nMo\nTuesday\nTu\nWednesday\nWe\nThursday\nTh\nFriday\nFr\nSaturday\nSa\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\nTonight\nTomorrow night\nThis weekend\nNext weekend\nEN · TWD\nSign in\nMenu\nFilters\nSort by\nPrice\nLocation\nHotels\nRating: 8.0+\nNear city center\nBreakfast included\nParking\nHalf board\nNon-smoking rooms\nOpen-air bath\nSpa\nResort\nPay at the property\nFree cancellation\nWe found 393 hotels from 117 sites\n\nHow payments to us affect ranking\n\nSign in to save more\nClose\n1 / 42\nPopular choice\nAdd to favorites\nDormy Inn Premium Otaru\n8.6\nExcellent (16,185 ratings)\n0.9 km to City center\n\nCustomizable seafood breakfast buffet, Enhanced Bathroom Comforts\n\nFrom\nTWD 2,087\n\nSee prices from 5 sites\n\nSee prices\n1 / 76\nAdd to favorites\nHotel Nord Otaru\n8.4\nVery good (8,223 ratings)\n1.1 km to City center\n\nPrime canal-side location, Hokkaido seafood breakfast buffet\n\nFrom\nTWD 1,916\n\nSee prices from 6 sites\n\nSee prices\n1 / 101\nAdd to favorites\nTabist THE GREEN OTARU\n6.8\n(5,941 ratings)\n0.9 km to City center\n\nAuthentic Japanese public bath, Traditional Japanese and Western rooms\n\nFrom\nTWD 1,836\n\nSee prices from 3 sites\n\nSee prices\n1 / 25\nAdd to favorites\nOtaru Furukawa\n9.1\nExcellent (2,296 ratings)\n1.0 km to City center\n\nConvenient access to Otaru attractions, Thoughtful amenities for comfort\n\nSelect dates to see exact prices\nSee prices\n1 / 101\nAdd to favorites\nOtaru Asari Classe Hotel\n8.0\nVery good (3,217 ratings)\n6.3 km to City center\n\nScenic mountain and ski resort views, Diverse dining experiences\n\nFrom\nTWD 2,032\n\nSee prices from 7 sites\n\nSee prices\n1 / 90\nPopular choice\nAdd to favorites\nGrand Park Otaru\n8.3\nVery good (8,289 ratings)\n2.5 km to City center\n\nDirect access to Wing Bay Otaru, Chapel with bay views\n\nFrom\nTWD 2,143\n\nSee prices from 6 sites\n\nSee prices\n1 / 68\nAdd to favorites\nHotel Torifito Otaru Canal\n8.5\nExcellent (7,779 ratings)\n1.0 km to City center\n\nPrime location near Otaru Canal, Dedicated staff with exceptional service\n\nFrom\nTWD 2,097\n\nSee prices from 5 sites\n\nSee prices\n1 / 80\nAdd to favorites\nHotel Sonia Otaru\n8.1\nVery good (7,003 ratings)\n1.1 km to City center\n\nPrime Otaru Canal frontage, Authentic hot spring bath\n\nFrom\nTWD 2,151\n\nSee prices from 6 sites\n\nSee prices\n1 / 54\nAdd to favorites\nOMO5 Otaru by Hoshino Resorts\n8.3\nVery good (1,700 ratings)\n1.0 km to City center\n\nUnique Otaru breakfast buffet, Prime location near Otaru Canal\n\nFrom\nTWD 3,175\n\nSee prices from 8 sites\n\nSee prices\n1 / 101\nAdd to favorites\nAuthent Hotel Otaru\n8.5\nExcellent (5,324 ratings)\n0.6 km to City center\n\nDiverse dining experiences, Prime location near Otaru Canal\n\nFrom\nTWD 2,262\n\nSee prices from 7 sites\n\nSee prices\n1 / 24\nPopular choice\nAdd to favorites\nLittle Barrel\n8.8\nExcellent (1,409 ratings)\n0.6 km to City center\n\nScenic views of Otaru and the sea, High-quality bedding for deep sleep\n\nSelect dates to see exact prices\nSee prices\n1 / 59\nAdd to favorites\nHotel Neu Schloss Otaru\n8.3\nVery good (2,036 ratings)\n5.3 km to City center\n\nOcean view private open-air baths, Authentic French dining experience\n\nFrom\nTWD 4,686\n\nSee prices from 5 sites\n\nSee prices\n1 / 51\nAdd to favorites\nGrids Premium Hotel Otaru\n8.8\nExcellent (1,851 ratings)\n0.7 km to City center\n\nProximity to Otaru's main attractions, Exceptional breakfast buffet variety\n\nFrom\nTWD 2,573\n\nSee prices from 8 sites\n\nSee prices\n1 / 26\nAdd to favorites\nBlue Hotel NAGI-Adult Only\n7.8\nGood (19 ratings)\n12.5 km to City center\n\nRooms with private balconies, High-quality room service dining\n\nFrom\nTWD 2,638\n\nSee prices from 2 sites\n\nSee prices\n1 / 49\nAdd to favorites\nASARIGAWAONSENHOTEL\n7.9\nGood (255 ratings)\n6.6 km to City center\n\nSoothing onsen baths with sauna, Exceptional dining with local ingredients\n\nSelect dates to see exact prices\nSee prices\n1 / 29\nAdd to favorites\nHotel Atlantis Otaru - Adults Only\n8.1\nVery good (175 ratings)\n16.1 km to City center\n\nPrivate bathrooms with bidet, On-site parking available\n\nFrom\nTWD 970\n\nSee prices from 4 sites\n\nSee prices\n1 / 24\nPopular choice\nAdd to favorites\nHotel Musashitei\n7.3\n(536 ratings)\n6.1 km to City center\n\nRooms with private hot tubs, Exceptional seafood dining experience\n\nSelect dates to see exact prices\nSee prices\n1 / 17\nAdd to favorites\nOtaru Kourakuen\n9.0\nExcellent (188 ratings)\n5.3 km to City center\n\nUnique Maisonette Room Design, Picturesque Garden Setting\n\nSelect dates to see exact prices\nSee prices\n1 / 69\nAdd to favorites\nTabist Kaihorow Otaru\n8.5\nExcellent (688 ratings)\n0.8 km to City center\n\nBeautiful Fusion of Old and New, Well-Equipped Guestrooms\n\nSelect dates to see exact prices\nSee prices\n1 / 74\nAdd to favorites\nRyo An\n8.9\nExcellent (435 ratings)\n0.5 km to City center\n\nAuthentic japanese tatami rooms, Fully eq",
+  "hotels_found_text": "We found 393 hotels from 117 sites",
+  "cards": [
+    {
+      "rank": 1,
+      "name": "Dormy Inn Premium Otaru",
+      "price_matches": [
+        "TWD 2,087"
+      ],
+      "text_sample": "1 / 42\nPopular choice\nAdd to favorites\nDormy Inn Premium Otaru\n8.6\nExcellent (16,185 ratings)\n0.9 km to City center\n\nCustomizable seafood breakfast buffet, Enhanced Bathroom Comforts\n\nFrom\nTWD 2,087\n\nSee prices from 5 sites\n\nSee prices"
+    },
+    {
+      "rank": 2,
+      "name": "Hotel Nord Otaru",
+      "price_matches": [
+        "TWD 1,916"
+      ],
+      "text_sample": "1 / 76\nAdd to favorites\nHotel Nord Otaru\n8.4\nVery good (8,223 ratings)\n1.1 km to City center\n\nPrime canal-side location, Hokkaido seafood breakfast buffet\n\nFrom\nTWD 1,916\n\nSee prices from 6 sites\n\nSee prices"
+    },
+    {
+      "rank": 3,
+      "name": "Tabist THE GREEN OTARU",
+      "price_matches": [
+        "TWD 1,836"
+      ],
+      "text_sample": "1 / 101\nAdd to favorites\nTabist THE GREEN OTARU\n6.8\n(5,941 ratings)\n0.9 km to City center\n\nAuthentic Japanese public bath, Traditional Japanese and Western rooms\n\nFrom\nTWD 1,836\n\nSee prices from 3 sites\n\nSee prices"
+    },
+    {
+      "rank": 4,
+      "name": "Otaru Furukawa",
+      "price_matches": [],
+      "text_sample": "1 / 25\nAdd to favorites\nOtaru Furukawa\n9.1\nExcellent (2,296 ratings)\n1.0 km to City center\n\nConvenient access to Otaru attractions, Thoughtful amenities for comfort\n\nSelect dates to see exact prices\nSee prices"
+    },
+    {
+      "rank": 5,
+      "name": "Otaru Asari Classe Hotel",
+      "price_matches": [
+        "TWD 2,032"
+      ],
+      "text_sample": "1 / 101\nAdd to favorites\nOtaru Asari Classe Hotel\n8.0\nVery good (3,217 ratings)\n6.3 km to City center\n\nScenic mountain and ski resort views, Diverse dining experiences\n\nFrom\nTWD 2,032\n\nSee prices from 7 sites\n\nSee prices"
+    }
+  ],
+  "card_count": 5
+}

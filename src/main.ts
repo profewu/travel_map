@@ -1,11 +1,13 @@
 import './styles.css';
 import { csvPlaceSummariesById } from './data/csvPlaceSummaries';
+import { staticDisasterDataset } from './data/disaster';
 import { lodgingCandidates, places, routeSegments, tripDays } from './data/trip';
 import { fetchWeatherSummary } from './services/weather';
 import { createTripMap } from './ui/map';
 import {
   renderDayButtons,
   renderDetailPanel,
+  renderDisasterPanel,
   renderItineraryTable,
   renderMapOverlay,
   renderOverviewDetailPanel,
@@ -13,6 +15,7 @@ import {
 } from './ui/panels';
 import { clearTravelNotes, loadTravelNotes, saveTravelNotes } from './ui/notes';
 import { buildItineraryTableRows } from './ui/itineraryTable';
+import { isAppMode, topNavigationItems, type AppMode } from './ui/navigation';
 import { buildDayViewModel, getInitialDayId, selectDay } from './ui/state';
 
 function requireElement<T extends HTMLElement>(selector: string): T {
@@ -27,7 +30,41 @@ const app = requireElement<HTMLDivElement>('#app');
 
 let selectedDate = getInitialDayId(tripDays);
 let selectedPlaceId = tripDays[0]?.startPlaceId ?? '';
-let selectedMode: 'overview' | 'route' | 'table' = 'route';
+let selectedMode: AppMode = 'route';
+
+function renderTopNavigation(): string {
+  return topNavigationItems
+    .map((item) => {
+      if (item.kind === 'action') {
+        return `
+          <button type="button" class="mode-tab notes-open-btn" id="notes-open-button">
+            ${item.labelZh}
+          </button>
+        `;
+      }
+
+      if (item.kind === 'external') {
+        return `
+          <a class="mode-tab report-link" href="${item.href}" target="_blank" rel="noreferrer">
+            ${item.labelZh}
+          </a>
+        `;
+      }
+
+      return `
+        <button
+          class="mode-tab ${item.mode === selectedMode ? 'active' : ''}"
+          type="button"
+          data-mode="${item.mode}"
+          data-testid="mode-tab-${item.mode}"
+          aria-pressed="${item.mode === selectedMode ? 'true' : 'false'}"
+        >
+          ${item.labelZh}
+        </button>
+      `;
+    })
+    .join('');
+}
 
 app.innerHTML = `
   <main class="app-shell dashboard-shell">
@@ -40,13 +77,8 @@ app.innerHTML = `
         </div>
       </div>
       <nav class="mode-tabs" aria-label="顯示模式">
-        <button class="mode-tab" type="button" data-mode="overview" aria-pressed="false">總覽</button>
-        <button class="mode-tab active" type="button" data-mode="route" aria-pressed="true">路線</button>
-        <button class="mode-tab" type="button" data-mode="table" aria-pressed="false">表格</button>
+        ${renderTopNavigation()}
       </nav>
-      <div class="topbar-actions" aria-label="旅程工具">
-        <button type="button" class="pill notes-open-btn" id="notes-open-button">筆記</button>
-      </div>
     </header>
     <dialog
       class="notes-dialog"
@@ -74,6 +106,7 @@ app.innerHTML = `
       </section>
       <div id="details"></div>
       <section id="table-page" class="table-page" hidden></section>
+      <section id="disaster-page-root" class="disaster-page-root" hidden></section>
     </div>
   </main>
 `;
@@ -84,6 +117,7 @@ const mapRoot = requireElement<HTMLDivElement>('#map');
 const mapOverlayRoot = requireElement<HTMLDivElement>('#map-overlay');
 const detailsRoot = requireElement<HTMLDivElement>('#details');
 const tableRoot = requireElement<HTMLElement>('#table-page');
+const disasterRoot = requireElement<HTMLElement>('#disaster-page-root');
 const modeTabsRoot = requireElement<HTMLElement>('.mode-tabs');
 const notesOpenButton = requireElement<HTMLButtonElement>('#notes-open-button');
 const notesDialog = requireElement<HTMLDialogElement>('#travel-notes-dialog');
@@ -107,7 +141,7 @@ modeTabsRoot.addEventListener('click', (event) => {
   }
 
   const mode = button.dataset.mode;
-  if (mode === 'overview' || mode === 'route' || mode === 'table') {
+  if (isAppMode(mode)) {
     selectedMode = mode;
     void render();
   }
@@ -143,11 +177,13 @@ function weatherNow(): Date | undefined {
 }
 
 function syncModeTabs(): void {
-  modeTabsRoot.querySelectorAll<HTMLButtonElement>('.mode-tab').forEach((button) => {
-    const isActive = button.dataset.mode === selectedMode;
-    button.classList.toggle('active', isActive);
-    button.setAttribute('aria-pressed', String(isActive));
-  });
+  modeTabsRoot
+    .querySelectorAll<HTMLButtonElement>('.mode-tab[data-mode]')
+    .forEach((button) => {
+      const isActive = button.dataset.mode === selectedMode;
+      button.classList.toggle('active', isActive);
+      button.setAttribute('aria-pressed', String(isActive));
+    });
 }
 
 async function render(): Promise<void> {
@@ -156,13 +192,18 @@ async function render(): Promise<void> {
 
   syncModeTabs();
   const isTableMode = selectedMode === 'table';
+  const isDisasterMode = selectedMode === 'disaster';
   workspaceRoot.classList.toggle('table-mode', isTableMode);
+  workspaceRoot.classList.toggle('disaster-mode', isDisasterMode);
+  app.querySelector('.dashboard-shell')?.classList.toggle('disaster-mode', isDisasterMode);
   tableRoot.hidden = !isTableMode;
+  disasterRoot.hidden = !isDisasterMode;
   mapOverlayRoot.innerHTML = '';
 
   if (isTableMode) {
     daysRoot.innerHTML = '';
     detailsRoot.innerHTML = '';
+    disasterRoot.innerHTML = '';
     tableRoot.innerHTML = renderItineraryTable(
       buildItineraryTableRows({
         days: tripDays,
@@ -172,6 +213,18 @@ async function render(): Promise<void> {
         csvPlaceSummaries: csvPlaceSummariesById,
       }),
     );
+
+    document.documentElement.dataset.selectedPlace = selectedPlaceId;
+    document.documentElement.dataset.mapMode = selectedMode;
+    return;
+  }
+
+  if (isDisasterMode) {
+    daysRoot.innerHTML = '';
+    detailsRoot.innerHTML = '';
+    tableRoot.innerHTML = '';
+    map.renderDisaster(staticDisasterDataset);
+    disasterRoot.innerHTML = renderDisasterPanel(staticDisasterDataset);
 
     document.documentElement.dataset.selectedPlace = selectedPlaceId;
     document.documentElement.dataset.mapMode = selectedMode;

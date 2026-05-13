@@ -1,0 +1,82 @@
+{
+  "date": "2026-06-28",
+  "weekday": "Sun",
+  "label": "6/28 洞爺湖轉場小樽",
+  "location_zh": "小樽",
+  "search": "Otaru, Hokkaido, Japan",
+  "note": "洞爺湖轉場小樽",
+  "mode": "cloak",
+  "occupancy_key": "family_1room",
+  "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+  "occupancy": {
+    "key": "family_1room",
+    "label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "group_adults": "3",
+    "group_children": "1",
+    "children_age": "10",
+    "no_rooms": "1"
+  },
+  "checkout": "2026-06-29",
+  "url_requested": "https://www.booking.com/searchresults.html?ss=Otaru%2C+Hokkaido%2C+Japan&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+  "hotels": [
+    {
+      "name": "Stay's OTARU",
+      "price": "¥25,413",
+      "score": "Scored 9.2 9.2 Wonderful 1,070 reviews",
+      "address": "",
+      "distance": "4.4 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/stay-sotaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=529739008_265459577_5_0_0&highlighted_blocks=529739008_265459577_5_0_0&matching_block_id=529739008_265459577_5_0_0&sr_pri_blocks=529739008_265459577_5_0_0__2541250&from=searchresults"
+    },
+    {
+      "name": "Hotel Nord Otaru",
+      "price": "¥27,640",
+      "score": "Scored 8.5 8.5 Very Good 1,825 reviews",
+      "address": "",
+      "distance": "5.3 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/nord-otaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=27432641_393009592_4_0_0&highlighted_blocks=27432641_393009592_4_0_0&matching_block_id=27432641_393009592_4_0_0&sr_pri_blocks=27432641_393009592_4_0_0__2764000&from=searchresults"
+    },
+    {
+      "name": "menow",
+      "price": "¥15,800",
+      "score": "Scored 8.9 8.9 Excellent 84 reviews",
+      "address": "",
+      "distance": "4.5 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/menow.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=1476295803_419073002_4_0_0&highlighted_blocks=1476295803_419073002_4_0_0&matching_block_id=1476295803_419073002_4_0_0&sr_pri_blocks=1476295803_419073002_4_0_0__1580000&from=searchresults"
+    },
+    {
+      "name": "ALPHABED INN 小樽駅前",
+      "price": "¥24,545",
+      "score": "Scored 8.6 8.6 Excellent 338 reviews",
+      "address": "",
+      "distance": "5.5 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/alphabed-inn-xiao-zun-yi-qian.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=734335702_360527988_4_0_0&highlighted_blocks=734335702_360527988_4_0_0&matching_block_id=734335702_360527988_4_0_0&sr_pri_blocks=734335702_360527988_4_0_0__2454546&from=searchresults"
+    },
+    {
+      "name": "Otaru Geihinkan",
+      "price": "¥29,232",
+      "score": "Scored 9.2 9.2 Wonderful 237 reviews",
+      "address": "",
+      "distance": "10.7 km from downtown",
+      "link": "https://www.booking.com/hotel/jp/otaru-geihinkan.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=70468907_384106828_4_2_0&highlighted_blocks=70468907_384106828_4_2_0&matching_block_id=70468907_384106828_4_2_0&sr_pri_blocks=70468907_384106828_4_2_0__2923200&from=searchresults"
+    }
+  ],
+  "errors": [
+    "networkidle_timeout"
+  ],
+  "response_status": 202,
+  "cookie_clicked": null,
+  "title": "Booking.com: Search results: Otaru%2C+Hokkaido%2C+Japan. Book your hotel now!",
+  "final_url": "https://www.booking.com/searchresults.html?ss=Otaru%2C+Hokkaido%2C+Japan&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity&chal_t=1778510188547&force_referer=",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+    "webdriver": false,
+    "platform": "Win32",
+    "language": "en-US",
+    "timezone": "Asia/Tokyo"
+  },
+  "body_text_len": 13655,
+  "block_signals": [],
+  "property_card_count": 25,
+  "screenshot": "/home/profe/hotel-research/data/booking_ab/cloak_family_1room_2026-06-28_Otaru_Hokkaido_Japan.png",
+  "elapsed_sec": 9.15
+}

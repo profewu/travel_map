@@ -1,0 +1,2066 @@
+[
+  {
+    "site": "Booking.com",
+    "date": "2026-06-25",
+    "checkout": "2026-06-26",
+    "search": "Eniwa, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Eniwa%2C+Hokkaido%2C+Japan&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Fairfield by Marriott Hokkaido Eniwa",
+        "price": "¥22,400",
+        "price_num": 22400.0,
+        "currency": "JPY",
+        "score": "8.8",
+        "distance": "1.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/fairfield-by-marriott-hokkaido-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&highlighted_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&matching_block_id=835863602_349030253_0_0_0&sr_pri_blocks=835863602_349030253_0_0_0__1120000%2C835863602_349030253_0_0_0__1120000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Folks House",
+        "price": "¥20,000",
+        "price_num": 20000.0,
+        "currency": "JPY",
+        "score": "9.7",
+        "distance": "2.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/folks-house.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=549675901_201741693_4_0_0&highlighted_blocks=549675901_201741693_4_0_0&matching_block_id=549675901_201741693_4_0_0&sr_pri_blocks=549675901_201741693_4_0_0__2000000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Koukaso",
+        "price": "¥14,400",
+        "price_num": 14400.0,
+        "currency": "JPY",
+        "score": "7.9",
+        "distance": "4.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/jiang-hua-zhuang.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=163075304_367712212_4_0_0&highlighted_blocks=163075304_367712212_4_0_0&matching_block_id=163075304_367712212_4_0_0&sr_pri_blocks=163075304_367712212_4_0_0__1440000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "キャンパーズエリア恵庭 TCS Village",
+        "price": "¥31,350",
+        "price_num": 31350.0,
+        "currency": "JPY",
+        "score": "7.4",
+        "distance": "7.6 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/kiyanpazueriahui-ting-tcs-village.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=1108489901_383607317_6_0_0&highlighted_blocks=1108489901_383607317_6_0_0&matching_block_id=1108489901_383607317_6_0_0&sr_pri_blocks=1108489901_383607317_6_0_0__3135000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "IZARI Village",
+        "price": "¥19,000",
+        "price_num": 19000.0,
+        "currency": "JPY",
+        "score": "8.1",
+        "distance": "350 m from downtown",
+        "link": "https://www.booking.com/hotel/jp/guest-house-izari-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCqtKH0AbAAgHSAiRlMjc4MjVmMS02YTRkLTQxYjQtOGY4Yi0xOTIwMTY3YTA5ZTLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=f15066950761055d&srepoch=1778510126&all_sr_blocks=410833802_174560613_4_0_0&highlighted_blocks=410833802_174560613_4_0_0&matching_block_id=410833802_174560613_4_0_0&sr_pri_blocks=410833802_174560613_4_0_0__1900000&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-25",
+    "checkout": "2026-06-26",
+    "search": "Eniwa, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Eniwa%2C+Hokkaido%2C+Japan&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Fairfield by Marriott Hokkaido Eniwa",
+        "price": "¥22,400",
+        "price_num": 22400.0,
+        "currency": "JPY",
+        "score": "8.8",
+        "distance": "1.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/fairfield-by-marriott-hokkaido-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtdKH0AbAAgHSAiRlYTliNTRkYS03YWU0LTRkOWItYWYzOC05NzVkOWM4YzFiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=52a9669a52af02bc&srepoch=1778510136&all_sr_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&highlighted_blocks=835863602_349030253_0_0_0%2C835863602_349030253_0_0_0&matching_block_id=835863602_349030253_0_0_0&sr_pri_blocks=835863602_349030253_0_0_0__1120000%2C835863602_349030253_0_0_0__1120000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Folks House",
+        "price": "¥20,000",
+        "price_num": 20000.0,
+        "currency": "JPY",
+        "score": "9.7",
+        "distance": "2.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/folks-house.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtdKH0AbAAgHSAiRlYTliNTRkYS03YWU0LTRkOWItYWYzOC05NzVkOWM4YzFiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=52a9669a52af02bc&srepoch=1778510136&all_sr_blocks=549675901_201741693_4_0_0&highlighted_blocks=549675901_201741693_4_0_0&matching_block_id=549675901_201741693_4_0_0&sr_pri_blocks=549675901_201741693_4_0_0__2000000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Koukaso",
+        "price": "¥18,400",
+        "price_num": 18400.0,
+        "currency": "JPY",
+        "score": "7.9",
+        "distance": "4.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/jiang-hua-zhuang.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtdKH0AbAAgHSAiRlYTliNTRkYS03YWU0LTRkOWItYWYzOC05NzVkOWM4YzFiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=52a9669a52af02bc&srepoch=1778510136&all_sr_blocks=163075304_367712212_3_0_0%2C163075302_367712212_1_0_0&highlighted_blocks=163075304_367712212_3_0_0%2C163075302_367712212_1_0_0&matching_block_id=163075304_367712212_3_0_0&sr_pri_blocks=163075304_367712212_3_0_0__1230000%2C163075302_367712212_1_0_0__610000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "IZARI Village",
+        "price": "¥19,000",
+        "price_num": 19000.0,
+        "currency": "JPY",
+        "score": "8.1",
+        "distance": "350 m from downtown",
+        "link": "https://www.booking.com/hotel/jp/guest-house-izari-eniwa.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtdKH0AbAAgHSAiRlYTliNTRkYS03YWU0LTRkOWItYWYzOC05NzVkOWM4YzFiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=52a9669a52af02bc&srepoch=1778510136&all_sr_blocks=410833802_174560613_4_0_0&highlighted_blocks=410833802_174560613_4_0_0&matching_block_id=410833802_174560613_4_0_0&sr_pri_blocks=410833802_174560613_4_0_0__1900000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "キャンパーズエリア恵庭 TCS Village",
+        "price": "¥47,025",
+        "price_num": 47025.0,
+        "currency": "JPY",
+        "score": "7.4",
+        "distance": "7.6 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/kiyanpazueriahui-ting-tcs-village.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9lbml3YSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCtdKH0AbAAgHSAiRlYTliNTRkYS03YWU0LTRkOWItYWYzOC05NzVkOWM4YzFiNzTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-25&checkout=2026-06-26&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=52a9669a52af02bc&srepoch=1778510136&all_sr_blocks=1108489903_383607317_3_0_0%2C1108489902_383607317_2_0_0&highlighted_blocks=1108489903_383607317_3_0_0%2C1108489902_383607317_2_0_0&matching_block_id=1108489903_383607317_3_0_0&sr_pri_blocks=1108489903_383607317_3_0_0__2612500%2C1108489902_383607317_2_0_0__2090000&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-26",
+    "checkout": "2026-06-27",
+    "search": "Noboribetsu, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Noboribetsu%2C+Hokkaido%2C+Japan&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Dai-ichi Takimotokan",
+        "price": "¥60,800",
+        "price_num": 60800.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "7.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/daiichi-takimotokan.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwNKH0AbAAgHSAiRkZjM2ZDY5My1mZTQxLTRkYWMtYTVkNy0zYmM2YmJiNTQyMWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=059466a0c51112d8&srepoch=1778510147&all_sr_blocks=58525991_428056088_4_1_0_2755&highlighted_blocks=58525991_428056088_4_1_0_2755&matching_block_id=58525991_428056088_4_1_0_2755&sr_pri_blocks=58525991_428056088_4_1_0_2755_6080000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "MIMIKKO - Vacation STAY 71236v",
+        "price": "¥46,342",
+        "price_num": 46342.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "7.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/mimikko-vacation-stay-71236v.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwNKH0AbAAgHSAiRkZjM2ZDY5My1mZTQxLTRkYWMtYTVkNy0zYmM2YmJiNTQyMWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=059466a0c51112d8&srepoch=1778510147&all_sr_blocks=1510069301_423152918_4_0_0&highlighted_blocks=1510069301_423152918_4_0_0&matching_block_id=1510069301_423152918_4_0_0&sr_pri_blocks=1510069301_423152918_4_0_0__4634200&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Green House",
+        "price": "¥22,500",
+        "price_num": 22500.0,
+        "currency": "JPY",
+        "score": "9.8",
+        "distance": "6.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/green-house-bei-hai-dao-deng-bie-shi-deng-bie-ben-ting-2-26-2.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwNKH0AbAAgHSAiRkZjM2ZDY5My1mZTQxLTRkYWMtYTVkNy0zYmM2YmJiNTQyMWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=059466a0c51112d8&srepoch=1778510147&all_sr_blocks=1277598001_432864964_4_0_0&highlighted_blocks=1277598001_432864964_4_0_0&matching_block_id=1277598001_432864964_4_0_0&sr_pri_blocks=1277598001_432864964_4_0_0__2250000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Park Hotel Miyabitei",
+        "price": "¥50,600",
+        "price_num": 50600.0,
+        "currency": "JPY",
+        "score": "8.0",
+        "distance": "7.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/park-hotel-miyabitei.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwNKH0AbAAgHSAiRkZjM2ZDY5My1mZTQxLTRkYWMtYTVkNy0zYmM2YmJiNTQyMWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=059466a0c51112d8&srepoch=1778510147&all_sr_blocks=201596622_423345200_4_1_0_5046&highlighted_blocks=201596622_423345200_4_1_0_5046&matching_block_id=201596622_423345200_4_1_0_5046&sr_pri_blocks=201596622_423345200_4_1_0_5046_5060000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Horomisou",
+        "price": "¥16,200",
+        "price_num": 16200.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/horomisou.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCwNKH0AbAAgHSAiRkZjM2ZDY5My1mZTQxLTRkYWMtYTVkNy0zYmM2YmJiNTQyMWLYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=059466a0c51112d8&srepoch=1778510147&all_sr_blocks=1620634101_432885723_4_0_0&highlighted_blocks=1620634101_432885723_4_0_0&matching_block_id=1620634101_432885723_4_0_0&sr_pri_blocks=1620634101_432885723_4_0_0__1620000&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-26",
+    "checkout": "2026-06-27",
+    "search": "Noboribetsu, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Noboribetsu%2C+Hokkaido%2C+Japan&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Dai-ichi Takimotokan",
+        "price": "¥79,000",
+        "price_num": 79000.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "7.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/daiichi-takimotokan.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=58525991_428056088_3_1_0_2755%2C58526023_428056088_1_1_0_2755&highlighted_blocks=58525991_428056088_3_1_0_2755%2C58526023_428056088_1_1_0_2755&matching_block_id=58525991_428056088_3_1_0_2755&sr_pri_blocks=58525991_428056088_3_1_0_2755_5160000%2C58526023_428056088_1_1_0_2755_2740000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Green House",
+        "price": "¥22,500",
+        "price_num": 22500.0,
+        "currency": "JPY",
+        "score": "9.8",
+        "distance": "6.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/green-house-bei-hai-dao-deng-bie-shi-deng-bie-ben-ting-2-26-2.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=1277598001_432864964_4_0_0&highlighted_blocks=1277598001_432864964_4_0_0&matching_block_id=1277598001_432864964_4_0_0&sr_pri_blocks=1277598001_432864964_4_0_0__2250000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Horomisou",
+        "price": "¥16,200",
+        "price_num": 16200.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/horomisou.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=1620634101_432885723_4_0_0&highlighted_blocks=1620634101_432885723_4_0_0&matching_block_id=1620634101_432885723_4_0_0&sr_pri_blocks=1620634101_432885723_4_0_0__1620000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "NOBORIBETSU no MORI",
+        "price": "¥24,300",
+        "price_num": 24300.0,
+        "currency": "JPY",
+        "score": "8.4",
+        "distance": "6.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/1dong-marumarudai-siqie-ri-noboribetsu-no-mori-noboribetunodu-bei-hai-dao.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=849111201_352125362_4_0_0&highlighted_blocks=849111201_352125362_4_0_0&matching_block_id=849111201_352125362_4_0_0&sr_pri_blocks=849111201_352125362_4_0_0__2430000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Yumoto Noboribetsu",
+        "price": "¥96,558",
+        "price_num": 96558.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "6.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/yumoto-noboribetsu.html?aid=304142&label=gen173nr-10CAQoggJCI3NlYXJjaF9ub2JvcmliZXRzdSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCy9KH0AbAAgHSAiRhZThlYTliZS1iZTEwLTRjYTgtOWNhZC0yZjZlZTA3MTdmZTDYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-26&checkout=2026-06-27&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=f9b966a5ab30066a&srepoch=1778510159&all_sr_blocks=25943161_384179499_2_17_0_27483%2C25943165_384179499_2_17_0_27483&highlighted_blocks=25943161_384179499_2_17_0_27483%2C25943165_384179499_2_17_0_27483&matching_block_id=25943161_384179499_2_17_0_27483&sr_pri_blocks=25943161_384179499_2_17_0_27483_4675440%2C25943165_384179499_2_17_0_27483_4980360&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-27",
+    "checkout": "2026-06-28",
+    "search": "Lake Toya, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Lake+Toya%2C+Hokkaido%2C+Japan&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "The Lake View Toya Nonokaze Resort",
+        "price": "¥154,000",
+        "price_num": 154000.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "0.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/the-lake-view-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=44472511_367400025_4_17_0_1385472&highlighted_blocks=44472511_367400025_4_17_0_1385472&matching_block_id=44472511_367400025_4_17_0_1385472&sr_pri_blocks=44472511_367400025_4_17_0_1385472_15400000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Lake Toya Tsuruga Resort HIKARINOUTA",
+        "price": "¥169,884",
+        "price_num": 169884.0,
+        "currency": "JPY",
+        "score": "9.5",
+        "distance": "3.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/dong-ye-hu-he-ya-rizoto-guang-noge.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=950849302_388577923_4_17_0&highlighted_blocks=950849302_388577923_4_17_0&matching_block_id=950849302_388577923_4_17_0&sr_pri_blocks=950849302_388577923_4_17_0__16988400&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "WE Hotel Toya",
+        "price": "¥145,200",
+        "price_num": 145200.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "8.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/we-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=331727401_428231533_2_0_0%2C331727401_428231533_2_0_0&highlighted_blocks=331727401_428231533_2_0_0%2C331727401_428231533_2_0_0&matching_block_id=331727401_428231533_2_0_0&sr_pri_blocks=331727401_428231533_2_0_0__7260000%2C331727401_428231533_2_0_0__7260000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "2023 Open 【Lake Toya】IWANKE",
+        "price": "¥100,100",
+        "price_num": 100100.0,
+        "currency": "JPY",
+        "score": "7.7",
+        "distance": "2.6 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/2023-open-lake-toya-iwanke.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=1115464201_386973629_5_0_0&highlighted_blocks=1115464201_386973629_5_0_0&matching_block_id=1115464201_386973629_5_0_0&sr_pri_blocks=1115464201_386973629_5_0_0__10010000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "THE BLAUBAUM TOYA",
+        "price": "¥180,700",
+        "price_num": 180700.0,
+        "currency": "JPY",
+        "score": "9.5",
+        "distance": "4.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/the-blaubaum-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AtbSh9AGwAIB0gIkY2QzYTc0NTAtNGRjMS00ZDdiLWEzZGYtY2VjYmU2NDgxYzY52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=f4b966aba34f0e4d&srepoch=1778510169&all_sr_blocks=851539101_386973692_12_0_0&highlighted_blocks=851539101_386973692_12_0_0&matching_block_id=851539101_386973692_12_0_0&sr_pri_blocks=851539101_386973692_12_0_0__18070000&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-27",
+    "checkout": "2026-06-28",
+    "search": "Lake Toya, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Lake+Toya%2C+Hokkaido%2C+Japan&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "The Lake View Toya Nonokaze Resort",
+        "price": "¥215,600",
+        "price_num": 215600.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "0.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/the-lake-view-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuLSh9AGwAIB0gIkNzk5MzI5N2MtOGI3MS00NDI2LWFjNjgtNWNiOTE2MGUzODA52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=92a666b1297a10c4&srepoch=1778510180&all_sr_blocks=44472511_367400025_3_17_0_1385472%2C44472527_367400025_1_17_0_1385472&highlighted_blocks=44472511_367400025_3_17_0_1385472%2C44472527_367400025_1_17_0_1385472&matching_block_id=44472511_367400025_3_17_0_1385472&sr_pri_blocks=44472511_367400025_3_17_0_1385472_11550000%2C44472527_367400025_1_17_0_1385472_10010000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "WE Hotel Toya",
+        "price": "¥145,200",
+        "price_num": 145200.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "8.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/we-toya.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuLSh9AGwAIB0gIkNzk5MzI5N2MtOGI3MS00NDI2LWFjNjgtNWNiOTE2MGUzODA52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=92a666b1297a10c4&srepoch=1778510180&all_sr_blocks=331727401_428231533_2_0_0%2C331727401_428231533_2_0_0&highlighted_blocks=331727401_428231533_2_0_0%2C331727401_428231533_2_0_0&matching_block_id=331727401_428231533_2_0_0&sr_pri_blocks=331727401_428231533_2_0_0__7260000%2C331727401_428231533_2_0_0__7260000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "The Windsor Hotel TOYA Vignette Collection",
+        "price": "¥145,110",
+        "price_num": 145110.0,
+        "currency": "JPY",
+        "score": "8.4",
+        "distance": "5.6 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/the-windsor-toya-resort-spa.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuLSh9AGwAIB0gIkNzk5MzI5N2MtOGI3MS00NDI2LWFjNjgtNWNiOTE2MGUzODA52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=92a666b1297a10c4&srepoch=1778510180&all_sr_blocks=29345580_411987864_2_34_0%2C29345580_411987864_2_34_0&highlighted_blocks=29345580_411987864_2_34_0%2C29345580_411987864_2_34_0&matching_block_id=29345580_411987864_2_34_0&sr_pri_blocks=29345580_411987864_2_34_0__7255500%2C29345580_411987864_2_34_0__7255500&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Guest House Matsuyoshi",
+        "price": "¥50,400",
+        "price_num": 50400.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "4.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/gesutohaususong-yosi.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuLSh9AGwAIB0gIkNzk5MzI5N2MtOGI3MS00NDI2LWFjNjgtNWNiOTE2MGUzODA52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=92a666b1297a10c4&srepoch=1778510180&all_sr_blocks=923729102_377470719_6_0_0_88904&highlighted_blocks=923729102_377470719_6_0_0_88904&matching_block_id=923729102_377470719_6_0_0_88904&sr_pri_blocks=923729102_377470719_6_0_0_88904_5040000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Lake Toya Tsuruga Resort HIKARINOUTA",
+        "price": "¥217,800",
+        "price_num": 217800.0,
+        "currency": "JPY",
+        "score": "9.5",
+        "distance": "3.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/dong-ye-hu-he-ya-rizoto-guang-noge.html?aid=304142&label=gen173nr-10CAQoggJCIXNlYXJjaF9sYWtlIHRveWEsIGhva2thaWRvLCBqYXBhbkgxWARo5wGIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuLSh9AGwAIB0gIkNzk5MzI5N2MtOGI3MS00NDI2LWFjNjgtNWNiOTE2MGUzODA52AIB4AIB&ucfs=1&arphpl=1&checkin=2026-06-27&checkout=2026-06-28&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=92a666b1297a10c4&srepoch=1778510180&all_sr_blocks=950849302_388577923_2_17_0%2C950849303_388577923_2_17_0&highlighted_blocks=950849302_388577923_2_17_0%2C950849303_388577923_2_17_0&matching_block_id=950849302_388577923_2_17_0&sr_pri_blocks=950849302_388577923_2_17_0__9583200%2C950849303_388577923_2_17_0__12196800&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-28",
+    "checkout": "2026-06-29",
+    "search": "Otaru, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Otaru%2C+Hokkaido%2C+Japan&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Stay's OTARU",
+        "price": "¥25,413",
+        "price_num": 25413.0,
+        "currency": "JPY",
+        "score": "9.2",
+        "distance": "4.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stay-sotaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=529739008_265459577_5_0_0&highlighted_blocks=529739008_265459577_5_0_0&matching_block_id=529739008_265459577_5_0_0&sr_pri_blocks=529739008_265459577_5_0_0__2541250&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Hotel Nord Otaru",
+        "price": "¥27,640",
+        "price_num": 27640.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "5.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/nord-otaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=27432641_393009592_4_0_0&highlighted_blocks=27432641_393009592_4_0_0&matching_block_id=27432641_393009592_4_0_0&sr_pri_blocks=27432641_393009592_4_0_0__2764000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "menow",
+        "price": "¥15,800",
+        "price_num": 15800.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "4.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/menow.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=1476295803_419073002_4_0_0&highlighted_blocks=1476295803_419073002_4_0_0&matching_block_id=1476295803_419073002_4_0_0&sr_pri_blocks=1476295803_419073002_4_0_0__1580000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "ALPHABED INN 小樽駅前",
+        "price": "¥24,545",
+        "price_num": 24545.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "5.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/alphabed-inn-xiao-zun-yi-qian.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=734335702_360527988_4_0_0&highlighted_blocks=734335702_360527988_4_0_0&matching_block_id=734335702_360527988_4_0_0&sr_pri_blocks=734335702_360527988_4_0_0__2454546&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Otaru Geihinkan",
+        "price": "¥29,232",
+        "price_num": 29232.0,
+        "currency": "JPY",
+        "score": "9.2",
+        "distance": "10.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/otaru-geihinkan.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC7dKH0AbAAgHSAiQ0Mzk4YmZjOS00MjZiLTQ0NTYtYTBjOS0xZTc5NzBhNTMyMjXYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=430066b6dba40402&srepoch=1778510192&all_sr_blocks=70468907_384106828_4_2_0&highlighted_blocks=70468907_384106828_4_2_0&matching_block_id=70468907_384106828_4_2_0&sr_pri_blocks=70468907_384106828_4_2_0__2923200&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-28",
+    "checkout": "2026-06-29",
+    "search": "Otaru, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Otaru%2C+Hokkaido%2C+Japan&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Plum House Otaru",
+        "price": "¥18,143",
+        "price_num": 18143.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/plum-house-otaru1.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=214061402_96672298_2_1_0%2C214061402_96672298_2_1_0&highlighted_blocks=214061402_96672298_2_1_0%2C214061402_96672298_2_1_0&matching_block_id=214061402_96672298_2_1_0&sr_pri_blocks=214061402_96672298_2_1_0__907146%2C214061402_96672298_2_1_0__907146&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Stay's OTARU",
+        "price": "¥25,413",
+        "price_num": 25413.0,
+        "currency": "JPY",
+        "score": "9.2",
+        "distance": "4.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stay-sotaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=529739008_265459577_5_0_0&highlighted_blocks=529739008_265459577_5_0_0&matching_block_id=529739008_265459577_5_0_0&sr_pri_blocks=529739008_265459577_5_0_0__2541250&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "menow",
+        "price": "¥15,800",
+        "price_num": 15800.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "4.5 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/menow.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=1476295803_419073002_4_0_0&highlighted_blocks=1476295803_419073002_4_0_0&matching_block_id=1476295803_419073002_4_0_0&sr_pri_blocks=1476295803_419073002_4_0_0__1580000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "SecondHouse Otaru Garden",
+        "price": "¥16,065",
+        "price_num": 16065.0,
+        "currency": "JPY",
+        "score": "8.7",
+        "distance": "4.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/secondhouse-otaru-garden.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=1172938901_389826517_4_0_0&highlighted_blocks=1172938901_389826517_4_0_0&matching_block_id=1172938901_389826517_4_0_0&sr_pri_blocks=1172938901_389826517_4_0_0__1606500&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Garden House Umenoya Otaru",
+        "price": "¥18,772",
+        "price_num": 18772.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "4.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/plum-inn-otaru.html?aid=304142&label=gen173nr-10CAQoggJCHXNlYXJjaF9vdGFydSwgaG9ra2FpZG8sIGphcGFuSDFYBGjnAYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgC-NKH0AbAAgHSAiRjNzgwNjA2My1jM2M1LTQwNGYtODcyNC02NjY5NTU3MTA0YTTYAgHgAgE&ucfs=1&arphpl=1&checkin=2026-06-28&checkout=2026-06-29&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=227966bc424e01a9&srepoch=1778510203&all_sr_blocks=419457606_127501499_0_1_0%2C419457609_127501499_0_1_0&highlighted_blocks=419457606_127501499_0_1_0%2C419457609_127501499_0_1_0&matching_block_id=419457606_127501499_0_1_0&sr_pri_blocks=419457606_127501499_0_1_0__928625%2C419457609_127501499_0_1_0__948570&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-29",
+    "checkout": "2026-06-30",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Daiwa Roynet Hotel Sapporo Nakajima Koen",
+        "price": "¥22,598",
+        "price_num": 22598.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "1.4 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/daiwaroinetutohoteruzha-huang-zhong-dao-gong-yuan.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKD04fQBsACAdICJDc3OTZiOTRmLTFkMjUtNDYxZS1iYzRmLWM2Y2UwYTRhNzM1NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=744b66c13991024f&srepoch=1778510214&all_sr_blocks=831046014_380580397_3_1_66520453480448&highlighted_blocks=831046014_380580397_3_1_66520453480448&matching_block_id=831046014_380580397_3_1_66520453480448&sr_pri_blocks=831046014_380580397_3_1_66520453480448__2259818&from_sustainable_property_sr=1&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥10,560",
+        "price_num": 10560.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKD04fQBsACAdICJDc3OTZiOTRmLTFkMjUtNDYxZS1iYzRmLWM2Y2UwYTRhNzM1NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=744b66c13991024f&srepoch=1778510214&all_sr_blocks=1601024602_431376556_4_0_0&highlighted_blocks=1601024602_431376556_4_0_0&matching_block_id=1601024602_431376556_4_0_0&sr_pri_blocks=1601024602_431376556_4_0_0__1056000&nad_id=ee5aeb77-2e77-45ad-8908-caf51645d769_0&nad_cpc=0.79&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyMTIxNjgsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoiTnVUTHJsNmJMempUaFIyTW44QWNFeVFEakZaRy95OTJFN1BJOUF2eDFVb0FjcXh3d3pvSTc0Y2JVRXdIaUh2TGo0UDI3bHRZdmZidmNrSVhzRlV2dnVLTzVJVERESThTTjRyc29hZk1CMTI1MVZnWnhyTjBlYlZMWjAwQllwY0ozZS9BdzZmTG80Z29qRWNNOC9zK0hDNW5qUmNxakRiVzVldmdwa043SUJwN0EvZU4zQml6NTVJZmpkdzViNDBEL0JEZTUvZkZxSDBnanZ5Y3VwejdIbERDTFhyNXJ4U3lyem5HalFnbHFRRU5tZDZ3VzZZYW5OOU1RL3hPMElVZU4reU4wYmM2eWYwV0xudUh2dCtra0hiWm1UZE9wbnBpOGV4Z0UrcHZOWXJib2ZmYU1icXdYeTMyOFdLTnRNMWRVc2F0eHNGVWNta3dPZnZ2OTVwSTQrQ3NVaGpqQXNZblgvaTBVZ2lFL1dXWWRjVjJNdEJPMGhtSVllYXVpbmkwR1pFTDZXS1ZGdVdsem5CRzNWVnNqTHNyUlQ5ZzF5R0tFMmFnR3BCam5vaTdjL0VwQUhzQm1hU2FnN1pMZzRGenpmWFdpdlcwTE5OSFBYd3NWZW5Kd2FEQldVamZTSHZhckpRUHF3S2NJSlYzaFVIcDlZRkd0OFFuMEF0c1pac2k0WUd0OHozOEhFcUorWUFpcXBtTDhQZjc2WGEzV2NNcUdmcUNDUW5CUVdPMklTa2R3SlRna0FGSHlHdWpxMHBzaldQV05FVHA3ak9FMDZTTkVlbEdYeHMwYW1IWEEzdVllY0VvTVFCV2xoNVZ6amxFMmlXVkVJZUNpSVQxR2xSVGdaTWxta3JDTTRoU29ISXNPMmg4RFJrTUdiNlN1NXZ4aU9kZGJJQVFqUHFBblQzRm1yL2Zka1RuMjl6TVgxd3Bjd1E3V3MwbThCcWRCTS9SbFZMejJrelcwNTRuRmQwR25ISW9KWWducWNDVzJkZEF1ODhLYjhJY1RKS0lYbEpzUnVXTU8wekw5UWF4NDNqSmsvTVVUUDE5WFlBWVp3aiswbk9KSEYrWXRtT084bWVhY0EyUzgzWDE1UGI0dTdiRWVjcWMyY0lNYlJ2TldBVkVjTjJhS3EyY3dGbld1S0ZzbHV0ZHNINXZUMWJIYWlCY0EyVjJnQ1F1ZkQ5c1MyNW5PMDM5VVlmUGtXczhxSnQvWmpjTGQzcWN2TSsxVGtkL1R0cHhNVDFqV09ab3VqSnF4MGM1NnlJajJ4cm5ZcmpENDlLaDNYbEhTZWFQdWlrMm11b2JqSk9UaE0walVGZHA5Zk1wSzBYTWtnNnVxOXB4NzhndFpXZ3ByRDNXMGo5V29PL1ZoVHptWmtwbnplWEZGUFFqVFZDUHlnYTBicDg4NXlkTThVL0FrRDN4RTlJMUYyOEl4V3kzTlh3UmhWVU4yY0NkbE9LUmIyZ1VhenRjTHQxNzZHb3UyaGZteng4NXF0YW1DeFFvZEU5Q0pXaFpnWHZNUTJoOUhnY3BQdURodUpNNGo2aWZ5MmwreDRWem5GcjhEUGp2bm0rdDkzVGN2b2YxRitCQUdWRVkyMHR3VExKWHJtSllIb3pYWE9BS3BIdVZ6amprSWFlWjdYNWxwa1NkWHJPV1VzMzdRSXpZeENBTmZzVXZjOVhGUmFXRnFKdCsxODN6aUo0OXQ0bHB5bEtHM2U3YUIzbDZQTXp5REY0TUdMc2hpUDgyMEltM2h0ajEvVTdKZVdzVFUwMjRvb3VXajNyendDeWtPV29WK2lwOUdlUnJVYWpkeno0L3RGRU81QlhGRWd4THB5TE9ISjJTQmVyc3RVaGM3cnozTUxqdUp2NmJRdXRxWU9JY3JTNE9oNmY0dm4rd3lNaHdUbnQ2MlpXVWVSSHNEVWdCOEU5Tk1QVFZYZTBmd0pnUmEyU0RVcURXRGlRRVR3OW1MNmdvK2lYellnNC9EYmRlSzhRUnIxRkZSRlFpdTA1OWwzRENjUHhzY1ptaUhNNk9kMEpwS1Y5cER6SGVDR3V3S0JDZm4wR0lDMklWMGxNQTRyZXQ3NEx6N2NEY2JTajhtNzBWbkJpTjJHZHQzRW52MHNQWXo0V3pTNXdVaFhXa0RXSkxZSHV2V0lqWXFhNk1YZ0Z4NG9UcUJ1aGtRN3ZkWkVPK3FrUCtsVmFJTmQweTJoMzF2WEljWmI2cy9TUXM5WEpWeS9aZUk3Z0wifQ%3D%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥17,010",
+        "price_num": 17010.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKD04fQBsACAdICJDc3OTZiOTRmLTFkMjUtNDYxZS1iYzRmLWM2Y2UwYTRhNzM1NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=744b66c13991024f&srepoch=1778510214&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__1701000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS PREMIER Sapporo Park",
+        "price": "¥16,800",
+        "price_num": 16800.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "1.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/art-hotels-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKD04fQBsACAdICJDc3OTZiOTRmLTFkMjUtNDYxZS1iYzRmLWM2Y2UwYTRhNzM1NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=744b66c13991024f&srepoch=1778510214&all_sr_blocks=28704940_203424010_4_2_0&highlighted_blocks=28704940_203424010_4_2_0&matching_block_id=28704940_203424010_4_2_0&sr_pri_blocks=28704940_203424010_4_2_0__1680000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "STAYMoiwayama",
+        "price": "¥9,539",
+        "price_num": 9539.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/staymoiwayama.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKD04fQBsACAdICJDc3OTZiOTRmLTFkMjUtNDYxZS1iYzRmLWM2Y2UwYTRhNzM1NdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=744b66c13991024f&srepoch=1778510214&all_sr_blocks=1462177905_417526732_0_0_0&highlighted_blocks=1462177905_417526732_0_0_0&matching_block_id=1462177905_417526732_0_0_0&sr_pri_blocks=1462177905_417526732_0_0_0__953909&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-29",
+    "checkout": "2026-06-30",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "KOKO HOTEL Sapporo Susukino",
+        "price": "¥18,799",
+        "price_num": 18799.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "1.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/hoteruuinguintanasiyonaruzha-huang-susukino.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKP04fQBsACAdICJGY1YjU1NjExLTFkNjMtNDM0MS1hZTZkLTk4NzA0MjVkOTJhM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=5ccb66c7dcd40665&srepoch=1778510226&all_sr_blocks=541926101_368961975_0_0_0%2C541926101_368961975_0_0_0&highlighted_blocks=541926101_368961975_0_0_0%2C541926101_368961975_0_0_0&matching_block_id=541926101_368961975_0_0_0&sr_pri_blocks=541926101_368961975_0_0_0__939960%2C541926101_368961975_0_0_0__939960&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥18,720",
+        "price_num": 18720.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKP04fQBsACAdICJGY1YjU1NjExLTFkNjMtNDM0MS1hZTZkLTk4NzA0MjVkOTJhM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=5ccb66c7dcd40665&srepoch=1778510226&all_sr_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&highlighted_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&matching_block_id=1601024602_431376556_2_0_0&sr_pri_blocks=1601024602_431376556_2_0_0__936000%2C1601024602_431376556_2_0_0__936000&nad_id=28e6dd43-3b44-4d20-b1f0-d147e55df093_0&nad_cpc=0.76&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyMjM5NTUsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoid0xuS0tCNll3Mmdxd0pjWDlBRmd1QUtkYVpvdVNPOGppZTF2NlhQeHlCTXBJM1U2M3VIY2tDZmZwNUFlYnFYREM3L3dUc2VPQW15TjR6OUI2bmEwYzBqYnhibWtkYVhYbjM2bnRuZzJkK0hsVG85QmUwbVZ3ZHRvOUxEbG1qU3NGRlVTUXFRZWZiK2RqTWtsRW5RKzZ2V1JIRFdhRnR3aldPd2lxd2dlenE0QVBTTDN4OVRaNHdTQkFNZW9sT20wdWRhK2RjUFkzREpjM0RUVW9GbUxzSi9SYjFyQU9sSVMwSWZ5NlhzS0tTSGtwM0wwNy9GaDV6d0VUOUZ3ZGFLUWNVaU02c21jRGdoSDRJL1lMd29FNFA4SUNtQ1dNQU9sUVRBak1PdEJOZWwxOVRnbERhVmJyZUFITXpwdmFuMUkxeE53QVJrdVEveEN3THJpbHRNVGNzSkxlMXJsaHZPNXprL0NJV0d0S0wwU3NvOUN2WkprOEdEckZJbjBTbENyVGJDK2dXek1OTEorSEJvZC9vL2dqcWN0Q2pERXY2cEtESUtPbGFhVTYwODE2MFA3NDN5WkJpeVdSUHRsQkpzRVZCOTlQVWdTRGVsMmsvMW9CMnM4V2JOSWxwbG5CeUQrTGVERDBUY21jd0hCVnRlekFldGFaRTNBUnFlS09IVng1dUZlelNYZXF1b3lwV1h0QTNFeWlLYVgvUUdVMXFuYnlrVWJMSHJMalFrMitjWmlReFAzQ0c5anVUYnZSbHpiUzB3cVBsZUVyYnNISFB3eHk5cVpPcllxOVhSSzVRcDM1WEtDRVBUbG9UUmZkemxTNys2RUxIWk9YVVlWWGo5M05YZnVhbGN4UjFRdE96Y1F0QmhINk9ZOVM5R0ZMcGN5OUFQQ3FwZUNOZGJtUVQ1b2JHZFJ5dUo2b0F3UG96eVB4SWhPS3I2cklYc0FFV2x1cDdBWkk2TkYwMkVmSkVuT2Q1bytlUUtVM0RRQ01NeTc3Q0MyQXdUMEI5WGVHVTJ0VEhndlFlWkp6ZGlGYThXL3JnZFNBWnFqREhGMWg1SXZBS0J2OW9veUZuQk5QM1Y5WG9vTjBsRk83N3psNzVqZlJHZmpQQUNkMjBZczFiK0lEU0ZjOVpxdWtwQ3d6eDNmdWNZNldJQlNLRk5DTERwOVR0YUluQkdSQktwN3FLV1d2ZnVJNnBlK0k5dWo0N0FLYXBJenl2bnFQZXhDN0ZacVRkY0JqbTZHR1p0eFpQYVpzSW1xZWdxWE82WDF6YSsyd3NOTG9MWXJtbFBQUEtBWkxSSmJyWmovNVN6eTY4L2hYZlNNL0R5MW9FQ1dFMEhxb1BWUDUzYVQ5SDdSN01jUk5oSm9HaHRzbnlSUlYvRUNXc1d1WmtvQXFONWtyRlg4MlQ0bkVLZ3h1K00xNmZZSGNaZFNDcmFPVEdFMnJMczBmdzZyYjF2SjE2K2ZzOHZ4dVRPeFdYdTQ3Qld1aXJiZVRDOHp0MFRJQVdXcjhMeW1XZ2FqZGluRm1CL3VremluVXVLK1Zka25mQ25LWkxiUGUvc29NZWZiZy9udnRIdEtQeHVwRkthTk53VnN2WFp3Y0hIRzZPcVVrTU0zZHZZRjNpbjBQRXpZbkFETkFBLzdZdmtvQ3UrR1dOQTZVN29ZQjdTRW91QUNRbWJBMCtxRWFEcFhSN3JwbkF0TFFZSHpMZzN0NndzL3M1YmVyWVZrUjNGTjZMRUUxT25OM3o3dTNSb0wyUUxzV3gwS2NCWHdPNGtZZ1QvaC9BcEFBTzlKeXB0SG5ZN2xoUXIrZ2VMNjZ5RVhGb21YL0c4MTJObzQwUXRpVzV5NVhnQzBZelNpMVZIbUltMkRBOXpjeDNXWXNXTDhSNDE2TUovK1ZTTm5rbklFUDdSUHlrbFZRY3pSdkdabGtSM3lIeHhSczYza3Q3S1YwR0o3UkdnNmpaL2xCZ3c2d3Q3ZEVWSnpJcEpmaDQ2MUNzVHpKdnBSb2pIVmUxbzRYUVJ6eTlHVXhydXdEWm1Xd2k3TmtNV0E5bWlYYnVRUzU5OVBCdlVldUFFVHZBdlJOdEJhRGFzSVdqaWtZeTFSV0pKSHJ6Vkx1blh1WDg5Mk1OcmV5NHlrTm54TkRIQUpJSnZxUGFINjcxT0w5OHF2ZnEvSm9GcWNoZDQrdnFndEhaTjBCek5LaVZ6QVg1eUZvWC9LeXUvT09GY0IwZmc9In0%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "LAMP LIGHT BOOKS HOTEL sapporo",
+        "price": "¥20,120",
+        "price_num": 20120.0,
+        "currency": "JPY",
+        "score": "8.7",
+        "distance": "0.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/lamp-light-books-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKP04fQBsACAdICJGY1YjU1NjExLTFkNjMtNDM0MS1hZTZkLTk4NzA0MjVkOTJhM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=5ccb66c7dcd40665&srepoch=1778510226&all_sr_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&highlighted_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&matching_block_id=719481901_307906462_2_0_0&sr_pri_blocks=719481901_307906462_2_0_0__1006020%2C719481901_307906462_2_0_0__1006020&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Hotel Gracery Sapporo",
+        "price": "¥24,321",
+        "price_num": 24321.0,
+        "currency": "JPY",
+        "score": "8.0",
+        "distance": "0.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/gracery-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKP04fQBsACAdICJGY1YjU1NjExLTFkNjMtNDM0MS1hZTZkLTk4NzA0MjVkOTJhM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=5ccb66c7dcd40665&srepoch=1778510226&all_sr_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&highlighted_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&matching_block_id=26841588_181579321_2_2_0&sr_pri_blocks=26841588_181579321_2_2_0__1216038%2C26841588_181579321_2_2_0__1216038&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Vessel Inn Sapporo Nakajima Park",
+        "price": "¥21,082",
+        "price_num": 21082.0,
+        "currency": "JPY",
+        "score": "9.0",
+        "distance": "1.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/vesselinnsapporonakajimakoen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKP04fQBsACAdICJGY1YjU1NjExLTFkNjMtNDM0MS1hZTZkLTk4NzA0MjVkOTJhM9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-29&checkout=2026-06-30&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=5ccb66c7dcd40665&srepoch=1778510226&all_sr_blocks=72515919_418208798_2_2_0%2C72515919_418208798_2_2_0&highlighted_blocks=72515919_418208798_2_2_0%2C72515919_418208798_2_2_0&matching_block_id=72515919_418208798_2_2_0&sr_pri_blocks=72515919_418208798_2_2_0__1054120%2C72515919_418208798_2_2_0__1054120&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-30",
+    "checkout": "2026-07-01",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥17,010",
+        "price_num": 17010.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKa04fQBsACAdICJDllMTNlOTIxLTYzMzItNGFhNS05YjdjLWRjMzQ1MWEwYTAyMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=2c4566cde72a0569&srepoch=1778510238&all_sr_blocks=28040022_378186557_3_2_0&highlighted_blocks=28040022_378186557_3_2_0&matching_block_id=28040022_378186557_3_2_0&sr_pri_blocks=28040022_378186557_3_2_0__1701000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥10,560",
+        "price_num": 10560.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKa04fQBsACAdICJDllMTNlOTIxLTYzMzItNGFhNS05YjdjLWRjMzQ1MWEwYTAyMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=2c4566cde72a0569&srepoch=1778510238&all_sr_blocks=1601024602_431376556_4_0_0&highlighted_blocks=1601024602_431376556_4_0_0&matching_block_id=1601024602_431376556_4_0_0&sr_pri_blocks=1601024602_431376556_4_0_0__1056000&nad_id=a50864b3-c43b-437f-b51a-761dc19178aa_0&nad_cpc=0.79&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyMzU3ODMsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoidUFpeXQvd2pDTEpEWkNaMHd3OG1qUVhSMzEyS3c4NnVSYnlQaXRKdXZHVWN6L1hvSWNIdityWVlLNlFZNkRpSjd6Z0ZiaGpuWU1Td2E2b1VOR3ZCT3hmTVdhNW5jQUVxTlo1SExDRG1PS2ZjM3NrS1NjQ2wxczIwcW1seEJKQlQ1cFkyM2dacllMbVcrbFNTd1VwUHNJUEUwZEI4OGUzdnhxV1pDR21PS3pNVUdjbWFpajBBeEk4MUoyUHZSbWpMZ2hnVkFuMzJoREY1ZU9EbHRsdDVqSEtWbHdmaHF5QTJkNUVVdjFjVXdRL0IzaDV3a1c0NkpUTkRUMHYwMlB3V3F3V08rZkp0OERkYmJjRktSRkJqcUxVRjNMK1JvcENQVkllRURDdGROZmV6MktwZHdGWldTZm16S2hRMjZWM2lHWFZxMHE0N203L2xwYU0rYThURnBVcHdnRTVWN3NWMzNDRVNoTldrMVVnK3FZTmlob1poUUVlWm5RbUZoVHhGT1pzS3hBT0l1NlpmUzhCdDl5a1pnNlVrVVpoMkIzcmtNNXhQaGRMUm1FUHZ3K0tuQ2MzZVF5N3VSb0xMVUk1dGttVHFlb1NvL1BZekE1Q3JUUktxWjh0YW9FVTNTYVJrSEp6RWRUUXlvUitxVmJoOXBnR2dlanIrL2htZy93M3RtV0ZCaXpNU1lMU0Jsa2tJVTF5K1hiR05HSWcwZm1yRFN5MUE3V082MHRpc0hnZGRDVE5wUUwzQ3IwYk45ejBKT2NoelJaRUJwNjlaQzdnMC9MSUZnTFlCUDhRTDdwNk5DWCt1ZFBhSytxUkk2WXlHZEl6WHE0UncxcG82Ulk4WU0zZkZyeXJ1VC9uenpKYWZVU0E4OGt0ci9EU0wySkVCQXJiaGNiZzZOOHJqb2w2M1FiVzR4SmNFdmJJVHpEVk1mbmx4ckZUNkpabHBhVXJKQ0F5SGlqUDdlQlVXeGtJMzVyVDZxald5UFhZNHBZU01ndVBDUkhibVlIcmFjN09OMlQxYmE5VEozMzk3SEcvVllkYTY4MTVNWnNRN3ZGdGlkTFFuQXhiMjB5OUdYNk5iZ1dqdHgwbW9UZVdESXB2Vk8xQi9IMGkreUNQRU9qM1REc0xvZUhsNWJoNFJUQjljK2RSRDUvWm9iaUU3UzZ0MlhoYUpLM1FralNnNFpBUUJnNWlaL1FFUFoyYTdKK2dYR3ZIWHB3UlVvV0sxeVV5RHZVZG5wQzJNWFRVOExWMHdSZjc4QUVQQk9JUFNOTXJtZDlXMjExaExvdVVBbUlDYkg4Nkg3N2laeXhUSHpXcThxRnBHWThGQmdDSmdmU1pyZm5RN1ZYSGY3bFJMRzE1QXQ1R0lrbzFCYXYzTGkvOW5oc1RLcDFZblpYeW5odGx1dWpabHFmaTFZQUVrbzJSMmFRVzZ6a1ROZDY0TGE3RlFGbUlQOE5QZWY4clE2SS83MmIxTEtYWlkrUGZqbkd4N0RkWTA2T2ZhcTVwNXVuQmNueHYzd2VmZFdwbEJ6RjJPeGJpZHNCZmw3ODVmS3R3Vmt4SU9FMGR0UHd1dnAwQXpvTDUzY0lHSHZjUVFNNHpKVFpwelBXbnczR1NQaFNsNURvdVpjcTIrYjJKeFZBSEtKbXFoM0dyMkpIQ2E4RU5iWHQzckdEcm5OQXNDdWE5OVVvOWhXNTlyUGYvK3pHcnZkSldPYjkvellHWW0vczRJK0E1L1IzZ1hQb3p4RG8xTzUwSzZoZnFHbGNTS0ZxM3I1Zk41a2MyS0RUaDNIcnNQWEt5Z3F1TWVueDhuVWd0ZTZKOStTYXJKV0QxK1JNNmphZjlXcGphSVJtSURJalRSREFscjd2U0drbjgwS0lzc1dJZWdJNHNObmwxNXlBajlscTM0WTZ2ZWpDS3FHQm1zZUtCR1NsVytWZytHWUkzRHhZV0JHTkZmOVBud3A1NmVUSFBHME9PRkN0eVU1c0FqRVJwOEFDQU96T2VqeGlIYVkvMStoY0ZnejVYY0xRWTI3R0hzN2hVTUpMalcxcm52bDlWanIvSGcxWkdxTFFzT0VLQzhXY3JSRUFmTnBKZUw0TU1oOXFyTW9YNGpKcWU2cVJpU1pSYTBOa0pGNk1nckp4eDlCSDFJMjEyYW92dGhRTGd5bDNVTUducG4wMEN6MTlpM3B5aUpGbG4yUUlUN2NwNEFPaDVjcTZJMnFaNjZZYnNxS3V0QzZCT28ifQ%3D%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS PREMIER Sapporo Park",
+        "price": "¥16,800",
+        "price_num": 16800.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "1.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/art-hotels-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKa04fQBsACAdICJDllMTNlOTIxLTYzMzItNGFhNS05YjdjLWRjMzQ1MWEwYTAyMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=2c4566cde72a0569&srepoch=1778510238&all_sr_blocks=28704940_203424010_4_2_0&highlighted_blocks=28704940_203424010_4_2_0&matching_block_id=28704940_203424010_4_2_0&sr_pri_blocks=28704940_203424010_4_2_0__1680000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Station",
+        "price": "¥17,010",
+        "price_num": 17010.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/best-western-fino-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKa04fQBsACAdICJDllMTNlOTIxLTYzMzItNGFhNS05YjdjLWRjMzQ1MWEwYTAyMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=2c4566cde72a0569&srepoch=1778510238&all_sr_blocks=26036411_378201102_3_2_0&highlighted_blocks=26036411_378201102_3_2_0&matching_block_id=26036411_378201102_3_2_0&sr_pri_blocks=26036411_378201102_3_2_0__1701000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "KOKO HOTEL Sapporo Odori",
+        "price": "¥17,842",
+        "price_num": 17842.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "0.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/best-western-hotel-fino-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKa04fQBsACAdICJDllMTNlOTIxLTYzMzItNGFhNS05YjdjLWRjMzQ1MWEwYTAyMtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=2c4566cde72a0569&srepoch=1778510238&all_sr_blocks=573611205_242604515_4_0_0&highlighted_blocks=573611205_242604515_4_0_0&matching_block_id=573611205_242604515_4_0_0&sr_pri_blocks=573611205_242604515_4_0_0__1784160&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-06-30",
+    "checkout": "2026-07-01",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Hotel Gracery Sapporo",
+        "price": "¥24,321",
+        "price_num": 24321.0,
+        "currency": "JPY",
+        "score": "8.0",
+        "distance": "0.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/gracery-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKl04fQBsACAdICJDU0M2U4ZThkLTJlYmMtNGVkMC04NDdiLWY4MzRjYTZjNGE4N9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=294f66d26f2900f6&srepoch=1778510249&all_sr_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&highlighted_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&matching_block_id=26841588_181579321_2_2_0&sr_pri_blocks=26841588_181579321_2_2_0__1216038%2C26841588_181579321_2_2_0__1216038&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥18,720",
+        "price_num": 18720.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKl04fQBsACAdICJDU0M2U4ZThkLTJlYmMtNGVkMC04NDdiLWY4MzRjYTZjNGE4N9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=294f66d26f2900f6&srepoch=1778510249&all_sr_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&highlighted_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&matching_block_id=1601024602_431376556_2_0_0&sr_pri_blocks=1601024602_431376556_2_0_0__936000%2C1601024602_431376556_2_0_0__936000&nad_id=cd2952a0-0f9f-4ba3-9400-64ce6b548fd8_0&nad_cpc=0.76&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyNDY4OTMsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoiOTR2ck1VdW5nNWNNaUQ1QjdWRDBGaEJxVGgwZHR1UHZYbDhUSUhtaHNMeG1aUnIrcmFuTXFwNE1YMGRSVU1UOXNlUEY1K0RIUHhGaFFrd0JsaktVa0pvK1BOZTQ1QVNVUFVRS2lJbFFIb01NOHlUcEN3NGdUQmcva28vdUZQZzJDZTBqY2VqdG84TzBtUThsTlpFUEMrTUR6eGdpQWdEQnloeEJpYUVuR29Bc1NaeW5OWGtQUmoxSWNoTTNnWjF4dm5mMXZyK2NLN0NtNDhhVG4vUlJyVkV6TjVaUitlcU5BMVdWa1lONGtTS3huTTc1ODBBWTNLUDR2SmNIRGlJTGJreFRVbitONkZEd1FNK3hVTzR1TkcvR2JNZFY1aFAzMjkwOTFRcTlncWplbEdhajRwK2VOai9rclBINTdFNCtJQmpDSDFobDBPdjBpdU1SWldqYTVpM2VHc0g0SDZVREdkd0M5b2JVMXpoYktYeHpOU1BxTVNoa0ZWaEZrRnZXRnJ5SXZlNElJcnVLUElxQVRTTXRlbmR4TlN6WTJOVTNzZGpNK3FNRmFUMTVrYm5mTXBtQ2xJcitnMUxvRnk5enN5SEZqZkk5VmhGWEpYNVJLVDVyK3JBRHVJMnhvVC9XUnFKSlNDamVaUk04UG9FUFN1bHB1WWZoak1BUStWTjh0dHpWOTVjYjBwcktiRktGczNWcEs4Tm5URGR5emcraFBaRGlhSzhxbURsNHI3dDNZY0wrQVVVL2t3VCt6dVNtUEVuNjdGWWpaVjR0eHRNc3Q4Y2ZPbk14MUhFOFRIWjJEYm1Iajc4U1QzOHpwR0JUeEsrb1JRbDgxei96ZG5ENmo5UHdsU3RoNk0wNDJYdHBYRUNQOU5nRHFNY1VGYy83OVRpY2lpWHlGY0xNc3dyMzdoNDhVRjNmbUdMSjFUS1JEdUpCMmxOSlIyMHU4ZHdpb2JXb2pjTmdMRHBHd3JHeXhhaUxSZkZKV0tianpIZmtwRWU1aGEwWVVrNGxtMkZENjdvcVFXRmEyb0Ztb3MxeTh6S3dyYVNjSldyQVRvQ3NybFpJVkVlTzdNaVplQXlmMjFGcDZibXZTdno1bFBSYysrT1FSckV3Q2xqRVZsMVRUS1JMdXp2Q25sYWh6TTlIS093M1NTT3Z4eURNNXMzeGl5bUZqSHpZejJ1NjBJUDh5KzRrMEhDalcwdDhkK2ZTbVUvWjhseWg3cEdBbkw2bzhzdkFQSDl0Q21MSGhVQUt6UW1xb2ZkRjJFaEZzdTBHc2cxQjlWeGRVVFlSOGtua3ovSW5DdS9TM1BKZ1RRZm4xekNUU29IVldoTElSalVCSWVmTm1XcWYyMEVUSlRVM09iOWV6ell4dmpSajNZdnJaU0VRK0tkeng0dEJXbkNMQ0VNeHY0aU5tNGIwV29rSGtUV2l3S0IxWnZteEYxV0U4NVBQeUFHUVlBUEdRcWpVSm1tSEk4eGg4SkloTWpBRjRWYlA5dFA4NlU1TTVybmNxM0ZYb1pwYkd3akFVaGRtOUo3elovVWpjVXdlaVVmQTRBS1A0TXp4RnBUbFBFR1FJRW1vTmlCWW0vREdBR1J6dWhEeHdFOFdFL25IRlR6akRpYzRYTUUyRUpFV01YaXkxcUFtU0ZPeGkvQUo5QWxNZVFGSnpDV29ZQS93NENxYlFWdnk3bFU4Y1ludTA3T0dXYjdVdDVWclg1NFJCRFo3RHg4UkI4UExJbTZRcWdlMTBvaktNS0lLNWZCdVZ1N25RbC83ZkQ3dXdEWHhyZDBERGtOOGJuYU9iM2srMjEwY09vTU9LOXZQNTNicUs1ZHV6SXZYeEx1bndNOHpvenRwY0RDREcwK25na2VocHlQbUEvbi9qditqV2x0WlVTSGlOWkIyTmlUekM0TFZ2WnpkVEIybDhWaVhWNVZCWDdiRUNJZFI0cXd6MFQxM1FVQkZwb1JUaWd5emMrQUhyUmE2OGxhWVo3cXlEZGVOZitQSXl4MEtHNE9OSXkwdS9kQW9ScFc5MDN0bkZ0Y2VuYXBWbEViRmN0WG14aGV3VkFhcmlXS1g2by8wdlFjb0VoOTJsL254ZmtKYTZXNk50OHpLUDJlbTZVOWppRythSk9JV2YvY0xLbzU1UHlxdWRZcm1ocnArQ21Gb1ozMEtCU2ozRXRUalRpQWtSbnBvV3JySW1HQ2FrYjNnTzVmZzZqNUFaQT09In0%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS PREMIER Sapporo Park",
+        "price": "¥20,601",
+        "price_num": 20601.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "1.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/art-hotels-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKl04fQBsACAdICJDU0M2U4ZThkLTJlYmMtNGVkMC04NDdiLWY4MzRjYTZjNGE4N9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=294f66d26f2900f6&srepoch=1778510249&all_sr_blocks=28704949_392629563_3_2_0%2C28704949_392629563_1_2_0&highlighted_blocks=28704949_392629563_3_2_0%2C28704949_392629563_1_2_0&matching_block_id=28704949_392629563_3_2_0&sr_pri_blocks=28704949_392629563_3_2_0__1134000%2C28704949_392629563_1_2_0__926100&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "LAMP LIGHT BOOKS HOTEL sapporo",
+        "price": "¥19,941",
+        "price_num": 19941.0,
+        "currency": "JPY",
+        "score": "8.7",
+        "distance": "0.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/lamp-light-books-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKl04fQBsACAdICJDU0M2U4ZThkLTJlYmMtNGVkMC04NDdiLWY4MzRjYTZjNGE4N9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=294f66d26f2900f6&srepoch=1778510249&all_sr_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&highlighted_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&matching_block_id=719481901_307906462_2_0_0&sr_pri_blocks=719481901_307906462_2_0_0__997036%2C719481901_307906462_2_0_0__997036&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Vessel Inn Sapporo Nakajima Park",
+        "price": "¥21,082",
+        "price_num": 21082.0,
+        "currency": "JPY",
+        "score": "9.0",
+        "distance": "1.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/vesselinnsapporonakajimakoen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKl04fQBsACAdICJDU0M2U4ZThkLTJlYmMtNGVkMC04NDdiLWY4MzRjYTZjNGE4N9gCAeACAQ&ucfs=1&arphpl=1&checkin=2026-06-30&checkout=2026-07-01&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=294f66d26f2900f6&srepoch=1778510249&all_sr_blocks=72515919_418208798_2_2_0%2C72515919_418208798_2_2_0&highlighted_blocks=72515919_418208798_2_2_0%2C72515919_418208798_2_2_0&matching_block_id=72515919_418208798_2_2_0&sr_pri_blocks=72515919_418208798_2_2_0__1054120%2C72515919_418208798_2_2_0__1054120&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-07-01",
+    "checkout": "2026-07-02",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥23,540",
+        "price_num": 23540.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKx04fQBsACAdICJDFiYmFhNTdiLTUxOWMtNDk4MS1iMDA5LWFjYzgwNGZmZDk5ZtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=60e366d83b1d0e4d&srepoch=1778510261&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__2354000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥16,320",
+        "price_num": 16320.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKx04fQBsACAdICJDFiYmFhNTdiLTUxOWMtNDk4MS1iMDA5LWFjYzgwNGZmZDk5ZtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=60e366d83b1d0e4d&srepoch=1778510261&all_sr_blocks=1601024602_431376556_4_0_0&highlighted_blocks=1601024602_431376556_4_0_0&matching_block_id=1601024602_431376556_4_0_0&sr_pri_blocks=1601024602_431376556_4_0_0__1632000&nad_id=8eea6b42-073e-49dd-8bb4-ded97355164c_0&nad_cpc=0.5&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyNTgzNDEsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoiTnVUTHJsNmJMempUaFIyTW44QWNFeVF5akdaRy94OTM4N1BKNUJYeDFhcVRZcVRJejAyUC85K0gxY3c2UWgzTUppa0xhTWZMZm1HbUdPbmN1QmRZdDE2RkJBMi82R3JPMTFZeS9kSk5WWnZBRWU4MjFWVG9WY3FEVXFBTlZZZGJaSUZOcGpOU2ZLM0lHTzIreGlCbk1RdVAydndZRmJLekdyQ01DcDk2WTIyd0Q2UzcwRzZzb2tlNnRNK3FtaDNqdGpDbzA5SWJYTTNCZVI0OHFwN05YcWtOQ3RPb0E5K3U4OTVId3picVpvV1JrN1pSODYzNmYwWWU2clpENmVBSGFnamg4NmdUVnhoS0k1STEzS1cvTitKTFlMVUtidEYzRmVLMVEyZkxITXFPZ0hROUdXbXlmR2lsbnU0UEw3ZUNBTFlOWklIWHQ3RzArRW1VSU9RM2hEelZYRjcyQmtQQStYcnFacmRZRHYwU0dJZ3RxcEFvY1RiSnlXY1lBa3I1alRpSHFmayt6RHh2N1kyV0JtRDJ6S05qQURuZzM3Mm4zVEl3WjQ0QmxMOTNjM20ySVlKdEFSTndDb3IvWStYanFQUk9pa1FpbGpBSmM3T2MxVjRaT2dhSDUwWGJJZUFoMTNtckNUaDRlZW03WWZKZzNwL3hxSUh3aldrRDhYbjJ3Ymg0UDRVV2FLQ0k5b1BNSlZSbHBBRmU0VUFNZjNncDBRZ2c0N2Fyemw4c1RJREJkdG9BdkZhYTVtRXkxVksxWWV1OTZBZkNLRTUzd2J4cHRxSzZWSmh3ZHFGUHFGRFBwMWl2aitjV3FCa3FsRGw2L2RxTlRReEZlRUFVbTJzLzRzTVVjckRuZEdoWllmUDhRZWJ5MUY5cVE3dmRzdnBHaTh4aVROblNUOHhJUHArd2VDanBtU2MrNHBVY05uSU0zTEZTTnFwVnRLcTR4Y2w2V0JQMFdTYkdzU1R4VTB6N1ZpdDc1M3NRMHN3L0NqWWYwdERDMGp3bWhPSXgwWk1NTFRyWitZTWNMTlRVM21DL08xRmZISWVGOEU2U2xnaDREcGs2dGNaUC9vUVNySVgxZXgzWDN3SUxKUVFEWjJQbm1hbWFzb0tONGZ4T0doMUFTSStiUUpXYWwzYVU3VjFoSWV6VWdhMVd6Sm9ZSW1xNEtEbkFnS3VEeXhmR0YvdG9LN21uYXpQWmtEOHRyT1NFWDBPcmE4OGZNT1dTSUY0dVhGSlZ4SCthOXhLMzNKNGw1SWYvQldIczl4cG04UUozZWJKQlZGancwb0MvYUFyYWVXZnFYZWdFR1NIRnRwOEJTbVVTVVdXdzBPQUl6TGhRUU0yQUVlM3lmaXlzRXE4YmlVa1JuUmxYVDJjWVpncGVPN2VpVE5lZGhiUG9rMjN0cndZbHprWWtoR2VGeTA1NUFqTXcvaVFGVlpKcXpmZzZEeGRTaFp4eVB3bEV2Mnk1L1IyUFEyVXFvWTV1TEZGTDZlUUhMWmd4VVJKaWsvV1QremErSE9DVUtZWjlUU1JHTGx6eEkvZUpJbm90Z2x6aHlkdit2VmowekZWbFZ4TThjM2F1Q0IxcVpSQzZzV0V5NGJmZ3pRZVVZaTlrNlFVTnJOY3VoWVVWY0lXeGJQVGk1bHE5R0c4eWQxRVVLMTdIdEVBNTNPSTkxdlpnQ3g3OGxHOTMycS84NVNtbW5xZ1AyM2RBTlZESis4OWYvc01FQzhHN2NvTDVTRld2WFVlRHFOV2l6QXdVQVdRMjhka3VzZ09DMFZHN3VhbU5PWDlCSmdTdktBT3pPV0RhNWpnUHl1UEl1UXBwdTFEemt2bkJTNk9qczBjVldHOGVVM2dVTm10TzN4dTdTRkFTUjdkL3g4R1hUOWMzbS9QaG5vdmRKcFU0MUtHQ1RMWnJ1VldUYmJwTk9FMWwyMmpuMHZreGZMRlgxTjMxblJKNldJYi9XaGROb2dTc2haY3NhcUZLaktrTFZaa3M4MFdERjVwL3RvMWM2d3ZWajArRG54ZFVoV1loQ2FWaHRoRWtTTzB1cW5TdDJWc29IWVpvVTk0SGI2Z1IyOTdxOVFvRHpKS01OOU1SUmdaZ2E3SVc0R2tWWHpPZWR6RlVyd3pWcTlCZTI2bjIxWHdXRFAxWEQxbUNZVkVsWDVZT3p0R0k4MmFlZlV0dDRNRytpZlFhdzdvT0lSTzdnRmttWFRLdEF3Z1lZQ0E5In0%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "STAY Moiwayama",
+        "price": "¥10,666",
+        "price_num": 10666.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stayzao-yan-shan.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKx04fQBsACAdICJDFiYmFhNTdiLTUxOWMtNDk4MS1iMDA5LWFjYzgwNGZmZDk5ZtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=60e366d83b1d0e4d&srepoch=1778510261&all_sr_blocks=567230507_422225441_4_0_0&highlighted_blocks=567230507_422225441_4_0_0&matching_block_id=567230507_422225441_4_0_0&sr_pri_blocks=567230507_422225441_4_0_0__1066600&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS PREMIER Sapporo Park",
+        "price": "¥25,640",
+        "price_num": 25640.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "1.3 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/art-hotels-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKx04fQBsACAdICJDFiYmFhNTdiLTUxOWMtNDk4MS1iMDA5LWFjYzgwNGZmZDk5ZtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=60e366d83b1d0e4d&srepoch=1778510261&all_sr_blocks=28704940_203424010_4_2_0&highlighted_blocks=28704940_203424010_4_2_0&matching_block_id=28704940_203424010_4_2_0&sr_pri_blocks=28704940_203424010_4_2_0__2564000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Bespoke Hotel Sapporo",
+        "price": "¥20,412",
+        "price_num": 20412.0,
+        "currency": "JPY",
+        "score": "8.7",
+        "distance": "300 m from downtown",
+        "link": "https://www.booking.com/hotel/jp/bisupokuhoteruzha-huang.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAKx04fQBsACAdICJDFiYmFhNTdiLTUxOWMtNDk4MS1iMDA5LWFjYzgwNGZmZDk5ZtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=60e366d83b1d0e4d&srepoch=1778510261&all_sr_blocks=711891903_339643223_3_2_0&highlighted_blocks=711891903_339643223_3_2_0&matching_block_id=711891903_339643223_3_2_0&sr_pri_blocks=711891903_339643223_3_2_0__2041200&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-07-01",
+    "checkout": "2026-07-02",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "Hotel Gracery Sapporo",
+        "price": "¥31,920",
+        "price_num": 31920.0,
+        "currency": "JPY",
+        "score": "8.0",
+        "distance": "0.8 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/gracery-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK804fQBsACAdICJGI2ZTMzZDNiLWE3NjAtNDM1ZS05MDlhLTQ3OWMxZGQ3OTcwNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=98f966dda67f0909&srepoch=1778510271&all_sr_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&highlighted_blocks=26841588_181579321_2_2_0%2C26841588_181579321_2_2_0&matching_block_id=26841588_181579321_2_2_0&sr_pri_blocks=26841588_181579321_2_2_0__1596000%2C26841588_181579321_2_2_0__1596000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥29,280",
+        "price_num": 29280.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK804fQBsACAdICJGI2ZTMzZDNiLWE3NjAtNDM1ZS05MDlhLTQ3OWMxZGQ3OTcwNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=98f966dda67f0909&srepoch=1778510271&all_sr_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&highlighted_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&matching_block_id=1601024602_431376556_2_0_0&sr_pri_blocks=1601024602_431376556_2_0_0__1464000%2C1601024602_431376556_2_0_0__1464000&nad_id=0414cdcc-28a7-4534-b348-430684303fad_0&nad_cpc=0.5&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyNjg1NjIsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoiaTBLN2ZzZlhYY2o3cEVHbTJPYmhuYzRybW1VR3dETDJOQlhiend1Y25nSU90UnptRkFvVkE2ZThpcGE1d1VQWmVqbC9abWxCdk15QzgwdkxjQWJWQWpjMXR2T1JhVGNYb2ovSlVtUUExc3pUa3dCQTkrbFJHVVF6MjRiYXhUamVaUXo3SVlwQldUaE5KbzRHQ0kyTlhVb1FJcnN6OUVsYkROTkxiQ014aWxMaUpWM28zSk95RmZVaXg2L0ZFS0RKZ1Y3TVQzYkdXb1JBWG9HZU5USzBMVm0wV1RnNjUrUDYrcEVTYUsvNkwyRUpkaTNGYzdLV3hUWktOVUlKeHhjU0NGUzZoZHJaRTRYYlkrQVRWQmxwSWNMeFdob0FGRWl1bThIV0lOY3FTNW4rK2UrTnFHVGZUQ3o5Nk1XTnR6c2xVTjluT0JzdjNxOERKQi8ydGhIYTEwU0Vobk91Wmg4R2prU05qN1hzTGJVaEhNdWFjMDVBZ09YU0tOY3dURUVJOUhQM0NMYVJRTDlIY3JpYkEzTVVhMW56RU1RZU12Zm0rQ0hpNXVnQnAydzZLL2dPVGZrZHFBbVd4SUxKWFVSNUs2N1piMFdjQXFFZWJkVEVCN2wxK0VRZVE0eG95aFd6a0xwRUNjaVJmdkJ1anhKUHQ2ZkFsbExmbUZTMkZsRWF3Rit5Vm1zcHB4c1JZSndKSXlJdGc2MmphY2l4alFDNDdEQnBLUi9FL28vOUh3MEd1bFA5MmNEYjFad25rcEhqOFRxVFdBQzV6Qjdvc0RjUVZRVVF1YUlXdXhnVG5nYlhVL21kYnV6enBldDJqMzdoQlJpaGF2bmQ4UTl4UTlhUktPMktlaGJqeHZvVXl0cjJqc056MlJadWhLUEE2N0JvMUJCY2VZUTRWWkhJVHNCWDk2YWl6S1N0YjBGK3R0dE1kV25ZRS9mb01rNVdoU0JCTWZjZ0FURTdsdmlYTUoxN1MxSjhwYnQ1YmprdW5lZEZiTzhJQWttT1NnQnlsNTVGNTZrSnc3akZKZnF1Q05PbkNMSWNzUThZN0swbFlHS0JsTnBjamx5THQwNE82Nm5sSXdDRjZJZEdlN2R4ZUJUbmdrSkZ1QUhORjlCSk84aEpvNElJU011QU5kQ2tLQzdhdjhWL1dnUVVpVlVEdmU2MWxTNFBrekM1Sk1BQnRGOGR3QlR4NUxlZG5zdDVsZFM0R05kdk9TeENrYWE3U0lhQnQ0RUxkQUZtbWwxMkNLaFhVNmZJbEtaSEd4Rml2Z2d2YS9wNlZNblEvQ1doZi9kRy9XbTNWMUE2TGNXMEtrL2JQUThFOGpiYlNxLzFFV3dtZWs4Z3RwbTRNMkNtR0FwQW5YVVRPZHpxM1NCSFpReFBremtaN1hGOTh5UnlSWnVmOVNGbC9FQnVLZ2Q3NDdOcUR4UGdpQXhTc3IzdElXN0Z0WktnRWIvd3Q3RnRLSUROZ2JhZHRJVkJuMU9oWWJVbUdlMHVmRTlzTzhXSDhTczlSL25BVEtReVZFNXN3bnQ3NDZmODlIcS9ZVDdSZGttM0h5VmRac3AyU1JFaERZMFVuZVo2TlpPQTY1UE9TYS9JaXRoTGQzMjZnRlBoQ0RnaFpRYzlWWkRSUFU5bk1WRVNSYXA4VzF3akU1eUY3YUFXbDhxTEEzU25PY1Q1d2VyY0Q3enZKZThPek9PSkdvRDRwNHlZcVhqVnhHdllocmYzMi9Zdm81NEVEQ1ZJUzhSZlFCSEpONUZENHFIUDljVHFUcTRKYUhXdmY0ZVVYd0FlZmZqakZST1pjWEJoeklneWljMXFpVUJPZVUxYTkvQlE1NndLUjhrN0xMckdxeDBrS2tJRVJ5MDVUMnI5eTY2TUg3NmtkUlU5VWxwbkMxVXVTOHExdXFtaXZZenRDZWNXelc3Um53M1pweTFvY20wOEVpVGVPcjhJQkZQMkMwQk1RQ3FheCtZQXoxNFM5T3BNVHJlNkJqajRSdS9yNDByc0hoMW9MSVdtb1hnRTg4ckphZGFXSTRjWkhmTXpuWUxUUTBRWVVRKzRwNmNpS2pNaDZ6Y0lsdUpDNEpYbkJXOURBVnNLQVQ0NkkvWmpvK0JYeGRFQnZzY0ZTRVpneElFeUZONFV5ODNMU09qSjRaMVVDOUJlK1JKTU4vcWc5cXNlM25iT01TcHRDZlE5Y2NOcE15YUlkWTJncXV0eHcrUmhjVytJdFlaZk9qMS96ckh0In0%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "STAYMoiwayama",
+        "price": "¥9,898",
+        "price_num": 9898.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/staymoiwayama.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK804fQBsACAdICJGI2ZTMzZDNiLWE3NjAtNDM1ZS05MDlhLTQ3OWMxZGQ3OTcwNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=98f966dda67f0909&srepoch=1778510271&all_sr_blocks=1462177905_417526732_0_0_0&highlighted_blocks=1462177905_417526732_0_0_0&matching_block_id=1462177905_417526732_0_0_0&sr_pri_blocks=1462177905_417526732_0_0_0__989818&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Nakajima Park",
+        "price": "¥18,900",
+        "price_num": 18900.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "2.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/kita.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK804fQBsACAdICJGI2ZTMzZDNiLWE3NjAtNDM1ZS05MDlhLTQ3OWMxZGQ3OTcwNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=98f966dda67f0909&srepoch=1778510271&all_sr_blocks=26424620_392572908_2_2_0%2C26424620_392572908_2_2_0&highlighted_blocks=26424620_392572908_2_2_0%2C26424620_392572908_2_2_0&matching_block_id=26424620_392572908_2_2_0&sr_pri_blocks=26424620_392572908_2_2_0__945000%2C26424620_392572908_2_2_0__945000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "STAY Moiwayama",
+        "price": "¥10,666",
+        "price_num": 10666.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stayzao-yan-shan.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuAK804fQBsACAdICJGI2ZTMzZDNiLWE3NjAtNDM1ZS05MDlhLTQ3OWMxZGQ3OTcwNNgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-01&checkout=2026-07-02&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=98f966dda67f0909&srepoch=1778510271&all_sr_blocks=567230507_422225441_4_0_0&highlighted_blocks=567230507_422225441_4_0_0&matching_block_id=567230507_422225441_4_0_0&sr_pri_blocks=567230507_422225441_4_0_0__1066600&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-07-02",
+    "checkout": "2026-07-03",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小（10歲）｜1間房（尋找4人房/家庭房）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&no_rooms=1&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "STAYMoiwayama",
+        "price": "¥10,888",
+        "price_num": 10888.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/staymoiwayama.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=1462177905_417526732_0_0_0&highlighted_blocks=1462177905_417526732_0_0_0&matching_block_id=1462177905_417526732_0_0_0&sr_pri_blocks=1462177905_417526732_0_0_0__1088800&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥16,320",
+        "price_num": 16320.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=1601024602_431376556_4_0_0&highlighted_blocks=1601024602_431376556_4_0_0&matching_block_id=1601024602_431376556_4_0_0&sr_pri_blocks=1601024602_431376556_4_0_0__1632000&nad_id=647afc2c-3fe5-4449-be90-8eeef6d2aa74_0&nad_cpc=0.5&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyODAwODYsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoic2tvTW9pUW9keTJsZWZBcFlIVFVyVndkakYxdXdPUnIvTEVUK0ZodEhsL2h5V1RtaWRQeG9Ra1JxWXJKbUorK01HeHdxOXBlUlJRbC90bGduRWtYR2dXT2YyeUE2aE9McnBiVzUreVFaTnEvRzJ0UXZvOHZBYkRnV3ZRRmpDQ2VLbDdyNXJ5Wk5oSzUwN3pGTVpyUUNVLzZHZHFhN1pNMStidmFTcm5iaUNYWUhMY2QxTEFHS2pDK0MvL2kvQlFaYzZIZWpvc1N1c1pnL2Jkam42OUtldWtSaUNJL3FIeFQzcDhqU1d1VUNJSnp5bVBZK0NybVcyTDh3T294SnI2bVVrdmRxRUVFN05wUjdNRTNuMWdzUEltbHNpdERYZmlpQlYvZUJBMzh4TnFPR3NFYUtZM3htbmdzVCtiZXdmNUJwb0lna3UzTFZwQWV5cm9LUVdkTGc3VkE5OTE1MTZqWEt1czBFVURnODNXNHU2L2xFYXIxb0FFNWtLMlNYNDh3Nzl4Q2d2TTZLS2hDQ3VEa0NtSlJ6cVZkVFYyY3A2WmxORktPWnZtQkdJSFh3My9GdUw3bUp5REhKRVB0YkU3YUxjem1RUmVFZFFSem0xMGJidW5lR05mUnhMYUFYMXc5V1lpODIzUjU1M3JPa3NJOU1KWm0zSGt2c01EcmJFQlN3OUQzQ2RoY1Q1Ulc0VnUwaW9ZTEtPNnBlVW1kNWRFWkI1cy9LZVNOR005eWxFOXgxVFJiclAwbjVvT2FOYTZDZWlRZExJOEtRNWROY2ZCMkpESHIrTHp1blg5MUtKRnNTRnJyL1JvaEJ3MmdwZXRsMlpJTXNmdnBzbFdVeEgyOVZCVG1lbXBxQWg1WWkzU3pmNnJMcnFGVTRDTnkzU0phSDE5WDR2QVJsQ0Z1SW9xMXAwSTBUSkdvY0s2Y2tHT2ZjZ2hraks0cEdLTTBOZ1hBWWhLWE1QMW4xSVMxUHhhTDA0b2ZsUENlUjRTS3kvL0Q4bEpLNGsyTCtmU0ZkMHJwM1UvSGkwVXdld3VtTmUzRUIxSFpwS0krL29CUjFXdXRpalZjMkpCM2d5Wk5NMEMvc2JsNytvVVVsaDR3dGduYjQxdGhFSUVqRDE2M2hkV01SVzlQZVZZMU9pcWljK2NEQXNYQmZZZmcxNlNLT21QYXh6cHl6VlZoOWxhQ2RJU0dIRXcwVFF3K0xkR1F0TkJMakEyR0tMUGNkZmlnOFcwZExLRDgyOFBtMlBQeURSNVNHNnpVTGxIKzFFK2p2M2JFOUNEYmNBNDQ1WUtRRWl6dE80UHNCU2VrcXNyVjQyeXRpR0Y2cTNqQmpvaFJrTkt1eGhEcGt1ZDcwN01TeSt6VW0rZHVCWDlMYnNRT3dJRFZTcjZTbnNqUXNRK3BsUTkrcUFacDNjazd4UGdXV2UvLzFBemxjVFBHRkxIRWpGMFdmY2pRTXozWkZTNXFQSkVnL2dJUWJRc2djdXh0Q1JLc0ovYUtSL0xOR3BNV1FZVjJQT2FMU0poL3FORVc0QnF2TTlJQklHSXhzQWFKWElqOTlBbjMrbTM3ckRqODV3Z1dMaVVkNGdnQStPWXUvdDM2T0pjelN6eUFNeXBEVFF2WDQ5c3psaEJFUlZncGdVTVQ5MXp2ZFhITEMwdzU2RVdIRUVtM0VWV1lCZERPYW0yejVJWlNtZDBoY011dnkrZE8xekZrUmZSY3g4dkJTUzdxR2oyTG1zVE1EK2RBVFgvbUlySVNjL0dXb0xPSGZ0TkIzRko3aUFySUVBV0NmZVJzT1E2S0VHVHI3U1R0YXphckVQcXhKbXh3NG05YWV0UEJUdERiOW04dkgxd0lIaUVxcjlrSXVTa040R0kvcmMwQ1FMamJGTDVrc1R0cnV6NFI4WEt1c0RPUlZ4WlU1cGlkY3ZPejhaL1V2ZlAzRnNRdWtlUHBnYkdNdjlTVjFNbHhPWUJxa3A4ODgva0VYRGJ1UCtmbmZmTUVjME9WZmtUeWdvWEdkQnRRajhjV21LZmQ3NjVCSE9XTWtmTmpVcDArMjJIUDAwQkMwaWNabnUvbTg4QnJCRjAzTEx6alJ1RittNnZHUDNTN2FmckpHa0pkN0VjSzlBeFllM3pMaE91UFRab0RoakdhQmhRWDhxMnhkdnF5QXVWZVcxS2tMOVZETlB3dWZVdlZsYUQwSENOSzVoVHpoZWIrMVZ6YXkrNytDZDYyODBOaUJ0Z3FsSEhub0E9PSJ9&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Aspen",
+        "price": "¥23,540",
+        "price_num": 23540.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/sapporo-aspen.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=28040037_378186557_3_2_0&highlighted_blocks=28040037_378186557_3_2_0&matching_block_id=28040037_378186557_3_2_0&sr_pri_blocks=28040037_378186557_3_2_0__2354000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "HOTEL MYSTAYS Sapporo Nakajima Park",
+        "price": "¥19,060",
+        "price_num": 19060.0,
+        "currency": "JPY",
+        "score": "8.2",
+        "distance": "2.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/kita.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=26424623_392572908_3_2_0&highlighted_blocks=26424623_392572908_3_2_0&matching_block_id=26424623_392572908_3_2_0&sr_pri_blocks=26424623_392572908_3_2_0__1906000&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "STAY Moiwayama",
+        "price": "¥10,666",
+        "price_num": 10666.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stayzao-yan-shan.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALH04fQBsACAdICJDc4ODc1ZmFhLTY2ODEtNDc4Yy1hYzVjLTg3ZjViNGJiYTczYdgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=1&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=26dd66e34913065b&srepoch=1778510283&all_sr_blocks=567230507_422225441_4_0_0&highlighted_blocks=567230507_422225441_4_0_0&matching_block_id=567230507_422225441_4_0_0&sr_pri_blocks=567230507_422225441_4_0_0__1066600&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Booking.com",
+    "date": "2026-07-02",
+    "checkout": "2026-07-03",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小（10歲）｜2間房（尋找2間房組合）",
+    "url": "https://www.booking.com/searchresults.html?ss=Sapporo%2C+Hokkaido%2C+Japan&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&no_rooms=2&group_children=1&age=10&selected_currency=JPY&lang=en-us&order=popularity",
+    "hotels": [
+      {
+        "site": "Booking.com",
+        "name": "STAYMoiwayama",
+        "price": "¥9,898",
+        "price_num": 9898.0,
+        "currency": "JPY",
+        "score": "8.6",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/staymoiwayama.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALS04fQBsACAdICJGEwZGQwYWM0LWNiYmQtNDY1OC1iNzYyLWY0YmZjNGU1MzM1MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=1&hapos=1&sr_order=popularity&srpvid=804666e9641703a2&srepoch=1778510294&all_sr_blocks=1462177905_417526732_0_0_0&highlighted_blocks=1462177905_417526732_0_0_0&matching_block_id=1462177905_417526732_0_0_0&sr_pri_blocks=1462177905_417526732_0_0_0__989818&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Minn Sapporo Odori W14",
+        "price": "¥29,280",
+        "price_num": 29280.0,
+        "currency": "JPY",
+        "score": "",
+        "distance": "1.7 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/minn-sapporo-odori-w14.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALS04fQBsACAdICJGEwZGQwYWM0LWNiYmQtNDY1OC1iNzYyLWY0YmZjNGU1MzM1MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=2&hapos=2&sr_order=popularity&srpvid=804666e9641703a2&srepoch=1778510294&all_sr_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&highlighted_blocks=1601024602_431376556_2_0_0%2C1601024602_431376556_2_0_0&matching_block_id=1601024602_431376556_2_0_0&sr_pri_blocks=1601024602_431376556_2_0_0__1464000%2C1601024602_431376556_2_0_0__1464000&nad_id=43ffb63e-2505-4d0d-bdf7-c575a3b461e7_0&nad_cpc=0.5&nad_track=eyJhdWN0aW9uRXBvY2giOjE3Nzg1MTAyOTE0MTUsInJhbmsiOjEsImtvZGRpVHJhY2tpbmdJbmZvIjoieVVIM05qSUYydXUxTDNpd2tQVXNKakJBS2ljOWZ1WUN3eWw4bDgrNEIrYzdGaDZQUjRaVVNGbGtFNzV1aHVZS1Q2VXNvYU1Tay93TGpSa3lKSHhSbU94RG9GS1g2VWFqWDJLM3lidmFNN0NoK3FwTG1VM1lFSFZpT0VNWlJHTVpkZHRjaWJJaTNHUWJvb1BnZGZLa2ZGOXJ4YjZFZXExZTdDei9wWU5YRkQrSC9GWk1mN0xYQUtoajhuYjR5UGluUG1xQXVtR1ZBOGk4S1doQ0V3V1pyOC9Xc0pnN2d4RGF4NnVwVUFMRG1YUm00bHp5QWtjdmhBTm91RmhJN0hvZGcycTVWcktHb1ZjSXFjdjhEaU82N3ZoZTdzaW9JTC9wOGFMOW1WT2V0ZW1ZWVhnUkVVVG9IQnZBYmVRam0xdDVvb0tBejZ4SVhGdmZOUUhlTUNYS2FPY1VqTE9hRmx1L0p2OTdtOWpBWjNieWRqbG04WTFnMm9jbFpPK0xkNUtZNGFPWHBsWlpFMEZxaEdmbEt6SDlpNGRtV0FqUDBEYnFCa0M0YmlMZWdKcE5UakN6SFBKbm9POWtDanBJNFR1Y2xodXZNYXdTbW9JZFg1MXFnNDVaUTVRZkNwZjcvdW0wY2FzZ1JJL01KQy81UnBINmFjeHUxT0xEQmVwTmFqR0VOTFZ2Z0UxQzFMTzhHb04rSUdmMVo0SUJEM1BWYllPWDU4SEI0THhXZE9CTTFyN2lzQ21lZ2dwWmYrQnpxL0lyMEdoVmdXSHVyQWh1RFFuZFV0aGtZQlV0aUE2WXZ5TFpBeERQKzJmQkl4R0VtYjR6Smt5dkhSeURGN2ovN1U3Z3BRMkdUVFFLamZBbUkyajhmb3lndGIzWEZ3bGNYZk91THNWY2dsbDBsNXg4RXB1aTR0SHVRakloQnJqVUkyajJ5UkJuRGQ0TU9TMW1NYWFGRlNjNmtNb29MeExCV1A0SVVrSXM5YkZDTmloSGhFZDB3YkZRWVc3RkxNeVVCZzdOSWZvN0cvNW12YkdlbmRuSkh6Qi9YWitFSkIyNWxlQ2xVdy9MYjdhYXZCRXloaHVySVdWWk82L2djc3o4ZjhDcThmZVB6QmluWVZCQmIySGFCeXhLWlIvMURibmw3Qkp6QzNsMS9WdFdidUVQd2VDSE52dW14cHFEbVdiZC9hRTJPYjBJS1lmaTJRMXJJMU83Q3NQeXNDazZweWIvSmt1d2NKZmpqSkZYOXhxV1F2QzFEY1pidDUySTZnSXNpYWlUVHpyeWVvVUJIc3g2dzhZdzlMa1hGRGlyb0JPMTNVSTdsN3YvcmhtU1VXZGEweEhFTDBFL3ZyWFBITFQyOE02bDgvRXBNU3diaWVEbVRDSHdDMnllL1dqM2FueFBJTVF5dnBpK2M5bjh3R3pJWmhVby9ZNjZhL2tCbmxNOGs5YWRxM2R5QkVML3JqL00wcUdSYjdQN3M3Zk9wK3o5ZUFOWFhVS1c2NENNTUNMbDhxZjNwcnNZckV4Ry9IZXFiNjlVQU5SbG9JdEEvRWJuYWlvNGVrbWFwbmlOZVdTejA2cVpndjc0NkE5QnpqMkxNUTd1ZXBjSHM2bUZQT3JVSlZlRTRWaUo3a1pRWFZkVWxhclp4SHpuZVZuNkVLWXNPNFg3WnZlc0dTbWtqSmd1dmlqMVVjUmJac3RkaE9TUVQrclI5VWk5ZWVhNTNUeG4vWldlSHJDcjB0aHl2djdXQTlGYm0yZzNoeXFmZFBueWhiT2VkM1c0OVlwcHFidnd0dEU4SXlqa0cwTlFWMVUrRnZkWUhsVFBvQVNpSjV2UEh2ZUNmR2N4NHJxaDh2a2Fmekh6SWFMeGVKYlZMdmVmS3Fyc0VDMnhKekNJS0p4T2w2ajNXZk9MN2ZsZzVOYXZKL2lWcWdENytwK0hqcmpnclNHeTh1UEJhMnl5cit3dUZQWjh0V0l1WFNHMXVKdU5hWjhrbHVGTHNsN1Q5a0NSU3J0d1g1L3NJbDJKNFNRMmR5RlMxdElYdlp4d0I0ZEFmeWU0azB6QUxvbGhUZnpNS1VjbkNuNnFoV1MxU1JkTEpQMytyZFdFZ09teEhZNEJQdFFBOWF4enlwb3l2TmlXdUxZckZ1aWFpSzhhTGpoOExhMHdBZ3FPTG9ON0NJS1VyMkd5QkRtY0w3MXpZb0JkME81ZzZGdFNicDFVTnZ0VVFkZ3R4Y0duMno3cEt3PT0ifQ%3D%3D&nad_placement=SR_MAIN&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "STAY Moiwayama",
+        "price": "¥10,666",
+        "price_num": 10666.0,
+        "currency": "JPY",
+        "score": "8.5",
+        "distance": "4.1 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/stayzao-yan-shan.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALS04fQBsACAdICJGEwZGQwYWM0LWNiYmQtNDY1OC1iNzYyLWY0YmZjNGU1MzM1MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=3&hapos=3&sr_order=popularity&srpvid=804666e9641703a2&srepoch=1778510294&all_sr_blocks=567230507_422225441_4_0_0&highlighted_blocks=567230507_422225441_4_0_0&matching_block_id=567230507_422225441_4_0_0&sr_pri_blocks=567230507_422225441_4_0_0__1066600&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "Keio Prelia Hotel Sapporo",
+        "price": "¥37,310",
+        "price_num": 37310.0,
+        "currency": "JPY",
+        "score": "8.9",
+        "distance": "1.2 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/keio-prelia-hotel-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALS04fQBsACAdICJGEwZGQwYWM0LWNiYmQtNDY1OC1iNzYyLWY0YmZjNGU1MzM1MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=4&hapos=4&sr_order=popularity&srpvid=804666e9641703a2&srepoch=1778510294&all_sr_blocks=452179821_383216676_2_2_0%2C452179821_383216676_2_2_0&highlighted_blocks=452179821_383216676_2_2_0%2C452179821_383216676_2_2_0&matching_block_id=452179821_383216676_2_2_0&sr_pri_blocks=452179821_383216676_2_2_0__1865500%2C452179821_383216676_2_2_0__1865500&from_sustainable_property_sr=1&from=searchresults"
+      },
+      {
+        "site": "Booking.com",
+        "name": "LAMP LIGHT BOOKS HOTEL sapporo",
+        "price": "¥28,371",
+        "price_num": 28371.0,
+        "currency": "JPY",
+        "score": "8.7",
+        "distance": "0.9 km from downtown",
+        "link": "https://www.booking.com/hotel/jp/lamp-light-books-sapporo.html?aid=304142&label=gen173nr-10CAQoggJCH3NlYXJjaF9zYXBwb3JvLCBob2trYWlkbywgamFwYW5IMVgEaOcBiAEBmAEzuAEXyAEM2AED6AEB-AEBiAIBqAIBuALS04fQBsACAdICJGEwZGQwYWM0LWNiYmQtNDY1OC1iNzYyLWY0YmZjNGU1MzM1MtgCAeACAQ&ucfs=1&arphpl=1&checkin=2026-07-02&checkout=2026-07-03&group_adults=3&req_adults=3&no_rooms=2&group_children=1&req_children=1&age=10&req_age=10&hpos=5&hapos=5&sr_order=popularity&srpvid=804666e9641703a2&srepoch=1778510294&all_sr_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&highlighted_blocks=719481901_307906462_2_0_0%2C719481901_307906462_2_0_0&matching_block_id=719481901_307906462_2_0_0&sr_pri_blocks=719481901_307906462_2_0_0__1418564%2C719481901_307906462_2_0_0__1418564&from=searchresults"
+      }
+    ]
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-25",
+    "checkout": "2026-06-26",
+    "search": "Eniwa, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$64",
+        "price_num": 64.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Grand Hostel LDK Sapporo",
+        "price": "$73",
+        "price_num": 73.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Property amenity. Grand Hostel LDK Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$76",
+        "price_num": 76.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$84",
+        "price_num": 84.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Eniwa, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34980,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-25.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-25",
+    "checkout": "2026-06-26",
+    "search": "Eniwa, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$64",
+        "price_num": 64.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Grand Hostel LDK Sapporo",
+        "price": "$73",
+        "price_num": 73.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Property amenity. Grand Hostel LDK Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$76",
+        "price_num": 76.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$84",
+        "price_num": 84.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Eniwa, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Eniwa%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3000477899&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34896,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-25.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-26",
+    "checkout": "2026-06-27",
+    "search": "Noboribetsu, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Rusutsu Grand Cabin",
+        "price": "$97",
+        "price_num": 97.0,
+        "currency": "USD",
+        "score": "8.0",
+        "distance": "26.96 mi from Noboribetsu",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "price": "$125",
+        "price_num": 125.0,
+        "currency": "USD",
+        "score": "8.0",
+        "distance": "Exterior. World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Rusutsu Resort Hotel & Convention",
+        "price": "$196",
+        "price_num": 196.0,
+        "currency": "USD",
+        "score": "8.6",
+        "distance": "25.28 mi from Noboribetsu",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "d.d.d home/One private Terrace Family CR Max7ppl",
+        "price": "$214",
+        "price_num": 214.0,
+        "currency": "USD",
+        "score": "10",
+        "distance": "Date, 13.12 mi from Noboribetsu",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Noboribetsu, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34034,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-26.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-26",
+    "checkout": "2026-06-27",
+    "search": "Noboribetsu, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Rusutsu Grand Cabin",
+        "price": "$97",
+        "price_num": 97.0,
+        "currency": "USD",
+        "score": "8.0",
+        "distance": "26.96 mi from Noboribetsu",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "price": "$125",
+        "price_num": 125.0,
+        "currency": "USD",
+        "score": "8.0",
+        "distance": "Exterior. World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Rusutsu Resort Hotel & Convention",
+        "price": "$196",
+        "price_num": 196.0,
+        "currency": "USD",
+        "score": "8.6",
+        "distance": "25.28 mi from Noboribetsu",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "d.d.d home/One private Terrace Family CR Max7ppl",
+        "price": "$214",
+        "price_num": 214.0,
+        "currency": "USD",
+        "score": "10",
+        "distance": "Date, 13.12 mi from Noboribetsu",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Noboribetsu, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Noboribetsu%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6144865&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34034,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-26.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-27",
+    "checkout": "2026-06-28",
+    "search": "Lake Toya, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "price": "$127",
+        "price_num": 127.0,
+        "currency": "USD",
+        "score": "8.0",
+        "distance": "Exterior. World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "A house with a panoramic view of the Sea - Blue 2001 / Suttsu-gun Hokkaidō",
+        "price": "$133",
+        "price_num": 133.0,
+        "currency": "USD",
+        "score": "6.8",
+        "distance": "29.36 mi from Lake Toya",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Trailside Apartments & Chalet",
+        "price": "$154",
+        "price_num": 154.0,
+        "currency": "USD",
+        "score": "8.4",
+        "distance": "17.07 mi from Lake Toya",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hilton Niseko Village",
+        "price": "$155",
+        "price_num": 155.0,
+        "currency": "USD",
+        "score": "8.4",
+        "distance": "17.27 mi from Lake Toya",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Lake Toya, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 33899,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-27.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-27",
+    "checkout": "2026-06-28",
+    "search": "Lake Toya, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "price": "$127",
+        "price_num": 127.0,
+        "currency": "USD",
+        "score": "8.0",
+        "distance": "Exterior. World Inn Muroran Nakamano-Ie! Noboribetsu, Toyako, Sapporo, and Airport Direct Bus Stop",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "A house with a panoramic view of the Sea - Blue 2001 / Suttsu-gun Hokkaidō",
+        "price": "$133",
+        "price_num": 133.0,
+        "currency": "USD",
+        "score": "6.8",
+        "distance": "29.36 mi from Lake Toya",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Trailside Apartments & Chalet",
+        "price": "$154",
+        "price_num": 154.0,
+        "currency": "USD",
+        "score": "8.4",
+        "distance": "17.07 mi from Lake Toya",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hilton Niseko Village",
+        "price": "$155",
+        "price_num": 155.0,
+        "currency": "USD",
+        "score": "8.4",
+        "distance": "17.27 mi from Lake Toya",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Lake Toya, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Lake%20Toya%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=602068&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 33899,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-27.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-28",
+    "checkout": "2026-06-29",
+    "search": "Otaru, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$40",
+        "price_num": 40.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "The Stay Yuki",
+        "price": "$69",
+        "price_num": 69.0,
+        "currency": "USD",
+        "score": "2.0",
+        "distance": "Otaru",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$70",
+        "price_num": 70.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Tug-B Bar&Hostel",
+        "price": "$73",
+        "price_num": 73.0,
+        "currency": "USD",
+        "score": "6.0",
+        "distance": "Otaru",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Otaru, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 33875,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-28.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-28",
+    "checkout": "2026-06-29",
+    "search": "Otaru, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$40",
+        "price_num": 40.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "The Stay Yuki",
+        "price": "$69",
+        "price_num": 69.0,
+        "currency": "USD",
+        "score": "2.0",
+        "distance": "Otaru",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$70",
+        "price_num": 70.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Tug-B Bar&Hostel",
+        "price": "$73",
+        "price_num": 73.0,
+        "currency": "USD",
+        "score": "6.0",
+        "distance": "Otaru",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Otaru, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Otaru%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=6023780&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 33875,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-28.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-29",
+    "checkout": "2026-06-30",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$48",
+        "price_num": 48.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Tabist THE GREEN SAPPORO",
+        "price": "$62",
+        "price_num": 62.0,
+        "currency": "USD",
+        "score": "3.2",
+        "distance": "",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$65",
+        "price_num": 65.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 35641,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-29.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-29",
+    "checkout": "2026-06-30",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$48",
+        "price_num": 48.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Tabist THE GREEN SAPPORO",
+        "price": "$62",
+        "price_num": 62.0,
+        "currency": "USD",
+        "score": "3.2",
+        "distance": "",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$65",
+        "price_num": 65.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 35641,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-29.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-30",
+    "checkout": "2026-07-01",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$55",
+        "price_num": 55.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$66",
+        "price_num": 66.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$70",
+        "price_num": 70.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34124,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-06-30.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-06-30",
+    "checkout": "2026-07-01",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$55",
+        "price_num": 55.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$66",
+        "price_num": 66.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$70",
+        "price_num": 70.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34124,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-06-30.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-07-01",
+    "checkout": "2026-07-02",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Tabist THE GREEN SAPPORO",
+        "price": "$81",
+        "price_num": 81.0,
+        "currency": "USD",
+        "score": "3.2",
+        "distance": "",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$81",
+        "price_num": 81.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$82",
+        "price_num": 82.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34547,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-07-01.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-07-01",
+    "checkout": "2026-07-02",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Tabist THE GREEN SAPPORO",
+        "price": "$81",
+        "price_num": 81.0,
+        "currency": "USD",
+        "score": "3.2",
+        "distance": "",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$81",
+        "price_num": 81.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Hotel Nets Sapporo",
+        "price": "$82",
+        "price_num": 82.0,
+        "currency": "USD",
+        "score": "9.0",
+        "distance": "Front of property. Hotel Nets Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34547,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-07-01.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-07-02",
+    "checkout": "2026-07-03",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Van Vale South House 505",
+        "price": "$83",
+        "price_num": 83.0,
+        "currency": "USD",
+        "score": "4.8",
+        "distance": "",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$88",
+        "price_num": 88.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$92",
+        "price_num": 92.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34537,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_1room_2026-07-02.png"
+  },
+  {
+    "site": "Expedia",
+    "date": "2026-07-02",
+    "checkout": "2026-07-03",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [
+      {
+        "site": "Expedia",
+        "name": "Van Vale South House 505",
+        "price": "$83",
+        "price_num": 83.0,
+        "currency": "USD",
+        "score": "4.8",
+        "distance": "",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Theatel Sapporo",
+        "price": "$88",
+        "price_num": 88.0,
+        "currency": "USD",
+        "score": "8.2",
+        "distance": "Reception. Theatel Sapporo",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      },
+      {
+        "site": "Expedia",
+        "name": "Randor Hotel Sapporo Heritage",
+        "price": "$92",
+        "price_num": 92.0,
+        "currency": "USD",
+        "score": "9.8",
+        "distance": "Lobby. Randor Hotel Sapporo Heritage",
+        "link": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option"
+      }
+    ],
+    "errors": [],
+    "status": 200,
+    "title": "Sapporo, Hokkaido Prefecture, Japan Hotel Search Results",
+    "final_url": "https://www.expedia.com/Hotel-Search?destination=Sapporo%2C%20Hokkaido%20Prefecture%2C%20Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US&regionId=3250&theme=&userIntent=&semdtl=&categorySearch=any_option",
+    "body_len": 34537,
+    "screenshot": "/home/profe/hotel-research/data/multisite/expedia_family_2rooms_2026-07-02.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-25",
+    "checkout": "2026-06-26",
+    "search": "Eniwa, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-25.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-25",
+    "checkout": "2026-06-26",
+    "search": "Eniwa, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Eniwa%2C+Hokkaido%2C+Japan&startDate=2026-06-25&endDate=2026-06-26&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-06-25.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-26",
+    "checkout": "2026-06-27",
+    "search": "Noboribetsu, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-26.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-26",
+    "checkout": "2026-06-27",
+    "search": "Noboribetsu, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Noboribetsu%2C+Hokkaido%2C+Japan&startDate=2026-06-26&endDate=2026-06-27&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-06-26.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-27",
+    "checkout": "2026-06-28",
+    "search": "Lake Toya, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-27.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-27",
+    "checkout": "2026-06-28",
+    "search": "Lake Toya, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Lake+Toya%2C+Hokkaido%2C+Japan&startDate=2026-06-27&endDate=2026-06-28&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-06-27.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-28",
+    "checkout": "2026-06-29",
+    "search": "Otaru, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-28.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-28",
+    "checkout": "2026-06-29",
+    "search": "Otaru, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Otaru%2C+Hokkaido%2C+Japan&startDate=2026-06-28&endDate=2026-06-29&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-06-28.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-29",
+    "checkout": "2026-06-30",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-29.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-29",
+    "checkout": "2026-06-30",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-29&endDate=2026-06-30&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-06-29.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-30",
+    "checkout": "2026-07-01",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-06-30.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-06-30",
+    "checkout": "2026-07-01",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-06-30&endDate=2026-07-01&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-06-30.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-07-01",
+    "checkout": "2026-07-02",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-07-01.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-07-01",
+    "checkout": "2026-07-02",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-01&endDate=2026-07-02&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-07-01.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-07-02",
+    "checkout": "2026-07-03",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_1room",
+    "occupancy_label": "3大1小(10歲)｜1間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=1&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_1room_2026-07-02.png"
+  },
+  {
+    "site": "Hotels.com",
+    "date": "2026-07-02",
+    "checkout": "2026-07-03",
+    "search": "Sapporo, Hokkaido, Japan",
+    "occupancy_key": "family_2rooms",
+    "occupancy_label": "3大1小(10歲)｜2間房",
+    "url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "hotels": [],
+    "errors": [],
+    "status": 429,
+    "title": "Bot or Not?",
+    "final_url": "https://www.hotels.com/Hotel-Search?destination=Sapporo%2C+Hokkaido%2C+Japan&startDate=2026-07-02&endDate=2026-07-03&rooms=2&adults=3&children=1_10&sort=PRICE_LOW_TO_HIGH&useRewards=false&currency=JPY&locale=en_US",
+    "body_len": 107,
+    "screenshot": "/home/profe/hotel-research/data/multisite/hotels.com_family_2rooms_2026-07-02.png"
+  }
+]

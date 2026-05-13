@@ -7,7 +7,7 @@
 - App URL: `http://127.0.0.1:5173/`
 - Active dev server: Vite on `127.0.0.1:5173`, observed listener PID `93444`
 - Current date/time recorded: `2026-04-29 20:16:13 +08:00`
-- Repo state: this folder is not a git repository
+- Repo state: Git initialized, current branch `master`
 
 ## User Goal
 
@@ -79,10 +79,10 @@ https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 
 This caused visible `403 Access blocked` tiles in the browser because the OSM volunteer tile server required a valid referer usage pattern.
 
-Fixed by switching to Japan GSI tiles:
+Fixed by switching to Japan GSI tiles (pale version for better contrast with route lines):
 
 ```ts
-https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png
+https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png
 ```
 
 Attribution now shows `地理院タイル`.
@@ -139,9 +139,14 @@ Google Maps link for `2026-06-27` now uses:
 - `src/main.ts` uses a render sequence guard to prevent stale weather/detail renders after rapid date switching.
 - `src/ui/map.ts` uses its own render sequence guard to prevent stale route geometry from mutating the map.
 
+### Mapcodes and Fatigue Alerts
+
+- **Mapcodes**: Added `mapcode` and `phone` fields to `Place` and `LodgingCandidate`. Populated data for all major points. Added "Copy" buttons in the UI.
+- **Fatigue Alerts**: Implemented daily mileage and drive time calculation in `state.ts`. Added a yellow warning banner in `panels.ts` for days exceeding 150km or 3 hours (e.g., 6/28).
+
 ## Verification Evidence
 
-Latest full verification after GSI tile fix:
+Latest full verification after Mapcode/Fatigue fix:
 
 ```powershell
 npm run verify
@@ -156,23 +161,10 @@ Result:
 Latest live-server checks:
 
 - `http://127.0.0.1:5173/` returned HTTP `200`
-- Listener observed on `127.0.0.1:5173`
-- Desktop manual smoke:
-  - map tiles loaded
-  - route line visible
-  - markers visible
-  - external links present
-  - no horizontal overflow
-- Mobile manual smoke:
-  - 390px viewport
-  - no horizontal overflow
-  - 9 day buttons visible
-  - map and detail panel visible
-- 6/27 live smoke:
-  - active date: `2026-06-27`
-  - detail heading: `札幌至小樽，延伸余市後返小樽`
-  - route text: `札幌 → 小樽 → 余市 → 小樽`
-  - Google Maps href includes `waypoints=小樽|余市`
+- 6/28 UI smoke:
+  - Fatigue warning visible: "🚗 今日預計行駛 175km / 4.2hr..."
+  - Mapcode copy buttons visible on lodging cards.
+  - Clicking copy button changes text to "已複製".
 
 ## Review Gates
 
@@ -206,5 +198,5 @@ Final acceptance review result:
 Use this prompt if continuing in a new session:
 
 ```text
-請從 C:\Users\Jonathan\Documents\travel_map 繼續。先讀 docs/superpowers/worklogs/2026-04-29-hokkaido-interactive-map-worklog.md。這個 Vite/TypeScript/Leaflet 北海道互動地圖已完成並通過 npm run verify。dev server 應該在 http://127.0.0.1:5173/；若斷線，重新執行 npm run dev -- --port 5173。最近修正重點：底圖已從 OSM volunteer tile 換成 GSI tile 以避免 403；天氣未來日期使用 daily forecast，不混用 current；6/27 Google Maps 導航順序保留 札幌 -> 小樽 -> 余市 -> 小樽。請先確認 live UI，再依我的新需求修改。
+請從 C:\Users\Jonathan\Documents\travel_map 繼續。先讀 docs/superpowers/worklogs/2026-04-29-hokkaido-interactive-map-worklog.md。這個 Vite/TypeScript/Leaflet 北海道互動地圖已完成 Mapcode 支援與長途駕駛疲勞提示，並通過 npm run verify。dev server 應該在 http://127.0.0.1:5173/。底圖使用 GSI tile。天氣未來日期使用 daily forecast。6/27 導航順序保留。Mapcode 支援一鍵複製。6/28 積丹段會觸發疲勞警告。請依我的新需求修改。
 ```
