@@ -31,7 +31,7 @@ export const topNavigationItems: TopNavigationItem[] = [
   { kind: 'mode', mode: 'table', labelZh: '表格' },
   {
     kind: 'external',
-    href: 'file:///C:/Users/Jonathan/Documents/travel_map/hotel-research/reports/master_summary.html',
+    href: 'hotel-report.html',
     labelZh: '住宿報表',
   },
   { kind: 'mode', mode: 'disaster', labelZh: '防災資訊' },

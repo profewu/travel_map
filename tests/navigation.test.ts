@@ -1,7 +1,6 @@
 import { appModes, topNavigationItems } from '../src/ui/navigation';
 
-const masterSummaryUrl =
-  'file:///C:/Users/Jonathan/Documents/travel_map/hotel-research/reports/master_summary.html';
+const hotelReportUrl = 'hotel-report.html';
 
 describe('top navigation modes', () => {
   it('places disaster information between table and notes in the segmented nav', () => {
@@ -16,7 +15,7 @@ describe('top navigation modes', () => {
     expect(appModes).toEqual(['overview', 'route', 'table', 'disaster']);
   });
 
-  it('links the hotel report to the local master summary file', () => {
+  it('links the hotel report to the published top 3 report file', () => {
     const reportItem = topNavigationItems.find(
       (item) => item.labelZh === '住宿報表',
     );
@@ -24,7 +23,7 @@ describe('top navigation modes', () => {
     expect(reportItem).toEqual({
       kind: 'external',
       labelZh: '住宿報表',
-      href: masterSummaryUrl,
+      href: hotelReportUrl,
     });
   });
 });
