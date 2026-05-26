@@ -6,8 +6,7 @@ const modeTab = (
   mode: 'overview' | 'route' | 'table' | 'disaster',
 ) => page.locator(`.mode-tab[data-mode="${mode}"]`);
 
-const masterSummaryUrl =
-  'file:///C:/Users/Jonathan/Documents/travel_map/hotel-research/reports/master_summary.html';
+const hotelReportUrl = 'hotel-report.html';
 
 test.beforeEach(async ({ page }) => {
   await page.route('https://router.project-osrm.org/**', async (route) => {
@@ -32,7 +31,7 @@ test('dashboard travel UI renders and responds to day and marker selection', asy
   await expect(page.locator('.topbar')).not.toContainText('Google Maps 外部導航');
   await expect(page.getByRole('link', { name: '住宿報表' })).toHaveAttribute(
     'href',
-    masterSummaryUrl,
+    hotelReportUrl,
   );
   await expect(page.getByRole('button', { name: '筆記' })).toBeVisible();
   await expect(page.locator('.leaflet-container')).toBeVisible();
@@ -151,6 +150,14 @@ test('table tab shows the itinerary table and route/overview remain usable', asy
   await expect(page.getByRole('heading', { name: '行程總表' })).toBeVisible();
   await expect(page.locator('.itinerary-table-page')).toBeVisible();
   await expect(page.locator('.itinerary-table')).toBeVisible();
+  await expect(page.getByRole('columnheader', { name: '住宿地 / 住宿候選' })).toHaveCount(
+    0,
+  );
+  await expect(
+    page.getByRole('columnheader', { name: '起點 / 停靠點 / 終點 / 住宿地' }),
+  ).toBeVisible();
+  await expect(page.locator('.table-lodging')).toHaveCount(0);
+  await expect(page.locator('.table-route-lodging').first()).toContainText('住宿地');
   await expect(page.locator('.itinerary-table tbody tr')).toHaveCount(
     tripDays.length,
   );

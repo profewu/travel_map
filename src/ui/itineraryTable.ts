@@ -1,6 +1,12 @@
 import type { CsvPlaceSummary } from '../data/csvPlaceSummaries';
 import { aiSuggestedLodgingPlaceByDate as defaultAiSuggestedLodgingPlaceByDate } from '../data/lodgingPolicy';
-import type { LodgingCandidate, Place, RouteSegment, TripDay } from '../data/trip';
+import type {
+  ConfirmedLodging,
+  LodgingCandidate,
+  Place,
+  RouteSegment,
+  TripDay,
+} from '../data/trip';
 import {
   buildGoogleDirectionsUrl,
   buildHotelSearchUrl,
@@ -28,6 +34,7 @@ export interface ItineraryTableRow {
     targetZh: string;
     candidateNamesZh: string[];
     aiSuggestedNameZh?: string;
+    confirmed?: ConfirmedLodging;
   };
   csvSummary: {
     items: ItineraryCsvItem[];
@@ -140,7 +147,7 @@ function buildCsvSummary(input: {
     items,
     textZh:
       items.length > 0
-        ? items.map((item) => `${item.placeNameZh}: ${item.summaryZh}`).join(' / ')
+        ? items.map((item) => `• ${item.placeNameZh}: ${item.summaryZh}`).join('\n')
         : '無 CSV 補充。',
   };
 }
@@ -176,15 +183,17 @@ function buildActions(input: {
   day: TripDay;
   routeNamesZh: string[];
   lodgingTargetZh: string;
+  lodgingSearchQueryZh?: string;
   endNameZh: string;
 }): ItineraryTableRow['actions'] {
   const origin = input.routeNamesZh[0] ?? input.endNameZh;
   const destination = input.routeNamesZh.at(-1) ?? input.endNameZh;
   const waypoints = input.routeNamesZh.slice(1, -1);
   const hotelQuery =
-    input.lodgingTargetZh && input.lodgingTargetZh !== '無。'
+    input.lodgingSearchQueryZh ??
+    (input.lodgingTargetZh && input.lodgingTargetZh !== '無。'
       ? input.lodgingTargetZh
-      : `${input.endNameZh} 3 星以上住宿`;
+      : `${input.endNameZh} 3 星以上住宿`);
 
   return {
     googleMapsUrl: buildGoogleDirectionsUrl({
@@ -252,6 +261,7 @@ export function buildItineraryTableRows(
         targetZh: day.lodgingTargetZh,
         candidateNamesZh: dayLodgingCandidates.map((candidate) => candidate.nameZh),
         aiSuggestedNameZh,
+        confirmed: day.confirmedLodging,
       },
       csvSummary,
       aiSuggestionZh: buildAiSuggestion({
@@ -273,6 +283,7 @@ export function buildItineraryTableRows(
         day,
         routeNamesZh,
         lodgingTargetZh: day.lodgingTargetZh,
+        lodgingSearchQueryZh: day.confirmedLodging?.hotelName,
         endNameZh,
       }),
     };

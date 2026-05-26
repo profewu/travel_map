@@ -164,6 +164,12 @@ describe('itinerary table view model', () => {
       'Scenic Stop',
       'Lunch Market',
     ]);
+    expect(transferDay.csvSummary.textZh).toBe(
+      [
+        '• Scenic Stop: CSV Day 2 Scenic parking and short walk tips',
+        '• Lunch Market: CSV Day 2 Lunch market closes early',
+      ].join('\n'),
+    );
     expect(transferDay.csvSummary.textZh).toContain('Scenic parking');
     expect(transferDay.csvSummary.textZh).toContain('Lunch market');
     expect(transferDay.drive.totalKm).toBe(171);
@@ -204,5 +210,25 @@ describe('itinerary table view model', () => {
     expect(departureRow?.lodging.aiSuggestedNameZh).toBe(
       places['eniwa-fairfield'].nameZh,
     );
+
+    const lakeToyaRow = rows.find((row) => row.date === '2026-06-27');
+    expect((lakeToyaRow?.lodging as { confirmed?: unknown }).confirmed).toEqual({
+      provider: 'Agoda',
+      statusZh: '已確認',
+      bookingNumber: '1730644759',
+      hotelName: 'Lake Toya Terrace House',
+      checkInDate: '2026-06-27',
+      checkOutDate: '2026-06-28',
+    });
+
+    const otaruRow = rows.find((row) => row.date === '2026-06-28');
+    expect((otaruRow?.lodging as { confirmed?: unknown }).confirmed).toEqual({
+      provider: 'Agoda',
+      statusZh: '已確認',
+      bookingNumber: '1730650360',
+      hotelName: 'Hotel Nord Otaru',
+      checkInDate: '2026-06-28',
+      checkOutDate: '2026-06-29',
+    });
   });
 });

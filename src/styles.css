@@ -1421,23 +1421,22 @@ html[data-map-mode="disaster"] .gsi-contour-detail-tile {
 }
 
 .itinerary-table th:nth-child(3) {
-  width: 210px;
+  width: 270px;
 }
 
 .itinerary-table th:nth-child(4) {
-  width: 220px;
+  width: 280px;
 }
 
-.itinerary-table th:nth-child(5),
+.itinerary-table th:nth-child(5) {
+  width: 240px;
+}
+
 .itinerary-table th:nth-child(6) {
-  width: 230px;
-}
-
-.itinerary-table th:nth-child(7) {
   width: 116px;
 }
 
-.itinerary-table th:nth-child(8) {
+.itinerary-table th:nth-child(7) {
   width: 150px;
 }
 
@@ -1461,7 +1460,6 @@ html[data-map-mode="disaster"] .gsi-contour-detail-tile {
 }
 
 .table-route,
-.table-lodging,
 .table-csv,
 .table-ai-note,
 .table-drive {
@@ -1469,8 +1467,49 @@ html[data-map-mode="disaster"] .gsi-contour-detail-tile {
   gap: 8px;
 }
 
+.table-route-lodging {
+  display: grid;
+  gap: 6px;
+  margin-top: 2px;
+  border-top: 1px solid var(--surface-line);
+  padding-top: 8px;
+}
+
+.table-route-lodging p {
+  margin-bottom: 0;
+}
+
+.table-confirmed-lodging {
+  display: grid;
+  gap: 5px;
+  border-left: 3px solid rgba(127, 154, 130, 0.54);
+  padding-left: 9px;
+}
+
+.table-confirmed-lodging p {
+  margin-bottom: 0;
+}
+
+.table-confirmed-lodging span {
+  display: inline-block;
+  margin-right: 6px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.table-csv-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.table-csv-list li {
+  padding-left: 2px;
+}
+
 .table-route p,
-.table-lodging p,
 .table-csv p,
 .table-ai-note p {
   margin-bottom: 0;
@@ -1528,8 +1567,7 @@ html[data-map-mode="disaster"] .gsi-contour-detail-tile {
   color: #9e302a;
 }
 
-.badge-lodging,
-.badge-candidate {
+.badge-lodging {
   border-color: rgba(127, 154, 130, 0.46);
   background: rgba(127, 154, 130, 0.14);
   color: #4f6d56;

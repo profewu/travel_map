@@ -141,28 +141,31 @@ function renderInlineList(items: string[], emptyLabel: string): string {
 }
 
 function renderTableRoute(row: ItineraryTableRow): string {
+  const confirmed = row.lodging.confirmed
+    ? `
+      <div class="table-confirmed-lodging">
+        <p>${renderBadge('badge-lodging', row.lodging.confirmed.statusZh)} <strong>${escapeHtml(
+          row.lodging.confirmed.hotelName,
+        )}</strong></p>
+        <p><span>來源</span>${escapeHtml(row.lodging.confirmed.provider)} 訂單 ${escapeHtml(
+          row.lodging.confirmed.bookingNumber,
+        )}</p>
+        <p><span>日期</span>入住 ${escapeHtml(
+          row.lodging.confirmed.checkInDate,
+        )} / 退房 ${escapeHtml(row.lodging.confirmed.checkOutDate)}</p>
+      </div>
+    `
+    : '';
+
   return `
     <div class="table-route">
       <p><span>起點</span><strong>${escapeHtml(row.route.startNameZh)}</strong></p>
       <p><span>停靠</span><strong>${renderInlineList(row.route.stopNamesZh, '直達')}</strong></p>
       <p><span>終點</span><strong>${escapeHtml(row.route.endNameZh)}</strong></p>
-    </div>
-  `;
-}
-
-function renderTableLodging(row: ItineraryTableRow): string {
-  const candidates = renderInlineList(row.lodging.candidateNamesZh, '無候選');
-  const aiSuggested = row.lodging.aiSuggestedNameZh
-    ? `<p>${renderBadge('badge-ai-lodging', 'AI 住宿')} ${escapeHtml(
-        row.lodging.aiSuggestedNameZh,
-      )}</p>`
-    : '';
-
-  return `
-    <div class="table-lodging">
-      <p>${renderBadge('badge-lodging', '住宿地')} ${escapeHtml(row.lodging.targetZh)}</p>
-      <p>${renderBadge('badge-candidate', '住宿候選')} ${candidates}</p>
-      ${aiSuggested}
+      <div class="table-route-lodging">
+        <p>${renderBadge('badge-lodging', '住宿地')} ${escapeHtml(row.lodging.targetZh)}</p>
+        ${confirmed}
+      </div>
     </div>
   `;
 }
@@ -180,7 +183,18 @@ function renderTableCsv(row: ItineraryTableRow): string {
   return `
     <div class="table-csv">
       ${renderBadge('badge-csv', 'CSV')}
-      <p>${escapeHtml(row.csvSummary.textZh)}</p>
+      <ul class="table-csv-list">
+        ${row.csvSummary.items
+          .map(
+            (item) => `
+              <li>
+                <strong>${escapeHtml(item.placeNameZh)}:</strong>
+                ${escapeHtml(item.summaryZh)}
+              </li>
+            `,
+          )
+          .join('')}
+      </ul>
     </div>
   `;
 }
@@ -222,8 +236,7 @@ export function renderItineraryTable(rows: ItineraryTableRow[]): string {
             <tr>
               <th scope="col">日期</th>
               <th scope="col">當日標題</th>
-              <th scope="col">起點 / 停靠點 / 終點</th>
-              <th scope="col">住宿地 / 住宿候選</th>
+              <th scope="col">起點 / 停靠點 / 終點 / 住宿地</th>
               <th scope="col">CSV 景點說明摘要</th>
               <th scope="col">AI 建議景點說明</th>
               <th scope="col">車程 / 公里</th>
@@ -242,8 +255,7 @@ export function renderItineraryTable(rows: ItineraryTableRow[]): string {
                     <td data-label="當日標題">
                       <strong class="table-title">${escapeHtml(row.titleZh)}</strong>
                     </td>
-                    <td data-label="起點 / 停靠點 / 終點">${renderTableRoute(row)}</td>
-                    <td data-label="住宿地 / 住宿候選">${renderTableLodging(row)}</td>
+                    <td data-label="起點 / 停靠點 / 終點 / 住宿地">${renderTableRoute(row)}</td>
                     <td data-label="CSV 景點說明摘要">${renderTableCsv(row)}</td>
                     <td data-label="AI 建議景點說明">
                       <div class="table-ai-note">

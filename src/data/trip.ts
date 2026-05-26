@@ -36,6 +36,15 @@ export interface RouteSegment {
   noteZh: string;
 }
 
+export interface ConfirmedLodging {
+  provider: string;
+  statusZh: string;
+  bookingNumber: string;
+  hotelName: string;
+  checkInDate: string;
+  checkOutDate: string;
+}
+
 interface TripDayBase {
   date: string;
   labelZh: string;
@@ -47,6 +56,7 @@ interface TripDayBase {
   routeSegmentIds: string[];
   summaryZh: string;
   lodgingTargetZh: string;
+  confirmedLodging?: ConfirmedLodging;
   driveNoteZh: string;
 }
 
@@ -709,7 +719,15 @@ export const tripDays: TripDay[] = [
     ],
     summaryZh:
       '把 CSV 原本同日拉到小樽的段落切開：登別地獄谷與大湯沼後，走白老ナチュの森、室蘭地球岬，夜宿洞爺湖。',
-    lodgingTargetZh: '洞爺湖溫泉或湖景飯店',
+    lodgingTargetZh: '已訂 Lake Toya Terrace House（Agoda 已確認）',
+    confirmedLodging: {
+      provider: 'Agoda',
+      statusZh: '已確認',
+      bookingNumber: '1730644759',
+      hotelName: 'Lake Toya Terrace House',
+      checkInDate: '2026-06-27',
+      checkOutDate: '2026-06-28',
+    },
     driveNoteZh: '估算約 158 分 / 118 km；若遇雨，地球岬可刪減直接往洞爺湖。',
   },
   {
@@ -724,7 +742,15 @@ export const tripDays: TripDay[] = [
     routeSegmentIds: ['toya-otaru'],
     summaryZh:
       '保守轉場日。把小樽從 6/27 移到洞爺湖隔天，避免登別、白老、室蘭、洞爺、小樽連成超長日。',
-    lodgingTargetZh: '小樽運河或港區周邊飯店',
+    lodgingTargetZh: '已訂 Hotel Nord Otaru（Agoda 已確認）',
+    confirmedLodging: {
+      provider: 'Agoda',
+      statusZh: '已確認',
+      bookingNumber: '1730650360',
+      hotelName: 'Hotel Nord Otaru',
+      checkInDate: '2026-06-28',
+      checkOutDate: '2026-06-29',
+    },
     driveNoteZh: '估算約 140 分 / 125 km；抵達後只安排運河散步與晚餐。',
   },
   {
@@ -861,24 +887,24 @@ export const lodgingCandidates: LodgingCandidate[] = [
   {
     id: 'toya-onsen-1',
     areaId: 'lake-toya',
-    nameZh: '洞爺湖溫泉飯店候選',
+    nameZh: 'Lake Toya Terrace House（已訂）',
     type: 'onsen-resort',
     starLevel: 3,
-    budgetRiskZh: '湖景房價差較大，需控制預算。',
-    parkingZh: '湖區飯店多有停車，仍需確認。',
-    fitZh: '切開登別到小樽長距離，保留湖景休息',
-    searchUrl: 'https://www.google.com/travel/hotels/Lake%20Toya',
+    budgetRiskZh: 'Agoda 已確認，後續只需追蹤取消期限與入住細節。',
+    parkingZh: '需依訂房頁或住宿訊息再次確認停車安排。',
+    fitZh: '6/27 洞爺湖町過夜，切開登別到小樽長距離',
+    searchUrl: 'https://www.google.com/travel/hotels?q=Lake%20Toya%20Terrace%20House',
   },
   {
     id: 'otaru-canal-1',
     areaId: 'otaru',
-    nameZh: '小樽運河周邊飯店候選',
+    nameZh: 'Hotel Nord Otaru（已訂）',
     type: 'city',
     starLevel: 3,
-    budgetRiskZh: '假日與旺季港區房價較搶手。',
-    parkingZh: '運河周邊停車場多，確認是否可過夜。',
-    fitZh: '隔天早上去鱗友朝市最順',
-    searchUrl: 'https://www.agoda.com/zh-tw/city/otaru-jp.html',
+    budgetRiskZh: 'Agoda 已確認，後續只需追蹤取消期限與入住細節。',
+    parkingZh: '需依訂房頁或飯店訊息再次確認停車與過夜費用。',
+    fitZh: '6/28 小樽運河旁過夜，隔天早上去鱗友朝市最順',
+    searchUrl: 'https://www.google.com/travel/hotels?q=Hotel%20Nord%20Otaru',
   },
   {
     id: 'sapporo-susukino-1',
