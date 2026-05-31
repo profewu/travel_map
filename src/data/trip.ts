@@ -39,7 +39,6 @@ export interface RouteSegment {
 export interface ConfirmedLodging {
   provider: string;
   statusZh: string;
-  bookingNumber: string;
   hotelName: string;
   checkInDate: string;
   checkOutDate: string;
@@ -723,7 +722,6 @@ export const tripDays: TripDay[] = [
     confirmedLodging: {
       provider: 'Agoda',
       statusZh: '已確認',
-      bookingNumber: '1730644759',
       hotelName: 'Lake Toya Terrace House',
       checkInDate: '2026-06-27',
       checkOutDate: '2026-06-28',
@@ -746,7 +744,6 @@ export const tripDays: TripDay[] = [
     confirmedLodging: {
       provider: 'Agoda',
       statusZh: '已確認',
-      bookingNumber: '1730650360',
       hotelName: 'Hotel Nord Otaru',
       checkInDate: '2026-06-28',
       checkOutDate: '2026-06-29',

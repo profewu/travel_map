@@ -147,9 +147,7 @@ function renderTableRoute(row: ItineraryTableRow): string {
         <p>${renderBadge('badge-lodging', row.lodging.confirmed.statusZh)} <strong>${escapeHtml(
           row.lodging.confirmed.hotelName,
         )}</strong></p>
-        <p><span>來源</span>${escapeHtml(row.lodging.confirmed.provider)} 訂單 ${escapeHtml(
-          row.lodging.confirmed.bookingNumber,
-        )}</p>
+        <p><span>來源</span>${escapeHtml(row.lodging.confirmed.provider)}</p>
         <p><span>日期</span>入住 ${escapeHtml(
           row.lodging.confirmed.checkInDate,
         )} / 退房 ${escapeHtml(row.lodging.confirmed.checkOutDate)}</p>

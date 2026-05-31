@@ -76,8 +76,7 @@ describe('dashboard panels', () => {
     expect(csvItems.length).toBeGreaterThan(0);
     expect(csvItems[0].textContent).toContain(':');
     expect(root.textContent).toContain('Lake Toya Terrace House');
-    expect(root.textContent).toContain('1730644759');
     expect(root.textContent).toContain('Hotel Nord Otaru');
-    expect(root.textContent).toContain('1730650360');
+    expect(root.textContent).not.toMatch(/Agoda\s+訂單\s+\d+/);
   });
 });

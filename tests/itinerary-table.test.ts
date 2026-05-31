@@ -215,7 +215,6 @@ describe('itinerary table view model', () => {
     expect((lakeToyaRow?.lodging as { confirmed?: unknown }).confirmed).toEqual({
       provider: 'Agoda',
       statusZh: '已確認',
-      bookingNumber: '1730644759',
       hotelName: 'Lake Toya Terrace House',
       checkInDate: '2026-06-27',
       checkOutDate: '2026-06-28',
@@ -225,7 +224,6 @@ describe('itinerary table view model', () => {
     expect((otaruRow?.lodging as { confirmed?: unknown }).confirmed).toEqual({
       provider: 'Agoda',
       statusZh: '已確認',
-      bookingNumber: '1730650360',
       hotelName: 'Hotel Nord Otaru',
       checkInDate: '2026-06-28',
       checkOutDate: '2026-06-29',
