@@ -1,6 +1,6 @@
 import { appModes, topNavigationItems } from '../src/ui/navigation';
 
-const hotelReportUrl = 'hotel-report.html';
+const photoGuideUrl = 'photo-lens-guide.html';
 
 describe('top navigation modes', () => {
   it('places disaster information between table and notes in the segmented nav', () => {
@@ -8,22 +8,22 @@ describe('top navigation modes', () => {
       '總覽',
       '路線',
       '表格',
-      '住宿報表',
+      '攝影資訊',
       '防災資訊',
       '筆記',
     ]);
     expect(appModes).toEqual(['overview', 'route', 'table', 'disaster']);
   });
 
-  it('links the hotel report to the published top 3 report file', () => {
+  it('links the photography information page to the published lens guide file', () => {
     const reportItem = topNavigationItems.find(
-      (item) => item.labelZh === '住宿報表',
+      (item) => item.labelZh === '攝影資訊',
     );
 
     expect(reportItem).toEqual({
       kind: 'external',
-      labelZh: '住宿報表',
-      href: hotelReportUrl,
+      labelZh: '攝影資訊',
+      href: photoGuideUrl,
     });
   });
 });

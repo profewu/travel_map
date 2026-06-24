@@ -31,8 +31,8 @@ export const topNavigationItems: TopNavigationItem[] = [
   { kind: 'mode', mode: 'table', labelZh: '表格' },
   {
     kind: 'external',
-    href: 'hotel-report.html',
-    labelZh: '住宿報表',
+    href: 'photo-lens-guide.html',
+    labelZh: '攝影資訊',
   },
   { kind: 'mode', mode: 'disaster', labelZh: '防災資訊' },
   { kind: 'action', action: 'notes', labelZh: '筆記' },

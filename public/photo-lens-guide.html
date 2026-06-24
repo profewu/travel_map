@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>北海道攝影資訊</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #2d2821;
+        --muted: #766a5c;
+        --line: #decfb7;
+        --soft: #fbf7ee;
+        --card: #fffdf8;
+        --accent: #8a4c2f;
+        --accent-soft: #f1e1cf;
+        --wide: #315f72;
+        --zoom: #745339;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          radial-gradient(circle at top left, rgba(226, 206, 174, 0.45), transparent 34rem),
+          var(--soft);
+        color: var(--ink);
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          "Noto Sans TC",
+          "Microsoft JhengHei",
+          sans-serif;
+        line-height: 1.65;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 48px;
+      }
+
+      .eyebrow {
+        margin: 0 0 4px;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(30px, 4vw, 48px);
+        letter-spacing: 0;
+      }
+
+      .lead {
+        max-width: 780px;
+        margin: 12px 0 24px;
+        color: var(--muted);
+        font-size: 17px;
+      }
+
+      .summary {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-bottom: 22px;
+      }
+
+      .summary article {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 253, 248, 0.88);
+        padding: 16px;
+      }
+
+      .summary h2 {
+        margin: 0 0 6px;
+        font-size: 18px;
+      }
+
+      .summary p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 18px 0 0;
+      }
+
+      .tag {
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        background: #fff8ea;
+        color: #5d4632;
+        padding: 4px 10px;
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--card);
+        box-shadow: 0 14px 34px rgba(86, 65, 36, 0.08);
+      }
+
+      table {
+        width: 100%;
+        min-width: 1040px;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 14px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #eadcc8;
+        color: #4d3828;
+        font-size: 14px;
+        font-weight: 900;
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      th:nth-child(1),
+      td:nth-child(1) {
+        width: 210px;
+      }
+
+      th:nth-child(2),
+      td:nth-child(2) {
+        width: 275px;
+      }
+
+      th:nth-child(3),
+      td:nth-child(3) {
+        width: 230px;
+      }
+
+      th:nth-child(4),
+      td:nth-child(4) {
+        width: 325px;
+      }
+
+      .lens {
+        display: inline-block;
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      .lens.wide {
+        background: #e3f0f2;
+        color: var(--wide);
+      }
+
+      .lens.zoom {
+        background: var(--accent-soft);
+        color: var(--zoom);
+      }
+
+      .note {
+        margin-top: 16px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 20px, 1180px);
+          padding-top: 24px;
+        }
+
+        .summary {
+          grid-template-columns: 1fr;
+        }
+
+        th,
+        td {
+          padding: 11px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">2026/6/25 - 2026/7/3</p>
+      <h1>北海道攝影資訊</h1>
+      <p class="lead">
+        以最少鏡頭覆蓋行程中的湖景、海岸、溪谷、城市夜景、餐廳與購物紀錄。建議主力帶
+        24-70mm F2.8/L，另補 RF 16mm F2.8 STM 拍大景與夜景。
+      </p>
+
+      <section class="summary" aria-label="鏡頭摘要">
+        <article>
+          <h2>最少可行組合</h2>
+          <p>24-70mm F2.8/L + RF 16mm F2.8 STM。前者負責 80% 行程紀錄，後者補湖岸、展望台、溪谷與藻岩山夜景。</p>
+          <div class="tag-row">
+            <span class="tag">主力變焦</span>
+            <span class="tag">超廣角補位</span>
+            <span class="tag">少換鏡</span>
+          </div>
+        </article>
+        <article>
+          <h2>可不帶</h2>
+          <p>35mm、85mm、135mm 畫質很好，但這趟使用率低；17-40mm F4/L 被 RF 16mm 與 24-70mm 覆蓋。</p>
+          <div class="tag-row">
+            <span class="tag">降低重量</span>
+            <span class="tag">避免重複焦段</span>
+          </div>
+        </article>
+      </section>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">位置 / 景點</th>
+              <th scope="col">可拍攝景物</th>
+              <th scope="col">建議鏡頭</th>
+              <th scope="col">拍攝位置與用法</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>惠庭：花路惠庭、ECORIN村、HONOKA</td>
+              <td>旅途中紀錄、花園、餐點、溫泉外觀</td>
+              <td><span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>24-35mm 拍環境，50-70mm 拍餐點、家人互動與細節。</td>
+            </tr>
+            <tr>
+              <td>Forest Adventure Eniwa</td>
+              <td>森林步道、活動紀錄、人物</td>
+              <td><span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>24mm 拍人與樹林環境，70mm 拉近活動表情。</td>
+            </tr>
+            <tr>
+              <td>釜飯 ICHIE、札幌餐廳</td>
+              <td>釜飯、海鮮丼、壽司、湯咖哩</td>
+              <td><span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>50-70mm 拍食物特寫，F2.8 可壓背景。</td>
+            </tr>
+            <tr>
+              <td>支笏湖</td>
+              <td>湖色由藍轉綠、湖面、山景、碼頭</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span> <span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>遊覽船碼頭左側拍湖水色彩；16mm 拍湖面全景，24-70mm 拍碼頭與水色細節。</td>
+            </tr>
+            <tr>
+              <td>樽前GARO</td>
+              <td>溪谷、岩壁、森林感</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span></td>
+              <td>狹窄溪谷用 16mm 最實用；24-70mm 可補岩壁紋理。</td>
+            </tr>
+            <tr>
+              <td>登別地獄谷、大湯沼</td>
+              <td>噴氣地形、步道、溫泉湖、煙霧</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span> <span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>展望步道用 16mm 拍全景，70mm 拍煙霧與硫磺地貌局部。</td>
+            </tr>
+            <tr>
+              <td>ナチュの森</td>
+              <td>花園、遊樂區、親子活動</td>
+              <td><span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>24-35mm 拍場景，50-70mm 拍人物自然互動。</td>
+            </tr>
+            <tr>
+              <td>室蘭地球岬展望台</td>
+              <td>海岸線、燈塔、懸崖、廣角風景</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span></td>
+              <td>展望台欄杆中央拍海天線；側邊拍燈塔與海岸構圖。</td>
+            </tr>
+            <tr>
+              <td>洞爺湖</td>
+              <td>湖岸、火山景、黃昏、住宿周邊</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span> <span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>湖岸用 16mm 拍大景；24-70mm 拍船、山、湖面層次。</td>
+            </tr>
+            <tr>
+              <td>小樽</td>
+              <td>運河、街景、倉庫、夜色</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span> <span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>運河橋上用 16mm；街道、招牌與小店細節用 24-70mm。</td>
+            </tr>
+            <tr>
+              <td>鱗友朝市</td>
+              <td>帝王蟹、海鮮攤、早餐紀錄</td>
+              <td><span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>35-70mm 拍攤位細節與食物，不必換定焦。</td>
+            </tr>
+            <tr>
+              <td>札幌地下街、Ario、PARCO、寶可夢中心、COCONO SUSUKINO</td>
+              <td>商場、招牌、商品、室內紀錄</td>
+              <td><span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>24mm 拍室內空間，50-70mm 拍商品與人物；16mm 只在空間很窄時用。</td>
+            </tr>
+            <tr>
+              <td>藻岩山夜景</td>
+              <td>札幌夜景、黃昏城市、纜車視角</td>
+              <td><span class="lens wide">RF 16mm F2.8 STM</span> <span class="lens zoom">24-70mm F2.8/L</span></td>
+              <td>黃昏上山；16mm 拍城市大景，24-70mm 拉近市區光線層次。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="note">資料依據：本地行程 CSV 中的惠庭、支笏湖、樽前GARO、登別、地球岬、洞爺湖、小樽、札幌與藻岩山行程。</p>
+    </main>
+  </body>
+</html>

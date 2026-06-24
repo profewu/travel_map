@@ -6,7 +6,7 @@ const modeTab = (
   mode: 'overview' | 'route' | 'table' | 'disaster',
 ) => page.locator(`.mode-tab[data-mode="${mode}"]`);
 
-const hotelReportUrl = 'hotel-report.html';
+const photoGuideUrl = 'photo-lens-guide.html';
 
 test.beforeEach(async ({ page }) => {
   await page.route('https://router.project-osrm.org/**', async (route) => {
@@ -29,9 +29,9 @@ test('dashboard travel UI renders and responds to day and marker selection', asy
   await expect(page.getByText('每日行程')).toBeVisible();
   await expect(page.locator('.topbar')).not.toContainText('GSI pale map');
   await expect(page.locator('.topbar')).not.toContainText('Google Maps 外部導航');
-  await expect(page.getByRole('link', { name: '住宿報表' })).toHaveAttribute(
+  await expect(page.getByRole('link', { name: '攝影資訊' })).toHaveAttribute(
     'href',
-    hotelReportUrl,
+    photoGuideUrl,
   );
   await expect(page.getByRole('button', { name: '筆記' })).toBeVisible();
   await expect(page.locator('.leaflet-container')).toBeVisible();
